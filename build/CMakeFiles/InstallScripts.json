@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kindle/KindlePlayer/build/cmake_install.cmake",
+		"/home/kindle/KindlePlayer/build/extern/sdl/cmake_install.cmake",
+		"/home/kindle/KindlePlayer/build/extern/sdl_mixer/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

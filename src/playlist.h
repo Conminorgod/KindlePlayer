@@ -1,4 +1,5 @@
 #include <vector>
+#include "song.h"
 
-void savePlaylist(std::vector<std::string> &arr, std::string filename);
-std::vector<std::string> loadPlaylist(const std::string &filename);
+void savePlaylist(const std::vector<Song> &playlist, const std::string &filename);
+std::vector<Song> loadPlaylist(const std::string &filename);

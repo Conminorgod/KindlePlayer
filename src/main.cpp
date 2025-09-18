@@ -7,6 +7,7 @@
 
 #include "framework.h"
 #include "playlist.h"
+#include "song.h"
 
 #include <iostream>
 #include <vector>
@@ -18,13 +19,14 @@ int main(int, char**) {
 	SDL_GLContext gl_context;
 	setup(window, gl_context);
 
-	std::string playlistPath = "assets/playlists/test.txt";
-	std::vector<std::string> playlist = loadPlaylist(playlistPath);
-	for (std::string song : playlist) {
-		std::cout << song << "\n";
+	std::string playlistPath = "assets/playlists/test.json";
+	std::vector<Song> playlist = loadPlaylist(playlistPath);
+	for (Song song : playlist) {
+		std::cout << song.title << " by " << song.artist << "\n";
 	}
 
-	Mix_Music* music = Mix_LoadMUS(playlist[0].c_str());
+	Mix_Music* music = Mix_LoadMUS(playlist[0].filepath.c_str());
+	uint32_t curSong = 0;
 	if (!music) {
 		std::cerr << "Failed to load music: " << Mix_GetError() << "\n";
 	}
@@ -46,11 +48,19 @@ int main(int, char**) {
 		// UI
 		ImGui::Begin("Kindle Player");
 		if (ImGui::Button("Start Music")) Mix_PlayMusic(music, -1);
+		if (ImGui::Button("Previous Song") && curSong != 0) {
+			Mix_HaltMusic();
+			curSong -= 1;
+			music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
+			
+			Mix_PlayMusic(music, -1);
+		}
 		if (ImGui::Button("Pause")) Mix_PauseMusic();
 		if (ImGui::Button("Unpause")) Mix_ResumeMusic();
-		if (ImGui::Button("Next Song")) {
+		if (ImGui::Button("Next Song") && curSong != sizeof(playlist)) {
 			Mix_HaltMusic();
-			music = Mix_LoadMUS(playlist[1].c_str());
+			curSong += 1;
+			music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
 			Mix_PlayMusic(music, -1);
 		}
 		if (ImGui::Button("Stop Music")) Mix_HaltMusic();

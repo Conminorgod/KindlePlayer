@@ -152,4 +152,146 @@ CMakeFiles/KindlePlayer.dir/src/playlist.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
- /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/iostream
+ /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/iostream \
+ /home/kindle/KindlePlayer/src/song.h /usr/include/nlohmann/json.hpp \
+ /usr/include/c++/15.2.1/algorithm \
+ /usr/include/c++/15.2.1/bits/stl_algo.h \
+ /usr/include/c++/15.2.1/bits/algorithmfwd.h \
+ /usr/include/c++/15.2.1/bits/stl_heap.h \
+ /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
+ /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/15.2.1/pstl/execution_defs.h \
+ /usr/include/c++/15.2.1/functional \
+ /usr/include/c++/15.2.1/bits/std_function.h \
+ /usr/include/c++/15.2.1/unordered_map \
+ /usr/include/c++/15.2.1/bits/unordered_map.h \
+ /usr/include/c++/15.2.1/bits/hashtable.h \
+ /usr/include/c++/15.2.1/bits/hashtable_policy.h \
+ /usr/include/c++/15.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/15.2.1/bits/enable_special_members.h \
+ /usr/include/c++/15.2.1/bits/node_handle.h \
+ /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/array \
+ /usr/include/c++/15.2.1/compare /usr/include/c++/15.2.1/iterator \
+ /usr/include/c++/15.2.1/bits/stream_iterator.h \
+ /usr/include/c++/15.2.1/memory \
+ /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15.2.1/bits/align.h \
+ /usr/include/c++/15.2.1/bits/unique_ptr.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/15.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/15.2.1/ext/concurrence.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15.2.1/bits/atomic_base.h \
+ /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15.2.1/backward/auto_ptr.h \
+ /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
+ /usr/include/c++/15.2.1/utility \
+ /usr/include/c++/15.2.1/bits/stl_relops.h \
+ /usr/include/nlohmann/adl_serializer.hpp \
+ /usr/include/nlohmann/detail/abi_macros.hpp \
+ /usr/include/nlohmann/detail/conversions/from_json.hpp \
+ /usr/include/c++/15.2.1/forward_list \
+ /usr/include/c++/15.2.1/bits/forward_list.h \
+ /usr/include/c++/15.2.1/bits/forward_list.tcc \
+ /usr/include/c++/15.2.1/map /usr/include/c++/15.2.1/bits/stl_tree.h \
+ /usr/include/c++/15.2.1/bits/stl_map.h \
+ /usr/include/c++/15.2.1/bits/stl_multimap.h \
+ /usr/include/c++/15.2.1/valarray /usr/include/c++/15.2.1/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/15.2.1/bits/specfun.h \
+ /usr/include/c++/15.2.1/limits /usr/include/c++/15.2.1/tr1/gamma.tcc \
+ /usr/include/c++/15.2.1/tr1/special_function_util.h \
+ /usr/include/c++/15.2.1/tr1/bessel_function.tcc \
+ /usr/include/c++/15.2.1/tr1/beta_function.tcc \
+ /usr/include/c++/15.2.1/tr1/ell_integral.tcc \
+ /usr/include/c++/15.2.1/tr1/exp_integral.tcc \
+ /usr/include/c++/15.2.1/tr1/hypergeometric.tcc \
+ /usr/include/c++/15.2.1/tr1/legendre_function.tcc \
+ /usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
+ /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
+ /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
+ /usr/include/c++/15.2.1/bits/valarray_array.h \
+ /usr/include/c++/15.2.1/bits/valarray_array.tcc \
+ /usr/include/c++/15.2.1/bits/valarray_before.h \
+ /usr/include/c++/15.2.1/bits/slice_array.h \
+ /usr/include/c++/15.2.1/bits/valarray_after.h \
+ /usr/include/c++/15.2.1/bits/gslice.h \
+ /usr/include/c++/15.2.1/bits/gslice_array.h \
+ /usr/include/c++/15.2.1/bits/mask_array.h \
+ /usr/include/c++/15.2.1/bits/indirect_array.h \
+ /usr/include/nlohmann/detail/exceptions.hpp \
+ /usr/include/nlohmann/detail/value_t.hpp /usr/include/c++/15.2.1/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h \
+ /usr/include/nlohmann/detail/macro_scope.hpp \
+ /usr/include/nlohmann/detail/meta/detected.hpp \
+ /usr/include/nlohmann/detail/meta/void_t.hpp \
+ /usr/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ /usr/include/c++/15.2.1/version /usr/include/c++/15.2.1/cassert \
+ /usr/include/assert.h /usr/include/nlohmann/detail/string_escape.hpp \
+ /usr/include/nlohmann/detail/input/position_t.hpp \
+ /usr/include/nlohmann/detail/meta/cpp_future.hpp \
+ /usr/include/nlohmann/detail/meta/type_traits.hpp \
+ /usr/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ /usr/include/nlohmann/detail/meta/call_std/begin.hpp \
+ /usr/include/nlohmann/detail/meta/call_std/end.hpp \
+ /usr/include/nlohmann/json_fwd.hpp \
+ /usr/include/nlohmann/detail/string_concat.hpp \
+ /usr/include/c++/15.2.1/cstring /usr/include/string.h \
+ /usr/include/strings.h \
+ /usr/include/nlohmann/detail/meta/identity_tag.hpp \
+ /usr/include/nlohmann/detail/meta/std_fs.hpp \
+ /usr/include/c++/15.2.1/filesystem /usr/include/c++/15.2.1/bits/fs_fwd.h \
+ /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
+ /usr/include/c++/15.2.1/ctime \
+ /usr/include/c++/15.2.1/bits/parse_numbers.h \
+ /usr/include/c++/15.2.1/bits/fs_path.h /usr/include/c++/15.2.1/locale \
+ /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h \
+ /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/15.2.1/bits/locale_conv.h \
+ /usr/include/c++/15.2.1/iomanip \
+ /usr/include/c++/15.2.1/bits/quoted_string.h \
+ /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/bits/sstream.tcc \
+ /usr/include/c++/15.2.1/codecvt /usr/include/c++/15.2.1/bits/fs_dir.h \
+ /usr/include/c++/15.2.1/bits/fs_ops.h \
+ /usr/include/nlohmann/detail/conversions/to_json.hpp \
+ /usr/include/c++/15.2.1/optional \
+ /usr/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ /usr/include/nlohmann/detail/string_utils.hpp \
+ /usr/include/nlohmann/byte_container_with_subtype.hpp \
+ /usr/include/nlohmann/detail/hash.hpp \
+ /usr/include/nlohmann/detail/input/binary_reader.hpp \
+ /usr/include/nlohmann/detail/input/input_adapters.hpp \
+ /usr/include/c++/15.2.1/numeric \
+ /usr/include/c++/15.2.1/bits/stl_numeric.h \
+ /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
+ /usr/include/nlohmann/detail/input/json_sax.hpp \
+ /usr/include/nlohmann/detail/input/lexer.hpp \
+ /usr/include/nlohmann/detail/meta/is_sax.hpp \
+ /usr/include/nlohmann/detail/input/parser.hpp \
+ /usr/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ /usr/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ /usr/include/nlohmann/detail/iterators/iter_impl.hpp \
+ /usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ /usr/include/nlohmann/detail/json_custom_base_class.hpp \
+ /usr/include/nlohmann/detail/json_pointer.hpp \
+ /usr/include/nlohmann/detail/json_ref.hpp \
+ /usr/include/nlohmann/detail/output/binary_writer.hpp \
+ /usr/include/nlohmann/detail/output/output_adapters.hpp \
+ /usr/include/nlohmann/detail/output/serializer.hpp \
+ /usr/include/nlohmann/detail/conversions/to_chars.hpp \
+ /usr/include/nlohmann/ordered_map.hpp /usr/include/c++/15.2.1/any \
+ /usr/include/nlohmann/detail/macro_unscope.hpp \
+ /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp

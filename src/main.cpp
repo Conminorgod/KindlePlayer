@@ -12,24 +12,49 @@
 #include <iostream>
 #include <vector>
 
+std::vector<Song> playlist;
+uint32_t curSong = 0;
+Mix_Music *music;
+
+// flags
+bool manualStop = false;
+
+void songEnded() {
+	if (manualStop) {
+		return;
+	} else if (playlist[curSong].looping) {
+		Mix_SetMusicPosition(0.0);
+	} else if (curSong + 1 < playlist.size()) {
+		curSong++;
+		music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
+	} else {
+		return;
+	}
+	Mix_PlayMusic(music, 1);
+}
+			
+
 int main(int, char**) {
 	SDL_Window *window = SDL_CreateWindow("ImGui + SDL2",
 			SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1920, 1080,
 			SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 	SDL_GLContext gl_context;
 	setup(window, gl_context);
+	Mix_HookMusicFinished(songEnded);
 
-	std::string playlistPath = "assets/playlists/test.json";
-	std::vector<Song> playlist = loadPlaylist(playlistPath);
+	std::string playlistPath = "assets/playlists/SUCCESS.json";
+	playlist = loadPlaylist(playlistPath);
 	for (Song song : playlist) {
 		std::cout << song.title << " by " << song.artist << "\n";
 	}
 
-	Mix_Music* music = Mix_LoadMUS(playlist[0].filepath.c_str());
-	uint32_t curSong = 0;
+	music = Mix_LoadMUS(playlist[0].filepath.c_str());
 	if (!music) {
 		std::cerr << "Failed to load music: " << Mix_GetError() << "\n";
 	}
+
+	bool shuffle = false;
+	std::vector<Song> copiedPlaylist;
 	
 	bool running = true;
 	SDL_Event e;
@@ -47,23 +72,43 @@ int main(int, char**) {
 
 		// UI
 		ImGui::Begin("Kindle Player");
-		if (ImGui::Button("Start Music")) Mix_PlayMusic(music, -1);
+		if (ImGui::Button("Start Music")) {
+			Mix_PlayMusic(music, 1);
+			manualStop = false;
+		}
 		if (ImGui::Button("Previous Song") && curSong != 0) {
-			Mix_HaltMusic();
 			curSong -= 1;
 			music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
 			
-			Mix_PlayMusic(music, -1);
+			Mix_PlayMusic(music, 1);
 		}
 		if (ImGui::Button("Pause")) Mix_PauseMusic();
 		if (ImGui::Button("Unpause")) Mix_ResumeMusic();
-		if (ImGui::Button("Next Song") && curSong != sizeof(playlist)) {
-			Mix_HaltMusic();
-			curSong += 1;
+		if (ImGui::Button("Next Song") && curSong + 1 < playlist.size()) {
+			curSong++;
 			music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
-			Mix_PlayMusic(music, -1);
+			Mix_PlayMusic(music, 1);
 		}
-		if (ImGui::Button("Stop Music")) Mix_HaltMusic();
+		if (ImGui::Button("Loop")) {
+			playlist[curSong].looping = !playlist[curSong].looping;
+		}
+		if (ImGui::Button("Shuffle")) {
+			if (!shuffle) {
+				copiedPlaylist = shufflePlaylist(playlist, curSong);
+				curSong = 0;
+			} else {
+				curSong = playlist[curSong].index;
+				playlist = copiedPlaylist;
+			}
+			shuffle = !shuffle;
+		}
+		if (ImGui::Button("I'm a dev and I don't want to listen to the song")) {
+			Mix_HaltMusic();
+		}
+		if (ImGui::Button("Stop Music")) {
+			manualStop = true;
+			Mix_HaltMusic();
+		}
 		ImGui::End();
 
 		ImGui::Render();

@@ -2,17 +2,20 @@
 	{
 		"title": "Prolougue: Realm of Dragons",
 		"artist": "Camellia",
-		"filepath": "assets/audio/Prologue.mp3"
+		"filepath": "assets/audio/Prologue.mp3",
+		"looping": true
 	},
 	{
 		"title": "Technologic",
 		"artist": "Daft Punk",
-		"filepath": "assets/audio/Technologic.mp3"
+		"filepath": "assets/audio/Technologic.mp3",
+		"looping": false
 	},
 	{
 		"title": "Dead Weight (Instrumental)",
 		"artist": "Jack Stauber",
-		"filepath": "assets/audio/test.mp3"
+		"filepath": "assets/audio/test.mp3",
+		"looping": false
 	}
 ]
 

@@ -1,3 +1,0 @@
-assets/audio/Prologue.mp3
-assets/audio/test.mp3
-assets/audio/Technologic.mp3

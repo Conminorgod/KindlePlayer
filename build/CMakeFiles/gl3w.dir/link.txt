@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/gl3w.dir/link.d -shared -Wl,-soname,libgl3w.so -o libgl3w.so CMakeFiles/gl3w.dir/extern/gl3w/src/gl3w.c.o

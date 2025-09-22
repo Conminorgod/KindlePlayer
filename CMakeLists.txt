@@ -22,7 +22,7 @@ file(MAKE_DIRECTORY build/assets)
 file(MAKE_DIRECTORY build/assets/audio)
 file(MAKE_DIRECTORY build/assets/images)
 file(MAKE_DIRECTORY build/assets/playlists)
-file(MAKE_DIRECTORY temp)
+file(MAKE_DIRECTORY build/temp)
 
 file(GLOB SOURCES "src/*.cpp")
 add_executable(KindlePlayer ${SOURCES})

@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(extern/sdl)
 add_subdirectory(extern/sdl_mixer)
+add_subdirectory(extern/gl3w)
 
 file(GLOB IMGUI_SRC
 	extern/imgui/*.cpp
@@ -16,8 +17,6 @@ add_library(imgui ${IMGUI_SRC})
 target_include_directories(imgui PUBLIC extern/imgui extern/imgui/backends)
 target_link_libraries(imgui PUBLIC SDL2 OpenGL::GL)
 
-add_library(gl3w extern/gl3w/src/gl3w.c)
-target_include_directories(gl3w PUBLIC extern/gl3w/include)
 
 file(MAKE_DIRECTORY build/assets)
 file(MAKE_DIRECTORY build/assets/audio)
@@ -31,6 +30,7 @@ target_include_directories(KindlePlayer
 	PRIVATE
 	${CMAKE_SOURCE_DIR}/extern/sdl/include
 	${CMAKE_SOURCE_DIR}/extern/sdl_mixer/include
+	${CMAKE_SOURCE_DIR}/extern/gl3w/include
 )
 target_link_libraries(KindlePlayer PRIVATE imgui SDL2 SDL2main SDL2_mixer gl3w OpenGL::GL)
 target_compile_definitions(KindlePlayer PRIVATE IMGUI_IMPL_OPENGL_LOADER_GL3W)

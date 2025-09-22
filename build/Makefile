@@ -195,6 +195,19 @@ SDL2/fast:
 .PHONY : SDL2/fast
 
 #=============================================================================
+# Target rules for targets named SDL2-static
+
+# Build rule for target.
+SDL2-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2-static
+.PHONY : SDL2-static
+
+# fast build rule for target.
+SDL2-static/fast:
+	$(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/build
+.PHONY : SDL2-static/fast
+
+#=============================================================================
 # Target rules for targets named SDL2_test
 
 # Build rule for target.
@@ -509,6 +522,7 @@ help:
 	@echo "... uninstall"
 	@echo "... KindlePlayer"
 	@echo "... SDL2"
+	@echo "... SDL2-static"
 	@echo "... SDL2_mixer"
 	@echo "... SDL2_test"
 	@echo "... SDL2main"

@@ -159,6 +159,20 @@ SDL2/fast:
 .PHONY : SDL2/fast
 
 # Convenience name for target.
+extern/sdl/CMakeFiles/SDL2-static.dir/rule:
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/sdl/CMakeFiles/SDL2-static.dir/rule
+.PHONY : extern/sdl/CMakeFiles/SDL2-static.dir/rule
+
+# Convenience name for target.
+SDL2-static: extern/sdl/CMakeFiles/SDL2-static.dir/rule
+.PHONY : SDL2-static
+
+# fast build rule for target.
+SDL2-static/fast:
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/build
+.PHONY : SDL2-static/fast
+
+# Convenience name for target.
 extern/sdl/CMakeFiles/SDL2_test.dir/rule:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/sdl/CMakeFiles/SDL2_test.dir/rule
 .PHONY : extern/sdl/CMakeFiles/SDL2_test.dir/rule
@@ -192,6 +206,7 @@ src/SDL.o: src/SDL.c.o
 # target to build an object file
 src/SDL.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL.c.o
 .PHONY : src/SDL.c.o
 
 src/SDL.i: src/SDL.c.i
@@ -200,6 +215,7 @@ src/SDL.i: src/SDL.c.i
 # target to preprocess a source file
 src/SDL.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL.c.i
 .PHONY : src/SDL.c.i
 
 src/SDL.s: src/SDL.c.s
@@ -208,6 +224,7 @@ src/SDL.s: src/SDL.c.s
 # target to generate assembly for a file
 src/SDL.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL.c.s
 .PHONY : src/SDL.c.s
 
 src/SDL_assert.o: src/SDL_assert.c.o
@@ -216,6 +233,7 @@ src/SDL_assert.o: src/SDL_assert.c.o
 # target to build an object file
 src/SDL_assert.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_assert.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o
 .PHONY : src/SDL_assert.c.o
 
 src/SDL_assert.i: src/SDL_assert.c.i
@@ -224,6 +242,7 @@ src/SDL_assert.i: src/SDL_assert.c.i
 # target to preprocess a source file
 src/SDL_assert.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_assert.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i
 .PHONY : src/SDL_assert.c.i
 
 src/SDL_assert.s: src/SDL_assert.c.s
@@ -232,6 +251,7 @@ src/SDL_assert.s: src/SDL_assert.c.s
 # target to generate assembly for a file
 src/SDL_assert.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_assert.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s
 .PHONY : src/SDL_assert.c.s
 
 src/SDL_dataqueue.o: src/SDL_dataqueue.c.o
@@ -240,6 +260,7 @@ src/SDL_dataqueue.o: src/SDL_dataqueue.c.o
 # target to build an object file
 src/SDL_dataqueue.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o
 .PHONY : src/SDL_dataqueue.c.o
 
 src/SDL_dataqueue.i: src/SDL_dataqueue.c.i
@@ -248,6 +269,7 @@ src/SDL_dataqueue.i: src/SDL_dataqueue.c.i
 # target to preprocess a source file
 src/SDL_dataqueue.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i
 .PHONY : src/SDL_dataqueue.c.i
 
 src/SDL_dataqueue.s: src/SDL_dataqueue.c.s
@@ -256,6 +278,7 @@ src/SDL_dataqueue.s: src/SDL_dataqueue.c.s
 # target to generate assembly for a file
 src/SDL_dataqueue.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s
 .PHONY : src/SDL_dataqueue.c.s
 
 src/SDL_error.o: src/SDL_error.c.o
@@ -264,6 +287,7 @@ src/SDL_error.o: src/SDL_error.c.o
 # target to build an object file
 src/SDL_error.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_error.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_error.c.o
 .PHONY : src/SDL_error.c.o
 
 src/SDL_error.i: src/SDL_error.c.i
@@ -272,6 +296,7 @@ src/SDL_error.i: src/SDL_error.c.i
 # target to preprocess a source file
 src/SDL_error.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_error.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_error.c.i
 .PHONY : src/SDL_error.c.i
 
 src/SDL_error.s: src/SDL_error.c.s
@@ -280,6 +305,7 @@ src/SDL_error.s: src/SDL_error.c.s
 # target to generate assembly for a file
 src/SDL_error.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_error.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_error.c.s
 .PHONY : src/SDL_error.c.s
 
 src/SDL_guid.o: src/SDL_guid.c.o
@@ -288,6 +314,7 @@ src/SDL_guid.o: src/SDL_guid.c.o
 # target to build an object file
 src/SDL_guid.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_guid.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.o
 .PHONY : src/SDL_guid.c.o
 
 src/SDL_guid.i: src/SDL_guid.c.i
@@ -296,6 +323,7 @@ src/SDL_guid.i: src/SDL_guid.c.i
 # target to preprocess a source file
 src/SDL_guid.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_guid.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.i
 .PHONY : src/SDL_guid.c.i
 
 src/SDL_guid.s: src/SDL_guid.c.s
@@ -304,6 +332,7 @@ src/SDL_guid.s: src/SDL_guid.c.s
 # target to generate assembly for a file
 src/SDL_guid.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_guid.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.s
 .PHONY : src/SDL_guid.c.s
 
 src/SDL_hints.o: src/SDL_hints.c.o
@@ -312,6 +341,7 @@ src/SDL_hints.o: src/SDL_hints.c.o
 # target to build an object file
 src/SDL_hints.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_hints.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o
 .PHONY : src/SDL_hints.c.o
 
 src/SDL_hints.i: src/SDL_hints.c.i
@@ -320,6 +350,7 @@ src/SDL_hints.i: src/SDL_hints.c.i
 # target to preprocess a source file
 src/SDL_hints.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_hints.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i
 .PHONY : src/SDL_hints.c.i
 
 src/SDL_hints.s: src/SDL_hints.c.s
@@ -328,6 +359,7 @@ src/SDL_hints.s: src/SDL_hints.c.s
 # target to generate assembly for a file
 src/SDL_hints.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_hints.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s
 .PHONY : src/SDL_hints.c.s
 
 src/SDL_list.o: src/SDL_list.c.o
@@ -336,6 +368,7 @@ src/SDL_list.o: src/SDL_list.c.o
 # target to build an object file
 src/SDL_list.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_list.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_list.c.o
 .PHONY : src/SDL_list.c.o
 
 src/SDL_list.i: src/SDL_list.c.i
@@ -344,6 +377,7 @@ src/SDL_list.i: src/SDL_list.c.i
 # target to preprocess a source file
 src/SDL_list.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_list.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_list.c.i
 .PHONY : src/SDL_list.c.i
 
 src/SDL_list.s: src/SDL_list.c.s
@@ -352,6 +386,7 @@ src/SDL_list.s: src/SDL_list.c.s
 # target to generate assembly for a file
 src/SDL_list.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_list.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_list.c.s
 .PHONY : src/SDL_list.c.s
 
 src/SDL_log.o: src/SDL_log.c.o
@@ -360,6 +395,7 @@ src/SDL_log.o: src/SDL_log.c.o
 # target to build an object file
 src/SDL_log.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_log.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_log.c.o
 .PHONY : src/SDL_log.c.o
 
 src/SDL_log.i: src/SDL_log.c.i
@@ -368,6 +404,7 @@ src/SDL_log.i: src/SDL_log.c.i
 # target to preprocess a source file
 src/SDL_log.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_log.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_log.c.i
 .PHONY : src/SDL_log.c.i
 
 src/SDL_log.s: src/SDL_log.c.s
@@ -376,6 +413,7 @@ src/SDL_log.s: src/SDL_log.c.s
 # target to generate assembly for a file
 src/SDL_log.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_log.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_log.c.s
 .PHONY : src/SDL_log.c.s
 
 src/SDL_utils.o: src/SDL_utils.c.o
@@ -384,6 +422,7 @@ src/SDL_utils.o: src/SDL_utils.c.o
 # target to build an object file
 src/SDL_utils.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_utils.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.o
 .PHONY : src/SDL_utils.c.o
 
 src/SDL_utils.i: src/SDL_utils.c.i
@@ -392,6 +431,7 @@ src/SDL_utils.i: src/SDL_utils.c.i
 # target to preprocess a source file
 src/SDL_utils.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_utils.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.i
 .PHONY : src/SDL_utils.c.i
 
 src/SDL_utils.s: src/SDL_utils.c.s
@@ -400,6 +440,7 @@ src/SDL_utils.s: src/SDL_utils.c.s
 # target to generate assembly for a file
 src/SDL_utils.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/SDL_utils.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.s
 .PHONY : src/SDL_utils.c.s
 
 src/atomic/SDL_atomic.o: src/atomic/SDL_atomic.c.o
@@ -408,6 +449,7 @@ src/atomic/SDL_atomic.o: src/atomic/SDL_atomic.c.o
 # target to build an object file
 src/atomic/SDL_atomic.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o
 .PHONY : src/atomic/SDL_atomic.c.o
 
 src/atomic/SDL_atomic.i: src/atomic/SDL_atomic.c.i
@@ -416,6 +458,7 @@ src/atomic/SDL_atomic.i: src/atomic/SDL_atomic.c.i
 # target to preprocess a source file
 src/atomic/SDL_atomic.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i
 .PHONY : src/atomic/SDL_atomic.c.i
 
 src/atomic/SDL_atomic.s: src/atomic/SDL_atomic.c.s
@@ -424,6 +467,7 @@ src/atomic/SDL_atomic.s: src/atomic/SDL_atomic.c.s
 # target to generate assembly for a file
 src/atomic/SDL_atomic.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s
 .PHONY : src/atomic/SDL_atomic.c.s
 
 src/atomic/SDL_spinlock.o: src/atomic/SDL_spinlock.c.o
@@ -432,6 +476,7 @@ src/atomic/SDL_spinlock.o: src/atomic/SDL_spinlock.c.o
 # target to build an object file
 src/atomic/SDL_spinlock.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o
 .PHONY : src/atomic/SDL_spinlock.c.o
 
 src/atomic/SDL_spinlock.i: src/atomic/SDL_spinlock.c.i
@@ -440,6 +485,7 @@ src/atomic/SDL_spinlock.i: src/atomic/SDL_spinlock.c.i
 # target to preprocess a source file
 src/atomic/SDL_spinlock.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i
 .PHONY : src/atomic/SDL_spinlock.c.i
 
 src/atomic/SDL_spinlock.s: src/atomic/SDL_spinlock.c.s
@@ -448,6 +494,7 @@ src/atomic/SDL_spinlock.s: src/atomic/SDL_spinlock.c.s
 # target to generate assembly for a file
 src/atomic/SDL_spinlock.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s
 .PHONY : src/atomic/SDL_spinlock.c.s
 
 src/audio/SDL_audio.o: src/audio/SDL_audio.c.o
@@ -456,6 +503,7 @@ src/audio/SDL_audio.o: src/audio/SDL_audio.c.o
 # target to build an object file
 src/audio/SDL_audio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o
 .PHONY : src/audio/SDL_audio.c.o
 
 src/audio/SDL_audio.i: src/audio/SDL_audio.c.i
@@ -464,6 +512,7 @@ src/audio/SDL_audio.i: src/audio/SDL_audio.c.i
 # target to preprocess a source file
 src/audio/SDL_audio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i
 .PHONY : src/audio/SDL_audio.c.i
 
 src/audio/SDL_audio.s: src/audio/SDL_audio.c.s
@@ -472,6 +521,7 @@ src/audio/SDL_audio.s: src/audio/SDL_audio.c.s
 # target to generate assembly for a file
 src/audio/SDL_audio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s
 .PHONY : src/audio/SDL_audio.c.s
 
 src/audio/SDL_audiocvt.o: src/audio/SDL_audiocvt.c.o
@@ -480,6 +530,7 @@ src/audio/SDL_audiocvt.o: src/audio/SDL_audiocvt.c.o
 # target to build an object file
 src/audio/SDL_audiocvt.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o
 .PHONY : src/audio/SDL_audiocvt.c.o
 
 src/audio/SDL_audiocvt.i: src/audio/SDL_audiocvt.c.i
@@ -488,6 +539,7 @@ src/audio/SDL_audiocvt.i: src/audio/SDL_audiocvt.c.i
 # target to preprocess a source file
 src/audio/SDL_audiocvt.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i
 .PHONY : src/audio/SDL_audiocvt.c.i
 
 src/audio/SDL_audiocvt.s: src/audio/SDL_audiocvt.c.s
@@ -496,6 +548,7 @@ src/audio/SDL_audiocvt.s: src/audio/SDL_audiocvt.c.s
 # target to generate assembly for a file
 src/audio/SDL_audiocvt.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s
 .PHONY : src/audio/SDL_audiocvt.c.s
 
 src/audio/SDL_audiodev.o: src/audio/SDL_audiodev.c.o
@@ -504,6 +557,7 @@ src/audio/SDL_audiodev.o: src/audio/SDL_audiodev.c.o
 # target to build an object file
 src/audio/SDL_audiodev.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o
 .PHONY : src/audio/SDL_audiodev.c.o
 
 src/audio/SDL_audiodev.i: src/audio/SDL_audiodev.c.i
@@ -512,6 +566,7 @@ src/audio/SDL_audiodev.i: src/audio/SDL_audiodev.c.i
 # target to preprocess a source file
 src/audio/SDL_audiodev.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i
 .PHONY : src/audio/SDL_audiodev.c.i
 
 src/audio/SDL_audiodev.s: src/audio/SDL_audiodev.c.s
@@ -520,6 +575,7 @@ src/audio/SDL_audiodev.s: src/audio/SDL_audiodev.c.s
 # target to generate assembly for a file
 src/audio/SDL_audiodev.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s
 .PHONY : src/audio/SDL_audiodev.c.s
 
 src/audio/SDL_audiotypecvt.o: src/audio/SDL_audiotypecvt.c.o
@@ -528,6 +584,7 @@ src/audio/SDL_audiotypecvt.o: src/audio/SDL_audiotypecvt.c.o
 # target to build an object file
 src/audio/SDL_audiotypecvt.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o
 .PHONY : src/audio/SDL_audiotypecvt.c.o
 
 src/audio/SDL_audiotypecvt.i: src/audio/SDL_audiotypecvt.c.i
@@ -536,6 +593,7 @@ src/audio/SDL_audiotypecvt.i: src/audio/SDL_audiotypecvt.c.i
 # target to preprocess a source file
 src/audio/SDL_audiotypecvt.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i
 .PHONY : src/audio/SDL_audiotypecvt.c.i
 
 src/audio/SDL_audiotypecvt.s: src/audio/SDL_audiotypecvt.c.s
@@ -544,6 +602,7 @@ src/audio/SDL_audiotypecvt.s: src/audio/SDL_audiotypecvt.c.s
 # target to generate assembly for a file
 src/audio/SDL_audiotypecvt.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s
 .PHONY : src/audio/SDL_audiotypecvt.c.s
 
 src/audio/SDL_mixer.o: src/audio/SDL_mixer.c.o
@@ -552,6 +611,7 @@ src/audio/SDL_mixer.o: src/audio/SDL_mixer.c.o
 # target to build an object file
 src/audio/SDL_mixer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o
 .PHONY : src/audio/SDL_mixer.c.o
 
 src/audio/SDL_mixer.i: src/audio/SDL_mixer.c.i
@@ -560,6 +620,7 @@ src/audio/SDL_mixer.i: src/audio/SDL_mixer.c.i
 # target to preprocess a source file
 src/audio/SDL_mixer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i
 .PHONY : src/audio/SDL_mixer.c.i
 
 src/audio/SDL_mixer.s: src/audio/SDL_mixer.c.s
@@ -568,6 +629,7 @@ src/audio/SDL_mixer.s: src/audio/SDL_mixer.c.s
 # target to generate assembly for a file
 src/audio/SDL_mixer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s
 .PHONY : src/audio/SDL_mixer.c.s
 
 src/audio/SDL_wave.o: src/audio/SDL_wave.c.o
@@ -576,6 +638,7 @@ src/audio/SDL_wave.o: src/audio/SDL_wave.c.o
 # target to build an object file
 src/audio/SDL_wave.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o
 .PHONY : src/audio/SDL_wave.c.o
 
 src/audio/SDL_wave.i: src/audio/SDL_wave.c.i
@@ -584,6 +647,7 @@ src/audio/SDL_wave.i: src/audio/SDL_wave.c.i
 # target to preprocess a source file
 src/audio/SDL_wave.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i
 .PHONY : src/audio/SDL_wave.c.i
 
 src/audio/SDL_wave.s: src/audio/SDL_wave.c.s
@@ -592,6 +656,7 @@ src/audio/SDL_wave.s: src/audio/SDL_wave.c.s
 # target to generate assembly for a file
 src/audio/SDL_wave.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s
 .PHONY : src/audio/SDL_wave.c.s
 
 src/audio/alsa/SDL_alsa_audio.o: src/audio/alsa/SDL_alsa_audio.c.o
@@ -600,6 +665,7 @@ src/audio/alsa/SDL_alsa_audio.o: src/audio/alsa/SDL_alsa_audio.c.o
 # target to build an object file
 src/audio/alsa/SDL_alsa_audio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/alsa/SDL_alsa_audio.c.o
 .PHONY : src/audio/alsa/SDL_alsa_audio.c.o
 
 src/audio/alsa/SDL_alsa_audio.i: src/audio/alsa/SDL_alsa_audio.c.i
@@ -608,6 +674,7 @@ src/audio/alsa/SDL_alsa_audio.i: src/audio/alsa/SDL_alsa_audio.c.i
 # target to preprocess a source file
 src/audio/alsa/SDL_alsa_audio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/alsa/SDL_alsa_audio.c.i
 .PHONY : src/audio/alsa/SDL_alsa_audio.c.i
 
 src/audio/alsa/SDL_alsa_audio.s: src/audio/alsa/SDL_alsa_audio.c.s
@@ -616,6 +683,7 @@ src/audio/alsa/SDL_alsa_audio.s: src/audio/alsa/SDL_alsa_audio.c.s
 # target to generate assembly for a file
 src/audio/alsa/SDL_alsa_audio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/alsa/SDL_alsa_audio.c.s
 .PHONY : src/audio/alsa/SDL_alsa_audio.c.s
 
 src/audio/disk/SDL_diskaudio.o: src/audio/disk/SDL_diskaudio.c.o
@@ -624,6 +692,7 @@ src/audio/disk/SDL_diskaudio.o: src/audio/disk/SDL_diskaudio.c.o
 # target to build an object file
 src/audio/disk/SDL_diskaudio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o
 .PHONY : src/audio/disk/SDL_diskaudio.c.o
 
 src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
@@ -632,6 +701,7 @@ src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
 # target to preprocess a source file
 src/audio/disk/SDL_diskaudio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i
 .PHONY : src/audio/disk/SDL_diskaudio.c.i
 
 src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
@@ -640,7 +710,35 @@ src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
 # target to generate assembly for a file
 src/audio/disk/SDL_diskaudio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s
 .PHONY : src/audio/disk/SDL_diskaudio.c.s
+
+src/audio/dsp/SDL_dspaudio.o: src/audio/dsp/SDL_dspaudio.c.o
+.PHONY : src/audio/dsp/SDL_dspaudio.o
+
+# target to build an object file
+src/audio/dsp/SDL_dspaudio.c.o:
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/dsp/SDL_dspaudio.c.o
+.PHONY : src/audio/dsp/SDL_dspaudio.c.o
+
+src/audio/dsp/SDL_dspaudio.i: src/audio/dsp/SDL_dspaudio.c.i
+.PHONY : src/audio/dsp/SDL_dspaudio.i
+
+# target to preprocess a source file
+src/audio/dsp/SDL_dspaudio.c.i:
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/dsp/SDL_dspaudio.c.i
+.PHONY : src/audio/dsp/SDL_dspaudio.c.i
+
+src/audio/dsp/SDL_dspaudio.s: src/audio/dsp/SDL_dspaudio.c.s
+.PHONY : src/audio/dsp/SDL_dspaudio.s
+
+# target to generate assembly for a file
+src/audio/dsp/SDL_dspaudio.c.s:
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/dsp/SDL_dspaudio.c.s
+.PHONY : src/audio/dsp/SDL_dspaudio.c.s
 
 src/audio/dummy/SDL_dummyaudio.o: src/audio/dummy/SDL_dummyaudio.c.o
 .PHONY : src/audio/dummy/SDL_dummyaudio.o
@@ -648,6 +746,7 @@ src/audio/dummy/SDL_dummyaudio.o: src/audio/dummy/SDL_dummyaudio.c.o
 # target to build an object file
 src/audio/dummy/SDL_dummyaudio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.o
 
 src/audio/dummy/SDL_dummyaudio.i: src/audio/dummy/SDL_dummyaudio.c.i
@@ -656,6 +755,7 @@ src/audio/dummy/SDL_dummyaudio.i: src/audio/dummy/SDL_dummyaudio.c.i
 # target to preprocess a source file
 src/audio/dummy/SDL_dummyaudio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.i
 
 src/audio/dummy/SDL_dummyaudio.s: src/audio/dummy/SDL_dummyaudio.c.s
@@ -664,6 +764,7 @@ src/audio/dummy/SDL_dummyaudio.s: src/audio/dummy/SDL_dummyaudio.c.s
 # target to generate assembly for a file
 src/audio/dummy/SDL_dummyaudio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.s
 
 src/audio/jack/SDL_jackaudio.o: src/audio/jack/SDL_jackaudio.c.o
@@ -672,6 +773,7 @@ src/audio/jack/SDL_jackaudio.o: src/audio/jack/SDL_jackaudio.c.o
 # target to build an object file
 src/audio/jack/SDL_jackaudio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/jack/SDL_jackaudio.c.o
 .PHONY : src/audio/jack/SDL_jackaudio.c.o
 
 src/audio/jack/SDL_jackaudio.i: src/audio/jack/SDL_jackaudio.c.i
@@ -680,6 +782,7 @@ src/audio/jack/SDL_jackaudio.i: src/audio/jack/SDL_jackaudio.c.i
 # target to preprocess a source file
 src/audio/jack/SDL_jackaudio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/jack/SDL_jackaudio.c.i
 .PHONY : src/audio/jack/SDL_jackaudio.c.i
 
 src/audio/jack/SDL_jackaudio.s: src/audio/jack/SDL_jackaudio.c.s
@@ -688,6 +791,7 @@ src/audio/jack/SDL_jackaudio.s: src/audio/jack/SDL_jackaudio.c.s
 # target to generate assembly for a file
 src/audio/jack/SDL_jackaudio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/jack/SDL_jackaudio.c.s
 .PHONY : src/audio/jack/SDL_jackaudio.c.s
 
 src/audio/pipewire/SDL_pipewire.o: src/audio/pipewire/SDL_pipewire.c.o
@@ -696,6 +800,7 @@ src/audio/pipewire/SDL_pipewire.o: src/audio/pipewire/SDL_pipewire.c.o
 # target to build an object file
 src/audio/pipewire/SDL_pipewire.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/pipewire/SDL_pipewire.c.o
 .PHONY : src/audio/pipewire/SDL_pipewire.c.o
 
 src/audio/pipewire/SDL_pipewire.i: src/audio/pipewire/SDL_pipewire.c.i
@@ -704,6 +809,7 @@ src/audio/pipewire/SDL_pipewire.i: src/audio/pipewire/SDL_pipewire.c.i
 # target to preprocess a source file
 src/audio/pipewire/SDL_pipewire.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/pipewire/SDL_pipewire.c.i
 .PHONY : src/audio/pipewire/SDL_pipewire.c.i
 
 src/audio/pipewire/SDL_pipewire.s: src/audio/pipewire/SDL_pipewire.c.s
@@ -712,6 +818,7 @@ src/audio/pipewire/SDL_pipewire.s: src/audio/pipewire/SDL_pipewire.c.s
 # target to generate assembly for a file
 src/audio/pipewire/SDL_pipewire.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/pipewire/SDL_pipewire.c.s
 .PHONY : src/audio/pipewire/SDL_pipewire.c.s
 
 src/audio/pulseaudio/SDL_pulseaudio.o: src/audio/pulseaudio/SDL_pulseaudio.c.o
@@ -720,6 +827,7 @@ src/audio/pulseaudio/SDL_pulseaudio.o: src/audio/pulseaudio/SDL_pulseaudio.c.o
 # target to build an object file
 src/audio/pulseaudio/SDL_pulseaudio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o
 .PHONY : src/audio/pulseaudio/SDL_pulseaudio.c.o
 
 src/audio/pulseaudio/SDL_pulseaudio.i: src/audio/pulseaudio/SDL_pulseaudio.c.i
@@ -728,6 +836,7 @@ src/audio/pulseaudio/SDL_pulseaudio.i: src/audio/pulseaudio/SDL_pulseaudio.c.i
 # target to preprocess a source file
 src/audio/pulseaudio/SDL_pulseaudio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/pulseaudio/SDL_pulseaudio.c.i
 .PHONY : src/audio/pulseaudio/SDL_pulseaudio.c.i
 
 src/audio/pulseaudio/SDL_pulseaudio.s: src/audio/pulseaudio/SDL_pulseaudio.c.s
@@ -736,6 +845,7 @@ src/audio/pulseaudio/SDL_pulseaudio.s: src/audio/pulseaudio/SDL_pulseaudio.c.s
 # target to generate assembly for a file
 src/audio/pulseaudio/SDL_pulseaudio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/pulseaudio/SDL_pulseaudio.c.s
 .PHONY : src/audio/pulseaudio/SDL_pulseaudio.c.s
 
 src/audio/sndio/SDL_sndioaudio.o: src/audio/sndio/SDL_sndioaudio.c.o
@@ -744,6 +854,7 @@ src/audio/sndio/SDL_sndioaudio.o: src/audio/sndio/SDL_sndioaudio.c.o
 # target to build an object file
 src/audio/sndio/SDL_sndioaudio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/sndio/SDL_sndioaudio.c.o
 .PHONY : src/audio/sndio/SDL_sndioaudio.c.o
 
 src/audio/sndio/SDL_sndioaudio.i: src/audio/sndio/SDL_sndioaudio.c.i
@@ -752,6 +863,7 @@ src/audio/sndio/SDL_sndioaudio.i: src/audio/sndio/SDL_sndioaudio.c.i
 # target to preprocess a source file
 src/audio/sndio/SDL_sndioaudio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/sndio/SDL_sndioaudio.c.i
 .PHONY : src/audio/sndio/SDL_sndioaudio.c.i
 
 src/audio/sndio/SDL_sndioaudio.s: src/audio/sndio/SDL_sndioaudio.c.s
@@ -760,6 +872,7 @@ src/audio/sndio/SDL_sndioaudio.s: src/audio/sndio/SDL_sndioaudio.c.s
 # target to generate assembly for a file
 src/audio/sndio/SDL_sndioaudio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/audio/sndio/SDL_sndioaudio.c.s
 .PHONY : src/audio/sndio/SDL_sndioaudio.c.s
 
 src/core/linux/SDL_dbus.o: src/core/linux/SDL_dbus.c.o
@@ -768,6 +881,7 @@ src/core/linux/SDL_dbus.o: src/core/linux/SDL_dbus.c.o
 # target to build an object file
 src/core/linux/SDL_dbus.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_dbus.c.o
 .PHONY : src/core/linux/SDL_dbus.c.o
 
 src/core/linux/SDL_dbus.i: src/core/linux/SDL_dbus.c.i
@@ -776,6 +890,7 @@ src/core/linux/SDL_dbus.i: src/core/linux/SDL_dbus.c.i
 # target to preprocess a source file
 src/core/linux/SDL_dbus.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_dbus.c.i
 .PHONY : src/core/linux/SDL_dbus.c.i
 
 src/core/linux/SDL_dbus.s: src/core/linux/SDL_dbus.c.s
@@ -784,6 +899,7 @@ src/core/linux/SDL_dbus.s: src/core/linux/SDL_dbus.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_dbus.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_dbus.c.s
 .PHONY : src/core/linux/SDL_dbus.c.s
 
 src/core/linux/SDL_evdev.o: src/core/linux/SDL_evdev.c.o
@@ -792,6 +908,7 @@ src/core/linux/SDL_evdev.o: src/core/linux/SDL_evdev.c.o
 # target to build an object file
 src/core/linux/SDL_evdev.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev.c.o
 .PHONY : src/core/linux/SDL_evdev.c.o
 
 src/core/linux/SDL_evdev.i: src/core/linux/SDL_evdev.c.i
@@ -800,6 +917,7 @@ src/core/linux/SDL_evdev.i: src/core/linux/SDL_evdev.c.i
 # target to preprocess a source file
 src/core/linux/SDL_evdev.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev.c.i
 .PHONY : src/core/linux/SDL_evdev.c.i
 
 src/core/linux/SDL_evdev.s: src/core/linux/SDL_evdev.c.s
@@ -808,6 +926,7 @@ src/core/linux/SDL_evdev.s: src/core/linux/SDL_evdev.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_evdev.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev.c.s
 .PHONY : src/core/linux/SDL_evdev.c.s
 
 src/core/linux/SDL_evdev_capabilities.o: src/core/linux/SDL_evdev_capabilities.c.o
@@ -816,6 +935,7 @@ src/core/linux/SDL_evdev_capabilities.o: src/core/linux/SDL_evdev_capabilities.c
 # target to build an object file
 src/core/linux/SDL_evdev_capabilities.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_capabilities.c.o
 .PHONY : src/core/linux/SDL_evdev_capabilities.c.o
 
 src/core/linux/SDL_evdev_capabilities.i: src/core/linux/SDL_evdev_capabilities.c.i
@@ -824,6 +944,7 @@ src/core/linux/SDL_evdev_capabilities.i: src/core/linux/SDL_evdev_capabilities.c
 # target to preprocess a source file
 src/core/linux/SDL_evdev_capabilities.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_capabilities.c.i
 .PHONY : src/core/linux/SDL_evdev_capabilities.c.i
 
 src/core/linux/SDL_evdev_capabilities.s: src/core/linux/SDL_evdev_capabilities.c.s
@@ -832,6 +953,7 @@ src/core/linux/SDL_evdev_capabilities.s: src/core/linux/SDL_evdev_capabilities.c
 # target to generate assembly for a file
 src/core/linux/SDL_evdev_capabilities.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_capabilities.c.s
 .PHONY : src/core/linux/SDL_evdev_capabilities.c.s
 
 src/core/linux/SDL_evdev_kbd.o: src/core/linux/SDL_evdev_kbd.c.o
@@ -840,6 +962,7 @@ src/core/linux/SDL_evdev_kbd.o: src/core/linux/SDL_evdev_kbd.c.o
 # target to build an object file
 src/core/linux/SDL_evdev_kbd.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_kbd.c.o
 .PHONY : src/core/linux/SDL_evdev_kbd.c.o
 
 src/core/linux/SDL_evdev_kbd.i: src/core/linux/SDL_evdev_kbd.c.i
@@ -848,6 +971,7 @@ src/core/linux/SDL_evdev_kbd.i: src/core/linux/SDL_evdev_kbd.c.i
 # target to preprocess a source file
 src/core/linux/SDL_evdev_kbd.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_kbd.c.i
 .PHONY : src/core/linux/SDL_evdev_kbd.c.i
 
 src/core/linux/SDL_evdev_kbd.s: src/core/linux/SDL_evdev_kbd.c.s
@@ -856,6 +980,7 @@ src/core/linux/SDL_evdev_kbd.s: src/core/linux/SDL_evdev_kbd.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_evdev_kbd.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_kbd.c.s
 .PHONY : src/core/linux/SDL_evdev_kbd.c.s
 
 src/core/linux/SDL_fcitx.o: src/core/linux/SDL_fcitx.c.o
@@ -864,6 +989,7 @@ src/core/linux/SDL_fcitx.o: src/core/linux/SDL_fcitx.c.o
 # target to build an object file
 src/core/linux/SDL_fcitx.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_fcitx.c.o
 .PHONY : src/core/linux/SDL_fcitx.c.o
 
 src/core/linux/SDL_fcitx.i: src/core/linux/SDL_fcitx.c.i
@@ -872,6 +998,7 @@ src/core/linux/SDL_fcitx.i: src/core/linux/SDL_fcitx.c.i
 # target to preprocess a source file
 src/core/linux/SDL_fcitx.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_fcitx.c.i
 .PHONY : src/core/linux/SDL_fcitx.c.i
 
 src/core/linux/SDL_fcitx.s: src/core/linux/SDL_fcitx.c.s
@@ -880,6 +1007,7 @@ src/core/linux/SDL_fcitx.s: src/core/linux/SDL_fcitx.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_fcitx.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_fcitx.c.s
 .PHONY : src/core/linux/SDL_fcitx.c.s
 
 src/core/linux/SDL_ime.o: src/core/linux/SDL_ime.c.o
@@ -888,6 +1016,7 @@ src/core/linux/SDL_ime.o: src/core/linux/SDL_ime.c.o
 # target to build an object file
 src/core/linux/SDL_ime.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_ime.c.o
 .PHONY : src/core/linux/SDL_ime.c.o
 
 src/core/linux/SDL_ime.i: src/core/linux/SDL_ime.c.i
@@ -896,6 +1025,7 @@ src/core/linux/SDL_ime.i: src/core/linux/SDL_ime.c.i
 # target to preprocess a source file
 src/core/linux/SDL_ime.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_ime.c.i
 .PHONY : src/core/linux/SDL_ime.c.i
 
 src/core/linux/SDL_ime.s: src/core/linux/SDL_ime.c.s
@@ -904,6 +1034,7 @@ src/core/linux/SDL_ime.s: src/core/linux/SDL_ime.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_ime.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_ime.c.s
 .PHONY : src/core/linux/SDL_ime.c.s
 
 src/core/linux/SDL_sandbox.o: src/core/linux/SDL_sandbox.c.o
@@ -912,6 +1043,7 @@ src/core/linux/SDL_sandbox.o: src/core/linux/SDL_sandbox.c.o
 # target to build an object file
 src/core/linux/SDL_sandbox.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_sandbox.c.o
 .PHONY : src/core/linux/SDL_sandbox.c.o
 
 src/core/linux/SDL_sandbox.i: src/core/linux/SDL_sandbox.c.i
@@ -920,6 +1052,7 @@ src/core/linux/SDL_sandbox.i: src/core/linux/SDL_sandbox.c.i
 # target to preprocess a source file
 src/core/linux/SDL_sandbox.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_sandbox.c.i
 .PHONY : src/core/linux/SDL_sandbox.c.i
 
 src/core/linux/SDL_sandbox.s: src/core/linux/SDL_sandbox.c.s
@@ -928,6 +1061,7 @@ src/core/linux/SDL_sandbox.s: src/core/linux/SDL_sandbox.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_sandbox.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_sandbox.c.s
 .PHONY : src/core/linux/SDL_sandbox.c.s
 
 src/core/linux/SDL_threadprio.o: src/core/linux/SDL_threadprio.c.o
@@ -936,6 +1070,7 @@ src/core/linux/SDL_threadprio.o: src/core/linux/SDL_threadprio.c.o
 # target to build an object file
 src/core/linux/SDL_threadprio.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_threadprio.c.o
 .PHONY : src/core/linux/SDL_threadprio.c.o
 
 src/core/linux/SDL_threadprio.i: src/core/linux/SDL_threadprio.c.i
@@ -944,6 +1079,7 @@ src/core/linux/SDL_threadprio.i: src/core/linux/SDL_threadprio.c.i
 # target to preprocess a source file
 src/core/linux/SDL_threadprio.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_threadprio.c.i
 .PHONY : src/core/linux/SDL_threadprio.c.i
 
 src/core/linux/SDL_threadprio.s: src/core/linux/SDL_threadprio.c.s
@@ -952,6 +1088,7 @@ src/core/linux/SDL_threadprio.s: src/core/linux/SDL_threadprio.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_threadprio.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_threadprio.c.s
 .PHONY : src/core/linux/SDL_threadprio.c.s
 
 src/core/linux/SDL_udev.o: src/core/linux/SDL_udev.c.o
@@ -960,6 +1097,7 @@ src/core/linux/SDL_udev.o: src/core/linux/SDL_udev.c.o
 # target to build an object file
 src/core/linux/SDL_udev.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_udev.c.o
 .PHONY : src/core/linux/SDL_udev.c.o
 
 src/core/linux/SDL_udev.i: src/core/linux/SDL_udev.c.i
@@ -968,6 +1106,7 @@ src/core/linux/SDL_udev.i: src/core/linux/SDL_udev.c.i
 # target to preprocess a source file
 src/core/linux/SDL_udev.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_udev.c.i
 .PHONY : src/core/linux/SDL_udev.c.i
 
 src/core/linux/SDL_udev.s: src/core/linux/SDL_udev.c.s
@@ -976,6 +1115,7 @@ src/core/linux/SDL_udev.s: src/core/linux/SDL_udev.c.s
 # target to generate assembly for a file
 src/core/linux/SDL_udev.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/linux/SDL_udev.c.s
 .PHONY : src/core/linux/SDL_udev.c.s
 
 src/core/unix/SDL_poll.o: src/core/unix/SDL_poll.c.o
@@ -984,6 +1124,7 @@ src/core/unix/SDL_poll.o: src/core/unix/SDL_poll.c.o
 # target to build an object file
 src/core/unix/SDL_poll.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/unix/SDL_poll.c.o
 .PHONY : src/core/unix/SDL_poll.c.o
 
 src/core/unix/SDL_poll.i: src/core/unix/SDL_poll.c.i
@@ -992,6 +1133,7 @@ src/core/unix/SDL_poll.i: src/core/unix/SDL_poll.c.i
 # target to preprocess a source file
 src/core/unix/SDL_poll.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/unix/SDL_poll.c.i
 .PHONY : src/core/unix/SDL_poll.c.i
 
 src/core/unix/SDL_poll.s: src/core/unix/SDL_poll.c.s
@@ -1000,6 +1142,7 @@ src/core/unix/SDL_poll.s: src/core/unix/SDL_poll.c.s
 # target to generate assembly for a file
 src/core/unix/SDL_poll.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/core/unix/SDL_poll.c.s
 .PHONY : src/core/unix/SDL_poll.c.s
 
 src/cpuinfo/SDL_cpuinfo.o: src/cpuinfo/SDL_cpuinfo.c.o
@@ -1008,6 +1151,7 @@ src/cpuinfo/SDL_cpuinfo.o: src/cpuinfo/SDL_cpuinfo.c.o
 # target to build an object file
 src/cpuinfo/SDL_cpuinfo.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.o
 
 src/cpuinfo/SDL_cpuinfo.i: src/cpuinfo/SDL_cpuinfo.c.i
@@ -1016,6 +1160,7 @@ src/cpuinfo/SDL_cpuinfo.i: src/cpuinfo/SDL_cpuinfo.c.i
 # target to preprocess a source file
 src/cpuinfo/SDL_cpuinfo.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.i
 
 src/cpuinfo/SDL_cpuinfo.s: src/cpuinfo/SDL_cpuinfo.c.s
@@ -1024,6 +1169,7 @@ src/cpuinfo/SDL_cpuinfo.s: src/cpuinfo/SDL_cpuinfo.c.s
 # target to generate assembly for a file
 src/cpuinfo/SDL_cpuinfo.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.s
 
 src/dynapi/SDL_dynapi.o: src/dynapi/SDL_dynapi.c.o
@@ -1032,6 +1178,7 @@ src/dynapi/SDL_dynapi.o: src/dynapi/SDL_dynapi.c.o
 # target to build an object file
 src/dynapi/SDL_dynapi.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o
 .PHONY : src/dynapi/SDL_dynapi.c.o
 
 src/dynapi/SDL_dynapi.i: src/dynapi/SDL_dynapi.c.i
@@ -1040,6 +1187,7 @@ src/dynapi/SDL_dynapi.i: src/dynapi/SDL_dynapi.c.i
 # target to preprocess a source file
 src/dynapi/SDL_dynapi.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i
 .PHONY : src/dynapi/SDL_dynapi.c.i
 
 src/dynapi/SDL_dynapi.s: src/dynapi/SDL_dynapi.c.s
@@ -1048,6 +1196,7 @@ src/dynapi/SDL_dynapi.s: src/dynapi/SDL_dynapi.c.s
 # target to generate assembly for a file
 src/dynapi/SDL_dynapi.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s
 .PHONY : src/dynapi/SDL_dynapi.c.s
 
 src/events/SDL_clipboardevents.o: src/events/SDL_clipboardevents.c.o
@@ -1056,6 +1205,7 @@ src/events/SDL_clipboardevents.o: src/events/SDL_clipboardevents.c.o
 # target to build an object file
 src/events/SDL_clipboardevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o
 .PHONY : src/events/SDL_clipboardevents.c.o
 
 src/events/SDL_clipboardevents.i: src/events/SDL_clipboardevents.c.i
@@ -1064,6 +1214,7 @@ src/events/SDL_clipboardevents.i: src/events/SDL_clipboardevents.c.i
 # target to preprocess a source file
 src/events/SDL_clipboardevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i
 .PHONY : src/events/SDL_clipboardevents.c.i
 
 src/events/SDL_clipboardevents.s: src/events/SDL_clipboardevents.c.s
@@ -1072,6 +1223,7 @@ src/events/SDL_clipboardevents.s: src/events/SDL_clipboardevents.c.s
 # target to generate assembly for a file
 src/events/SDL_clipboardevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s
 .PHONY : src/events/SDL_clipboardevents.c.s
 
 src/events/SDL_displayevents.o: src/events/SDL_displayevents.c.o
@@ -1080,6 +1232,7 @@ src/events/SDL_displayevents.o: src/events/SDL_displayevents.c.o
 # target to build an object file
 src/events/SDL_displayevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.o
 .PHONY : src/events/SDL_displayevents.c.o
 
 src/events/SDL_displayevents.i: src/events/SDL_displayevents.c.i
@@ -1088,6 +1241,7 @@ src/events/SDL_displayevents.i: src/events/SDL_displayevents.c.i
 # target to preprocess a source file
 src/events/SDL_displayevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.i
 .PHONY : src/events/SDL_displayevents.c.i
 
 src/events/SDL_displayevents.s: src/events/SDL_displayevents.c.s
@@ -1096,6 +1250,7 @@ src/events/SDL_displayevents.s: src/events/SDL_displayevents.c.s
 # target to generate assembly for a file
 src/events/SDL_displayevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.s
 .PHONY : src/events/SDL_displayevents.c.s
 
 src/events/SDL_dropevents.o: src/events/SDL_dropevents.c.o
@@ -1104,6 +1259,7 @@ src/events/SDL_dropevents.o: src/events/SDL_dropevents.c.o
 # target to build an object file
 src/events/SDL_dropevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o
 .PHONY : src/events/SDL_dropevents.c.o
 
 src/events/SDL_dropevents.i: src/events/SDL_dropevents.c.i
@@ -1112,6 +1268,7 @@ src/events/SDL_dropevents.i: src/events/SDL_dropevents.c.i
 # target to preprocess a source file
 src/events/SDL_dropevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i
 .PHONY : src/events/SDL_dropevents.c.i
 
 src/events/SDL_dropevents.s: src/events/SDL_dropevents.c.s
@@ -1120,6 +1277,7 @@ src/events/SDL_dropevents.s: src/events/SDL_dropevents.c.s
 # target to generate assembly for a file
 src/events/SDL_dropevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s
 .PHONY : src/events/SDL_dropevents.c.s
 
 src/events/SDL_events.o: src/events/SDL_events.c.o
@@ -1128,6 +1286,7 @@ src/events/SDL_events.o: src/events/SDL_events.c.o
 # target to build an object file
 src/events/SDL_events.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_events.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o
 .PHONY : src/events/SDL_events.c.o
 
 src/events/SDL_events.i: src/events/SDL_events.c.i
@@ -1136,6 +1295,7 @@ src/events/SDL_events.i: src/events/SDL_events.c.i
 # target to preprocess a source file
 src/events/SDL_events.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_events.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i
 .PHONY : src/events/SDL_events.c.i
 
 src/events/SDL_events.s: src/events/SDL_events.c.s
@@ -1144,6 +1304,7 @@ src/events/SDL_events.s: src/events/SDL_events.c.s
 # target to generate assembly for a file
 src/events/SDL_events.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_events.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s
 .PHONY : src/events/SDL_events.c.s
 
 src/events/SDL_gesture.o: src/events/SDL_gesture.c.o
@@ -1152,6 +1313,7 @@ src/events/SDL_gesture.o: src/events/SDL_gesture.c.o
 # target to build an object file
 src/events/SDL_gesture.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o
 .PHONY : src/events/SDL_gesture.c.o
 
 src/events/SDL_gesture.i: src/events/SDL_gesture.c.i
@@ -1160,6 +1322,7 @@ src/events/SDL_gesture.i: src/events/SDL_gesture.c.i
 # target to preprocess a source file
 src/events/SDL_gesture.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i
 .PHONY : src/events/SDL_gesture.c.i
 
 src/events/SDL_gesture.s: src/events/SDL_gesture.c.s
@@ -1168,6 +1331,7 @@ src/events/SDL_gesture.s: src/events/SDL_gesture.c.s
 # target to generate assembly for a file
 src/events/SDL_gesture.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s
 .PHONY : src/events/SDL_gesture.c.s
 
 src/events/SDL_keyboard.o: src/events/SDL_keyboard.c.o
@@ -1176,6 +1340,7 @@ src/events/SDL_keyboard.o: src/events/SDL_keyboard.c.o
 # target to build an object file
 src/events/SDL_keyboard.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o
 .PHONY : src/events/SDL_keyboard.c.o
 
 src/events/SDL_keyboard.i: src/events/SDL_keyboard.c.i
@@ -1184,6 +1349,7 @@ src/events/SDL_keyboard.i: src/events/SDL_keyboard.c.i
 # target to preprocess a source file
 src/events/SDL_keyboard.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i
 .PHONY : src/events/SDL_keyboard.c.i
 
 src/events/SDL_keyboard.s: src/events/SDL_keyboard.c.s
@@ -1192,6 +1358,7 @@ src/events/SDL_keyboard.s: src/events/SDL_keyboard.c.s
 # target to generate assembly for a file
 src/events/SDL_keyboard.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s
 .PHONY : src/events/SDL_keyboard.c.s
 
 src/events/SDL_keysym_to_scancode.o: src/events/SDL_keysym_to_scancode.c.o
@@ -1200,6 +1367,7 @@ src/events/SDL_keysym_to_scancode.o: src/events/SDL_keysym_to_scancode.c.o
 # target to build an object file
 src/events/SDL_keysym_to_scancode.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_keysym_to_scancode.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_keysym_to_scancode.c.o
 .PHONY : src/events/SDL_keysym_to_scancode.c.o
 
 src/events/SDL_keysym_to_scancode.i: src/events/SDL_keysym_to_scancode.c.i
@@ -1208,6 +1376,7 @@ src/events/SDL_keysym_to_scancode.i: src/events/SDL_keysym_to_scancode.c.i
 # target to preprocess a source file
 src/events/SDL_keysym_to_scancode.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_keysym_to_scancode.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_keysym_to_scancode.c.i
 .PHONY : src/events/SDL_keysym_to_scancode.c.i
 
 src/events/SDL_keysym_to_scancode.s: src/events/SDL_keysym_to_scancode.c.s
@@ -1216,6 +1385,7 @@ src/events/SDL_keysym_to_scancode.s: src/events/SDL_keysym_to_scancode.c.s
 # target to generate assembly for a file
 src/events/SDL_keysym_to_scancode.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_keysym_to_scancode.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_keysym_to_scancode.c.s
 .PHONY : src/events/SDL_keysym_to_scancode.c.s
 
 src/events/SDL_mouse.o: src/events/SDL_mouse.c.o
@@ -1224,6 +1394,7 @@ src/events/SDL_mouse.o: src/events/SDL_mouse.c.o
 # target to build an object file
 src/events/SDL_mouse.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o
 .PHONY : src/events/SDL_mouse.c.o
 
 src/events/SDL_mouse.i: src/events/SDL_mouse.c.i
@@ -1232,6 +1403,7 @@ src/events/SDL_mouse.i: src/events/SDL_mouse.c.i
 # target to preprocess a source file
 src/events/SDL_mouse.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i
 .PHONY : src/events/SDL_mouse.c.i
 
 src/events/SDL_mouse.s: src/events/SDL_mouse.c.s
@@ -1240,6 +1412,7 @@ src/events/SDL_mouse.s: src/events/SDL_mouse.c.s
 # target to generate assembly for a file
 src/events/SDL_mouse.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s
 .PHONY : src/events/SDL_mouse.c.s
 
 src/events/SDL_quit.o: src/events/SDL_quit.c.o
@@ -1248,6 +1421,7 @@ src/events/SDL_quit.o: src/events/SDL_quit.c.o
 # target to build an object file
 src/events/SDL_quit.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o
 .PHONY : src/events/SDL_quit.c.o
 
 src/events/SDL_quit.i: src/events/SDL_quit.c.i
@@ -1256,6 +1430,7 @@ src/events/SDL_quit.i: src/events/SDL_quit.c.i
 # target to preprocess a source file
 src/events/SDL_quit.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i
 .PHONY : src/events/SDL_quit.c.i
 
 src/events/SDL_quit.s: src/events/SDL_quit.c.s
@@ -1264,6 +1439,7 @@ src/events/SDL_quit.s: src/events/SDL_quit.c.s
 # target to generate assembly for a file
 src/events/SDL_quit.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s
 .PHONY : src/events/SDL_quit.c.s
 
 src/events/SDL_scancode_tables.o: src/events/SDL_scancode_tables.c.o
@@ -1272,6 +1448,7 @@ src/events/SDL_scancode_tables.o: src/events/SDL_scancode_tables.c.o
 # target to build an object file
 src/events/SDL_scancode_tables.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_scancode_tables.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_scancode_tables.c.o
 .PHONY : src/events/SDL_scancode_tables.c.o
 
 src/events/SDL_scancode_tables.i: src/events/SDL_scancode_tables.c.i
@@ -1280,6 +1457,7 @@ src/events/SDL_scancode_tables.i: src/events/SDL_scancode_tables.c.i
 # target to preprocess a source file
 src/events/SDL_scancode_tables.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_scancode_tables.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_scancode_tables.c.i
 .PHONY : src/events/SDL_scancode_tables.c.i
 
 src/events/SDL_scancode_tables.s: src/events/SDL_scancode_tables.c.s
@@ -1288,6 +1466,7 @@ src/events/SDL_scancode_tables.s: src/events/SDL_scancode_tables.c.s
 # target to generate assembly for a file
 src/events/SDL_scancode_tables.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_scancode_tables.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_scancode_tables.c.s
 .PHONY : src/events/SDL_scancode_tables.c.s
 
 src/events/SDL_touch.o: src/events/SDL_touch.c.o
@@ -1296,6 +1475,7 @@ src/events/SDL_touch.o: src/events/SDL_touch.c.o
 # target to build an object file
 src/events/SDL_touch.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o
 .PHONY : src/events/SDL_touch.c.o
 
 src/events/SDL_touch.i: src/events/SDL_touch.c.i
@@ -1304,6 +1484,7 @@ src/events/SDL_touch.i: src/events/SDL_touch.c.i
 # target to preprocess a source file
 src/events/SDL_touch.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i
 .PHONY : src/events/SDL_touch.c.i
 
 src/events/SDL_touch.s: src/events/SDL_touch.c.s
@@ -1312,6 +1493,7 @@ src/events/SDL_touch.s: src/events/SDL_touch.c.s
 # target to generate assembly for a file
 src/events/SDL_touch.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s
 .PHONY : src/events/SDL_touch.c.s
 
 src/events/SDL_windowevents.o: src/events/SDL_windowevents.c.o
@@ -1320,6 +1502,7 @@ src/events/SDL_windowevents.o: src/events/SDL_windowevents.c.o
 # target to build an object file
 src/events/SDL_windowevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o
 .PHONY : src/events/SDL_windowevents.c.o
 
 src/events/SDL_windowevents.i: src/events/SDL_windowevents.c.i
@@ -1328,6 +1511,7 @@ src/events/SDL_windowevents.i: src/events/SDL_windowevents.c.i
 # target to preprocess a source file
 src/events/SDL_windowevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i
 .PHONY : src/events/SDL_windowevents.c.i
 
 src/events/SDL_windowevents.s: src/events/SDL_windowevents.c.s
@@ -1336,6 +1520,7 @@ src/events/SDL_windowevents.s: src/events/SDL_windowevents.c.s
 # target to generate assembly for a file
 src/events/SDL_windowevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s
 .PHONY : src/events/SDL_windowevents.c.s
 
 src/events/imKStoUCS.o: src/events/imKStoUCS.c.o
@@ -1344,6 +1529,7 @@ src/events/imKStoUCS.o: src/events/imKStoUCS.c.o
 # target to build an object file
 src/events/imKStoUCS.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.o
 .PHONY : src/events/imKStoUCS.c.o
 
 src/events/imKStoUCS.i: src/events/imKStoUCS.c.i
@@ -1352,6 +1538,7 @@ src/events/imKStoUCS.i: src/events/imKStoUCS.c.i
 # target to preprocess a source file
 src/events/imKStoUCS.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.i
 .PHONY : src/events/imKStoUCS.c.i
 
 src/events/imKStoUCS.s: src/events/imKStoUCS.c.s
@@ -1360,6 +1547,7 @@ src/events/imKStoUCS.s: src/events/imKStoUCS.c.s
 # target to generate assembly for a file
 src/events/imKStoUCS.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.s
 .PHONY : src/events/imKStoUCS.c.s
 
 src/file/SDL_rwops.o: src/file/SDL_rwops.c.o
@@ -1368,6 +1556,7 @@ src/file/SDL_rwops.o: src/file/SDL_rwops.c.o
 # target to build an object file
 src/file/SDL_rwops.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o
 .PHONY : src/file/SDL_rwops.c.o
 
 src/file/SDL_rwops.i: src/file/SDL_rwops.c.i
@@ -1376,6 +1565,7 @@ src/file/SDL_rwops.i: src/file/SDL_rwops.c.i
 # target to preprocess a source file
 src/file/SDL_rwops.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i
 .PHONY : src/file/SDL_rwops.c.i
 
 src/file/SDL_rwops.s: src/file/SDL_rwops.c.s
@@ -1384,6 +1574,7 @@ src/file/SDL_rwops.s: src/file/SDL_rwops.c.s
 # target to generate assembly for a file
 src/file/SDL_rwops.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s
 .PHONY : src/file/SDL_rwops.c.s
 
 src/filesystem/unix/SDL_sysfilesystem.o: src/filesystem/unix/SDL_sysfilesystem.c.o
@@ -1392,6 +1583,7 @@ src/filesystem/unix/SDL_sysfilesystem.o: src/filesystem/unix/SDL_sysfilesystem.c
 # target to build an object file
 src/filesystem/unix/SDL_sysfilesystem.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/filesystem/unix/SDL_sysfilesystem.c.o
 .PHONY : src/filesystem/unix/SDL_sysfilesystem.c.o
 
 src/filesystem/unix/SDL_sysfilesystem.i: src/filesystem/unix/SDL_sysfilesystem.c.i
@@ -1400,6 +1592,7 @@ src/filesystem/unix/SDL_sysfilesystem.i: src/filesystem/unix/SDL_sysfilesystem.c
 # target to preprocess a source file
 src/filesystem/unix/SDL_sysfilesystem.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/filesystem/unix/SDL_sysfilesystem.c.i
 .PHONY : src/filesystem/unix/SDL_sysfilesystem.c.i
 
 src/filesystem/unix/SDL_sysfilesystem.s: src/filesystem/unix/SDL_sysfilesystem.c.s
@@ -1408,6 +1601,7 @@ src/filesystem/unix/SDL_sysfilesystem.s: src/filesystem/unix/SDL_sysfilesystem.c
 # target to generate assembly for a file
 src/filesystem/unix/SDL_sysfilesystem.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/filesystem/unix/SDL_sysfilesystem.c.s
 .PHONY : src/filesystem/unix/SDL_sysfilesystem.c.s
 
 src/haptic/SDL_haptic.o: src/haptic/SDL_haptic.c.o
@@ -1416,6 +1610,7 @@ src/haptic/SDL_haptic.o: src/haptic/SDL_haptic.c.o
 # target to build an object file
 src/haptic/SDL_haptic.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o
 .PHONY : src/haptic/SDL_haptic.c.o
 
 src/haptic/SDL_haptic.i: src/haptic/SDL_haptic.c.i
@@ -1424,6 +1619,7 @@ src/haptic/SDL_haptic.i: src/haptic/SDL_haptic.c.i
 # target to preprocess a source file
 src/haptic/SDL_haptic.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i
 .PHONY : src/haptic/SDL_haptic.c.i
 
 src/haptic/SDL_haptic.s: src/haptic/SDL_haptic.c.s
@@ -1432,6 +1628,7 @@ src/haptic/SDL_haptic.s: src/haptic/SDL_haptic.c.s
 # target to generate assembly for a file
 src/haptic/SDL_haptic.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s
 .PHONY : src/haptic/SDL_haptic.c.s
 
 src/haptic/linux/SDL_syshaptic.o: src/haptic/linux/SDL_syshaptic.c.o
@@ -1440,6 +1637,7 @@ src/haptic/linux/SDL_syshaptic.o: src/haptic/linux/SDL_syshaptic.c.o
 # target to build an object file
 src/haptic/linux/SDL_syshaptic.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/haptic/linux/SDL_syshaptic.c.o
 .PHONY : src/haptic/linux/SDL_syshaptic.c.o
 
 src/haptic/linux/SDL_syshaptic.i: src/haptic/linux/SDL_syshaptic.c.i
@@ -1448,6 +1646,7 @@ src/haptic/linux/SDL_syshaptic.i: src/haptic/linux/SDL_syshaptic.c.i
 # target to preprocess a source file
 src/haptic/linux/SDL_syshaptic.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/haptic/linux/SDL_syshaptic.c.i
 .PHONY : src/haptic/linux/SDL_syshaptic.c.i
 
 src/haptic/linux/SDL_syshaptic.s: src/haptic/linux/SDL_syshaptic.c.s
@@ -1456,6 +1655,7 @@ src/haptic/linux/SDL_syshaptic.s: src/haptic/linux/SDL_syshaptic.c.s
 # target to generate assembly for a file
 src/haptic/linux/SDL_syshaptic.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/haptic/linux/SDL_syshaptic.c.s
 .PHONY : src/haptic/linux/SDL_syshaptic.c.s
 
 src/hidapi/SDL_hidapi.o: src/hidapi/SDL_hidapi.c.o
@@ -1464,6 +1664,7 @@ src/hidapi/SDL_hidapi.o: src/hidapi/SDL_hidapi.c.o
 # target to build an object file
 src/hidapi/SDL_hidapi.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.o
 .PHONY : src/hidapi/SDL_hidapi.c.o
 
 src/hidapi/SDL_hidapi.i: src/hidapi/SDL_hidapi.c.i
@@ -1472,6 +1673,7 @@ src/hidapi/SDL_hidapi.i: src/hidapi/SDL_hidapi.c.i
 # target to preprocess a source file
 src/hidapi/SDL_hidapi.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.i
 .PHONY : src/hidapi/SDL_hidapi.c.i
 
 src/hidapi/SDL_hidapi.s: src/hidapi/SDL_hidapi.c.s
@@ -1480,6 +1682,7 @@ src/hidapi/SDL_hidapi.s: src/hidapi/SDL_hidapi.c.s
 # target to generate assembly for a file
 src/hidapi/SDL_hidapi.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.s
 .PHONY : src/hidapi/SDL_hidapi.c.s
 
 src/joystick/SDL_gamecontroller.o: src/joystick/SDL_gamecontroller.c.o
@@ -1488,6 +1691,7 @@ src/joystick/SDL_gamecontroller.o: src/joystick/SDL_gamecontroller.c.o
 # target to build an object file
 src/joystick/SDL_gamecontroller.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o
 .PHONY : src/joystick/SDL_gamecontroller.c.o
 
 src/joystick/SDL_gamecontroller.i: src/joystick/SDL_gamecontroller.c.i
@@ -1496,6 +1700,7 @@ src/joystick/SDL_gamecontroller.i: src/joystick/SDL_gamecontroller.c.i
 # target to preprocess a source file
 src/joystick/SDL_gamecontroller.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i
 .PHONY : src/joystick/SDL_gamecontroller.c.i
 
 src/joystick/SDL_gamecontroller.s: src/joystick/SDL_gamecontroller.c.s
@@ -1504,6 +1709,7 @@ src/joystick/SDL_gamecontroller.s: src/joystick/SDL_gamecontroller.c.s
 # target to generate assembly for a file
 src/joystick/SDL_gamecontroller.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s
 .PHONY : src/joystick/SDL_gamecontroller.c.s
 
 src/joystick/SDL_joystick.o: src/joystick/SDL_joystick.c.o
@@ -1512,6 +1718,7 @@ src/joystick/SDL_joystick.o: src/joystick/SDL_joystick.c.o
 # target to build an object file
 src/joystick/SDL_joystick.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o
 .PHONY : src/joystick/SDL_joystick.c.o
 
 src/joystick/SDL_joystick.i: src/joystick/SDL_joystick.c.i
@@ -1520,6 +1727,7 @@ src/joystick/SDL_joystick.i: src/joystick/SDL_joystick.c.i
 # target to preprocess a source file
 src/joystick/SDL_joystick.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i
 .PHONY : src/joystick/SDL_joystick.c.i
 
 src/joystick/SDL_joystick.s: src/joystick/SDL_joystick.c.s
@@ -1528,6 +1736,7 @@ src/joystick/SDL_joystick.s: src/joystick/SDL_joystick.c.s
 # target to generate assembly for a file
 src/joystick/SDL_joystick.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s
 .PHONY : src/joystick/SDL_joystick.c.s
 
 src/joystick/SDL_steam_virtual_gamepad.o: src/joystick/SDL_steam_virtual_gamepad.c.o
@@ -1536,6 +1745,7 @@ src/joystick/SDL_steam_virtual_gamepad.o: src/joystick/SDL_steam_virtual_gamepad
 # target to build an object file
 src/joystick/SDL_steam_virtual_gamepad.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_steam_virtual_gamepad.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_steam_virtual_gamepad.c.o
 .PHONY : src/joystick/SDL_steam_virtual_gamepad.c.o
 
 src/joystick/SDL_steam_virtual_gamepad.i: src/joystick/SDL_steam_virtual_gamepad.c.i
@@ -1544,6 +1754,7 @@ src/joystick/SDL_steam_virtual_gamepad.i: src/joystick/SDL_steam_virtual_gamepad
 # target to preprocess a source file
 src/joystick/SDL_steam_virtual_gamepad.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_steam_virtual_gamepad.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_steam_virtual_gamepad.c.i
 .PHONY : src/joystick/SDL_steam_virtual_gamepad.c.i
 
 src/joystick/SDL_steam_virtual_gamepad.s: src/joystick/SDL_steam_virtual_gamepad.c.s
@@ -1552,6 +1763,7 @@ src/joystick/SDL_steam_virtual_gamepad.s: src/joystick/SDL_steam_virtual_gamepad
 # target to generate assembly for a file
 src/joystick/SDL_steam_virtual_gamepad.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/SDL_steam_virtual_gamepad.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/SDL_steam_virtual_gamepad.c.s
 .PHONY : src/joystick/SDL_steam_virtual_gamepad.c.s
 
 src/joystick/controller_type.o: src/joystick/controller_type.c.o
@@ -1560,6 +1772,7 @@ src/joystick/controller_type.o: src/joystick/controller_type.c.o
 # target to build an object file
 src/joystick/controller_type.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.o
 .PHONY : src/joystick/controller_type.c.o
 
 src/joystick/controller_type.i: src/joystick/controller_type.c.i
@@ -1568,6 +1781,7 @@ src/joystick/controller_type.i: src/joystick/controller_type.c.i
 # target to preprocess a source file
 src/joystick/controller_type.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.i
 .PHONY : src/joystick/controller_type.c.i
 
 src/joystick/controller_type.s: src/joystick/controller_type.c.s
@@ -1576,6 +1790,7 @@ src/joystick/controller_type.s: src/joystick/controller_type.c.s
 # target to generate assembly for a file
 src/joystick/controller_type.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.s
 .PHONY : src/joystick/controller_type.c.s
 
 src/joystick/hidapi/SDL_hidapi_combined.o: src/joystick/hidapi/SDL_hidapi_combined.c.o
@@ -1584,6 +1799,7 @@ src/joystick/hidapi/SDL_hidapi_combined.o: src/joystick/hidapi/SDL_hidapi_combin
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_combined.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.o
 
 src/joystick/hidapi/SDL_hidapi_combined.i: src/joystick/hidapi/SDL_hidapi_combined.c.i
@@ -1592,6 +1808,7 @@ src/joystick/hidapi/SDL_hidapi_combined.i: src/joystick/hidapi/SDL_hidapi_combin
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_combined.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.i
 
 src/joystick/hidapi/SDL_hidapi_combined.s: src/joystick/hidapi/SDL_hidapi_combined.c.s
@@ -1600,6 +1817,7 @@ src/joystick/hidapi/SDL_hidapi_combined.s: src/joystick/hidapi/SDL_hidapi_combin
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_combined.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.s
 
 src/joystick/hidapi/SDL_hidapi_gamecube.o: src/joystick/hidapi/SDL_hidapi_gamecube.c.o
@@ -1608,6 +1826,7 @@ src/joystick/hidapi/SDL_hidapi_gamecube.o: src/joystick/hidapi/SDL_hidapi_gamecu
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.o
 
 src/joystick/hidapi/SDL_hidapi_gamecube.i: src/joystick/hidapi/SDL_hidapi_gamecube.c.i
@@ -1616,6 +1835,7 @@ src/joystick/hidapi/SDL_hidapi_gamecube.i: src/joystick/hidapi/SDL_hidapi_gamecu
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 
 src/joystick/hidapi/SDL_hidapi_gamecube.s: src/joystick/hidapi/SDL_hidapi_gamecube.c.s
@@ -1624,6 +1844,7 @@ src/joystick/hidapi/SDL_hidapi_gamecube.s: src/joystick/hidapi/SDL_hidapi_gamecu
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.s
 
 src/joystick/hidapi/SDL_hidapi_luna.o: src/joystick/hidapi/SDL_hidapi_luna.c.o
@@ -1632,6 +1853,7 @@ src/joystick/hidapi/SDL_hidapi_luna.o: src/joystick/hidapi/SDL_hidapi_luna.c.o
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_luna.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.o
 
 src/joystick/hidapi/SDL_hidapi_luna.i: src/joystick/hidapi/SDL_hidapi_luna.c.i
@@ -1640,6 +1862,7 @@ src/joystick/hidapi/SDL_hidapi_luna.i: src/joystick/hidapi/SDL_hidapi_luna.c.i
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_luna.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.i
 
 src/joystick/hidapi/SDL_hidapi_luna.s: src/joystick/hidapi/SDL_hidapi_luna.c.s
@@ -1648,6 +1871,7 @@ src/joystick/hidapi/SDL_hidapi_luna.s: src/joystick/hidapi/SDL_hidapi_luna.c.s
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_luna.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps3.o: src/joystick/hidapi/SDL_hidapi_ps3.c.o
@@ -1656,6 +1880,7 @@ src/joystick/hidapi/SDL_hidapi_ps3.o: src/joystick/hidapi/SDL_hidapi_ps3.c.o
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps3.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps3.c.o
 
 src/joystick/hidapi/SDL_hidapi_ps3.i: src/joystick/hidapi/SDL_hidapi_ps3.c.i
@@ -1664,6 +1889,7 @@ src/joystick/hidapi/SDL_hidapi_ps3.i: src/joystick/hidapi/SDL_hidapi_ps3.c.i
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps3.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps3.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps3.s: src/joystick/hidapi/SDL_hidapi_ps3.c.s
@@ -1672,6 +1898,7 @@ src/joystick/hidapi/SDL_hidapi_ps3.s: src/joystick/hidapi/SDL_hidapi_ps3.c.s
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps3.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps3.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps4.o: src/joystick/hidapi/SDL_hidapi_ps4.c.o
@@ -1680,6 +1907,7 @@ src/joystick/hidapi/SDL_hidapi_ps4.o: src/joystick/hidapi/SDL_hidapi_ps4.c.o
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps4.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.o
 
 src/joystick/hidapi/SDL_hidapi_ps4.i: src/joystick/hidapi/SDL_hidapi_ps4.c.i
@@ -1688,6 +1916,7 @@ src/joystick/hidapi/SDL_hidapi_ps4.i: src/joystick/hidapi/SDL_hidapi_ps4.c.i
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps4.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps4.s: src/joystick/hidapi/SDL_hidapi_ps4.c.s
@@ -1696,6 +1925,7 @@ src/joystick/hidapi/SDL_hidapi_ps4.s: src/joystick/hidapi/SDL_hidapi_ps4.c.s
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps4.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps5.o: src/joystick/hidapi/SDL_hidapi_ps5.c.o
@@ -1704,6 +1934,7 @@ src/joystick/hidapi/SDL_hidapi_ps5.o: src/joystick/hidapi/SDL_hidapi_ps5.c.o
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps5.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.o
 
 src/joystick/hidapi/SDL_hidapi_ps5.i: src/joystick/hidapi/SDL_hidapi_ps5.c.i
@@ -1712,6 +1943,7 @@ src/joystick/hidapi/SDL_hidapi_ps5.i: src/joystick/hidapi/SDL_hidapi_ps5.c.i
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps5.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps5.s: src/joystick/hidapi/SDL_hidapi_ps5.c.s
@@ -1720,6 +1952,7 @@ src/joystick/hidapi/SDL_hidapi_ps5.s: src/joystick/hidapi/SDL_hidapi_ps5.c.s
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps5.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.s
 
 src/joystick/hidapi/SDL_hidapi_rumble.o: src/joystick/hidapi/SDL_hidapi_rumble.c.o
@@ -1728,6 +1961,7 @@ src/joystick/hidapi/SDL_hidapi_rumble.o: src/joystick/hidapi/SDL_hidapi_rumble.c
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_rumble.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.o
 
 src/joystick/hidapi/SDL_hidapi_rumble.i: src/joystick/hidapi/SDL_hidapi_rumble.c.i
@@ -1736,6 +1970,7 @@ src/joystick/hidapi/SDL_hidapi_rumble.i: src/joystick/hidapi/SDL_hidapi_rumble.c
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_rumble.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.i
 
 src/joystick/hidapi/SDL_hidapi_rumble.s: src/joystick/hidapi/SDL_hidapi_rumble.c.s
@@ -1744,6 +1979,7 @@ src/joystick/hidapi/SDL_hidapi_rumble.s: src/joystick/hidapi/SDL_hidapi_rumble.c
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_rumble.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.s
 
 src/joystick/hidapi/SDL_hidapi_shield.o: src/joystick/hidapi/SDL_hidapi_shield.c.o
@@ -1752,6 +1988,7 @@ src/joystick/hidapi/SDL_hidapi_shield.o: src/joystick/hidapi/SDL_hidapi_shield.c
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_shield.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.o
 
 src/joystick/hidapi/SDL_hidapi_shield.i: src/joystick/hidapi/SDL_hidapi_shield.c.i
@@ -1760,6 +1997,7 @@ src/joystick/hidapi/SDL_hidapi_shield.i: src/joystick/hidapi/SDL_hidapi_shield.c
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_shield.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.i
 
 src/joystick/hidapi/SDL_hidapi_shield.s: src/joystick/hidapi/SDL_hidapi_shield.c.s
@@ -1768,6 +2006,7 @@ src/joystick/hidapi/SDL_hidapi_shield.s: src/joystick/hidapi/SDL_hidapi_shield.c
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_shield.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.s
 
 src/joystick/hidapi/SDL_hidapi_stadia.o: src/joystick/hidapi/SDL_hidapi_stadia.c.o
@@ -1776,6 +2015,7 @@ src/joystick/hidapi/SDL_hidapi_stadia.o: src/joystick/hidapi/SDL_hidapi_stadia.c
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_stadia.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.o
 
 src/joystick/hidapi/SDL_hidapi_stadia.i: src/joystick/hidapi/SDL_hidapi_stadia.c.i
@@ -1784,6 +2024,7 @@ src/joystick/hidapi/SDL_hidapi_stadia.i: src/joystick/hidapi/SDL_hidapi_stadia.c
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_stadia.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.i
 
 src/joystick/hidapi/SDL_hidapi_stadia.s: src/joystick/hidapi/SDL_hidapi_stadia.c.s
@@ -1792,6 +2033,7 @@ src/joystick/hidapi/SDL_hidapi_stadia.s: src/joystick/hidapi/SDL_hidapi_stadia.c
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_stadia.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.s
 
 src/joystick/hidapi/SDL_hidapi_steam.o: src/joystick/hidapi/SDL_hidapi_steam.c.o
@@ -1800,6 +2042,7 @@ src/joystick/hidapi/SDL_hidapi_steam.o: src/joystick/hidapi/SDL_hidapi_steam.c.o
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steam.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.o
 
 src/joystick/hidapi/SDL_hidapi_steam.i: src/joystick/hidapi/SDL_hidapi_steam.c.i
@@ -1808,6 +2051,7 @@ src/joystick/hidapi/SDL_hidapi_steam.i: src/joystick/hidapi/SDL_hidapi_steam.c.i
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steam.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.i
 
 src/joystick/hidapi/SDL_hidapi_steam.s: src/joystick/hidapi/SDL_hidapi_steam.c.s
@@ -1816,6 +2060,7 @@ src/joystick/hidapi/SDL_hidapi_steam.s: src/joystick/hidapi/SDL_hidapi_steam.c.s
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steam.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.s
 
 src/joystick/hidapi/SDL_hidapi_steamdeck.o: src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
@@ -1824,6 +2069,7 @@ src/joystick/hidapi/SDL_hidapi_steamdeck.o: src/joystick/hidapi/SDL_hidapi_steam
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steamdeck.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
 
 src/joystick/hidapi/SDL_hidapi_steamdeck.i: src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
@@ -1832,6 +2078,7 @@ src/joystick/hidapi/SDL_hidapi_steamdeck.i: src/joystick/hidapi/SDL_hidapi_steam
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steamdeck.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
 
 src/joystick/hidapi/SDL_hidapi_steamdeck.s: src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
@@ -1840,6 +2087,7 @@ src/joystick/hidapi/SDL_hidapi_steamdeck.s: src/joystick/hidapi/SDL_hidapi_steam
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steamdeck.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
 
 src/joystick/hidapi/SDL_hidapi_switch.o: src/joystick/hidapi/SDL_hidapi_switch.c.o
@@ -1848,6 +2096,7 @@ src/joystick/hidapi/SDL_hidapi_switch.o: src/joystick/hidapi/SDL_hidapi_switch.c
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_switch.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.o
 
 src/joystick/hidapi/SDL_hidapi_switch.i: src/joystick/hidapi/SDL_hidapi_switch.c.i
@@ -1856,6 +2105,7 @@ src/joystick/hidapi/SDL_hidapi_switch.i: src/joystick/hidapi/SDL_hidapi_switch.c
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_switch.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.i
 
 src/joystick/hidapi/SDL_hidapi_switch.s: src/joystick/hidapi/SDL_hidapi_switch.c.s
@@ -1864,6 +2114,7 @@ src/joystick/hidapi/SDL_hidapi_switch.s: src/joystick/hidapi/SDL_hidapi_switch.c
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_switch.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.s
 
 src/joystick/hidapi/SDL_hidapi_wii.o: src/joystick/hidapi/SDL_hidapi_wii.c.o
@@ -1872,6 +2123,7 @@ src/joystick/hidapi/SDL_hidapi_wii.o: src/joystick/hidapi/SDL_hidapi_wii.c.o
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_wii.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.c.o
 
 src/joystick/hidapi/SDL_hidapi_wii.i: src/joystick/hidapi/SDL_hidapi_wii.c.i
@@ -1880,6 +2132,7 @@ src/joystick/hidapi/SDL_hidapi_wii.i: src/joystick/hidapi/SDL_hidapi_wii.c.i
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_wii.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.c.i
 
 src/joystick/hidapi/SDL_hidapi_wii.s: src/joystick/hidapi/SDL_hidapi_wii.c.s
@@ -1888,6 +2141,7 @@ src/joystick/hidapi/SDL_hidapi_wii.s: src/joystick/hidapi/SDL_hidapi_wii.c.s
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_wii.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_wii.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.c.s
 
 src/joystick/hidapi/SDL_hidapi_xbox360.o: src/joystick/hidapi/SDL_hidapi_xbox360.c.o
@@ -1896,6 +2150,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360.o: src/joystick/hidapi/SDL_hidapi_xbox360
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.o
 
 src/joystick/hidapi/SDL_hidapi_xbox360.i: src/joystick/hidapi/SDL_hidapi_xbox360.c.i
@@ -1904,6 +2159,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360.i: src/joystick/hidapi/SDL_hidapi_xbox360
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.i
 
 src/joystick/hidapi/SDL_hidapi_xbox360.s: src/joystick/hidapi/SDL_hidapi_xbox360.c.s
@@ -1912,6 +2168,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360.s: src/joystick/hidapi/SDL_hidapi_xbox360
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.s
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.o: src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
@@ -1920,6 +2177,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.o: src/joystick/hidapi/SDL_hidapi_xbox36
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.i: src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
@@ -1928,6 +2186,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.i: src/joystick/hidapi/SDL_hidapi_xbox36
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.s: src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
@@ -1936,6 +2195,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.s: src/joystick/hidapi/SDL_hidapi_xbox36
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
 
 src/joystick/hidapi/SDL_hidapi_xboxone.o: src/joystick/hidapi/SDL_hidapi_xboxone.c.o
@@ -1944,6 +2204,7 @@ src/joystick/hidapi/SDL_hidapi_xboxone.o: src/joystick/hidapi/SDL_hidapi_xboxone
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.o
 
 src/joystick/hidapi/SDL_hidapi_xboxone.i: src/joystick/hidapi/SDL_hidapi_xboxone.c.i
@@ -1952,6 +2213,7 @@ src/joystick/hidapi/SDL_hidapi_xboxone.i: src/joystick/hidapi/SDL_hidapi_xboxone
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.i
 
 src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone.c.s
@@ -1960,6 +2222,7 @@ src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 
 src/joystick/hidapi/SDL_hidapijoystick.o: src/joystick/hidapi/SDL_hidapijoystick.c.o
@@ -1968,6 +2231,7 @@ src/joystick/hidapi/SDL_hidapijoystick.o: src/joystick/hidapi/SDL_hidapijoystick
 # target to build an object file
 src/joystick/hidapi/SDL_hidapijoystick.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.o
 
 src/joystick/hidapi/SDL_hidapijoystick.i: src/joystick/hidapi/SDL_hidapijoystick.c.i
@@ -1976,6 +2240,7 @@ src/joystick/hidapi/SDL_hidapijoystick.i: src/joystick/hidapi/SDL_hidapijoystick
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapijoystick.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.i
 
 src/joystick/hidapi/SDL_hidapijoystick.s: src/joystick/hidapi/SDL_hidapijoystick.c.s
@@ -1984,6 +2249,7 @@ src/joystick/hidapi/SDL_hidapijoystick.s: src/joystick/hidapi/SDL_hidapijoystick
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapijoystick.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.s
 
 src/joystick/linux/SDL_sysjoystick.o: src/joystick/linux/SDL_sysjoystick.c.o
@@ -1992,6 +2258,7 @@ src/joystick/linux/SDL_sysjoystick.o: src/joystick/linux/SDL_sysjoystick.c.o
 # target to build an object file
 src/joystick/linux/SDL_sysjoystick.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/linux/SDL_sysjoystick.c.o
 .PHONY : src/joystick/linux/SDL_sysjoystick.c.o
 
 src/joystick/linux/SDL_sysjoystick.i: src/joystick/linux/SDL_sysjoystick.c.i
@@ -2000,6 +2267,7 @@ src/joystick/linux/SDL_sysjoystick.i: src/joystick/linux/SDL_sysjoystick.c.i
 # target to preprocess a source file
 src/joystick/linux/SDL_sysjoystick.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/linux/SDL_sysjoystick.c.i
 .PHONY : src/joystick/linux/SDL_sysjoystick.c.i
 
 src/joystick/linux/SDL_sysjoystick.s: src/joystick/linux/SDL_sysjoystick.c.s
@@ -2008,6 +2276,7 @@ src/joystick/linux/SDL_sysjoystick.s: src/joystick/linux/SDL_sysjoystick.c.s
 # target to generate assembly for a file
 src/joystick/linux/SDL_sysjoystick.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/linux/SDL_sysjoystick.c.s
 .PHONY : src/joystick/linux/SDL_sysjoystick.c.s
 
 src/joystick/steam/SDL_steamcontroller.o: src/joystick/steam/SDL_steamcontroller.c.o
@@ -2016,6 +2285,7 @@ src/joystick/steam/SDL_steamcontroller.o: src/joystick/steam/SDL_steamcontroller
 # target to build an object file
 src/joystick/steam/SDL_steamcontroller.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/steam/SDL_steamcontroller.c.o
 .PHONY : src/joystick/steam/SDL_steamcontroller.c.o
 
 src/joystick/steam/SDL_steamcontroller.i: src/joystick/steam/SDL_steamcontroller.c.i
@@ -2024,6 +2294,7 @@ src/joystick/steam/SDL_steamcontroller.i: src/joystick/steam/SDL_steamcontroller
 # target to preprocess a source file
 src/joystick/steam/SDL_steamcontroller.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/steam/SDL_steamcontroller.c.i
 .PHONY : src/joystick/steam/SDL_steamcontroller.c.i
 
 src/joystick/steam/SDL_steamcontroller.s: src/joystick/steam/SDL_steamcontroller.c.s
@@ -2032,6 +2303,7 @@ src/joystick/steam/SDL_steamcontroller.s: src/joystick/steam/SDL_steamcontroller
 # target to generate assembly for a file
 src/joystick/steam/SDL_steamcontroller.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/steam/SDL_steamcontroller.c.s
 .PHONY : src/joystick/steam/SDL_steamcontroller.c.s
 
 src/joystick/virtual/SDL_virtualjoystick.o: src/joystick/virtual/SDL_virtualjoystick.c.o
@@ -2040,6 +2312,7 @@ src/joystick/virtual/SDL_virtualjoystick.o: src/joystick/virtual/SDL_virtualjoys
 # target to build an object file
 src/joystick/virtual/SDL_virtualjoystick.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.o
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.o
 
 src/joystick/virtual/SDL_virtualjoystick.i: src/joystick/virtual/SDL_virtualjoystick.c.i
@@ -2048,6 +2321,7 @@ src/joystick/virtual/SDL_virtualjoystick.i: src/joystick/virtual/SDL_virtualjoys
 # target to preprocess a source file
 src/joystick/virtual/SDL_virtualjoystick.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.i
 
 src/joystick/virtual/SDL_virtualjoystick.s: src/joystick/virtual/SDL_virtualjoystick.c.s
@@ -2056,6 +2330,7 @@ src/joystick/virtual/SDL_virtualjoystick.s: src/joystick/virtual/SDL_virtualjoys
 # target to generate assembly for a file
 src/joystick/virtual/SDL_virtualjoystick.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.s
 
 src/libm/e_atan2.o: src/libm/e_atan2.c.o
@@ -2064,6 +2339,7 @@ src/libm/e_atan2.o: src/libm/e_atan2.c.o
 # target to build an object file
 src/libm/e_atan2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o
 .PHONY : src/libm/e_atan2.c.o
 
 src/libm/e_atan2.i: src/libm/e_atan2.c.i
@@ -2072,6 +2348,7 @@ src/libm/e_atan2.i: src/libm/e_atan2.c.i
 # target to preprocess a source file
 src/libm/e_atan2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i
 .PHONY : src/libm/e_atan2.c.i
 
 src/libm/e_atan2.s: src/libm/e_atan2.c.s
@@ -2080,6 +2357,7 @@ src/libm/e_atan2.s: src/libm/e_atan2.c.s
 # target to generate assembly for a file
 src/libm/e_atan2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s
 .PHONY : src/libm/e_atan2.c.s
 
 src/libm/e_exp.o: src/libm/e_exp.c.o
@@ -2088,6 +2366,7 @@ src/libm/e_exp.o: src/libm/e_exp.c.o
 # target to build an object file
 src/libm/e_exp.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_exp.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.o
 .PHONY : src/libm/e_exp.c.o
 
 src/libm/e_exp.i: src/libm/e_exp.c.i
@@ -2096,6 +2375,7 @@ src/libm/e_exp.i: src/libm/e_exp.c.i
 # target to preprocess a source file
 src/libm/e_exp.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_exp.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.i
 .PHONY : src/libm/e_exp.c.i
 
 src/libm/e_exp.s: src/libm/e_exp.c.s
@@ -2104,6 +2384,7 @@ src/libm/e_exp.s: src/libm/e_exp.c.s
 # target to generate assembly for a file
 src/libm/e_exp.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_exp.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.s
 .PHONY : src/libm/e_exp.c.s
 
 src/libm/e_fmod.o: src/libm/e_fmod.c.o
@@ -2112,6 +2393,7 @@ src/libm/e_fmod.o: src/libm/e_fmod.c.o
 # target to build an object file
 src/libm/e_fmod.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.o
 .PHONY : src/libm/e_fmod.c.o
 
 src/libm/e_fmod.i: src/libm/e_fmod.c.i
@@ -2120,6 +2402,7 @@ src/libm/e_fmod.i: src/libm/e_fmod.c.i
 # target to preprocess a source file
 src/libm/e_fmod.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.i
 .PHONY : src/libm/e_fmod.c.i
 
 src/libm/e_fmod.s: src/libm/e_fmod.c.s
@@ -2128,6 +2411,7 @@ src/libm/e_fmod.s: src/libm/e_fmod.c.s
 # target to generate assembly for a file
 src/libm/e_fmod.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.s
 .PHONY : src/libm/e_fmod.c.s
 
 src/libm/e_log.o: src/libm/e_log.c.o
@@ -2136,6 +2420,7 @@ src/libm/e_log.o: src/libm/e_log.c.o
 # target to build an object file
 src/libm/e_log.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_log.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o
 .PHONY : src/libm/e_log.c.o
 
 src/libm/e_log.i: src/libm/e_log.c.i
@@ -2144,6 +2429,7 @@ src/libm/e_log.i: src/libm/e_log.c.i
 # target to preprocess a source file
 src/libm/e_log.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_log.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i
 .PHONY : src/libm/e_log.c.i
 
 src/libm/e_log.s: src/libm/e_log.c.s
@@ -2152,6 +2438,7 @@ src/libm/e_log.s: src/libm/e_log.c.s
 # target to generate assembly for a file
 src/libm/e_log.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_log.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s
 .PHONY : src/libm/e_log.c.s
 
 src/libm/e_log10.o: src/libm/e_log10.c.o
@@ -2160,6 +2447,7 @@ src/libm/e_log10.o: src/libm/e_log10.c.o
 # target to build an object file
 src/libm/e_log10.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_log10.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.o
 .PHONY : src/libm/e_log10.c.o
 
 src/libm/e_log10.i: src/libm/e_log10.c.i
@@ -2168,6 +2456,7 @@ src/libm/e_log10.i: src/libm/e_log10.c.i
 # target to preprocess a source file
 src/libm/e_log10.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_log10.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.i
 .PHONY : src/libm/e_log10.c.i
 
 src/libm/e_log10.s: src/libm/e_log10.c.s
@@ -2176,6 +2465,7 @@ src/libm/e_log10.s: src/libm/e_log10.c.s
 # target to generate assembly for a file
 src/libm/e_log10.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_log10.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.s
 .PHONY : src/libm/e_log10.c.s
 
 src/libm/e_pow.o: src/libm/e_pow.c.o
@@ -2184,6 +2474,7 @@ src/libm/e_pow.o: src/libm/e_pow.c.o
 # target to build an object file
 src/libm/e_pow.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_pow.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o
 .PHONY : src/libm/e_pow.c.o
 
 src/libm/e_pow.i: src/libm/e_pow.c.i
@@ -2192,6 +2483,7 @@ src/libm/e_pow.i: src/libm/e_pow.c.i
 # target to preprocess a source file
 src/libm/e_pow.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_pow.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i
 .PHONY : src/libm/e_pow.c.i
 
 src/libm/e_pow.s: src/libm/e_pow.c.s
@@ -2200,6 +2492,7 @@ src/libm/e_pow.s: src/libm/e_pow.c.s
 # target to generate assembly for a file
 src/libm/e_pow.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_pow.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s
 .PHONY : src/libm/e_pow.c.s
 
 src/libm/e_rem_pio2.o: src/libm/e_rem_pio2.c.o
@@ -2208,6 +2501,7 @@ src/libm/e_rem_pio2.o: src/libm/e_rem_pio2.c.o
 # target to build an object file
 src/libm/e_rem_pio2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o
 .PHONY : src/libm/e_rem_pio2.c.o
 
 src/libm/e_rem_pio2.i: src/libm/e_rem_pio2.c.i
@@ -2216,6 +2510,7 @@ src/libm/e_rem_pio2.i: src/libm/e_rem_pio2.c.i
 # target to preprocess a source file
 src/libm/e_rem_pio2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i
 .PHONY : src/libm/e_rem_pio2.c.i
 
 src/libm/e_rem_pio2.s: src/libm/e_rem_pio2.c.s
@@ -2224,6 +2519,7 @@ src/libm/e_rem_pio2.s: src/libm/e_rem_pio2.c.s
 # target to generate assembly for a file
 src/libm/e_rem_pio2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s
 .PHONY : src/libm/e_rem_pio2.c.s
 
 src/libm/e_sqrt.o: src/libm/e_sqrt.c.o
@@ -2232,6 +2528,7 @@ src/libm/e_sqrt.o: src/libm/e_sqrt.c.o
 # target to build an object file
 src/libm/e_sqrt.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o
 .PHONY : src/libm/e_sqrt.c.o
 
 src/libm/e_sqrt.i: src/libm/e_sqrt.c.i
@@ -2240,6 +2537,7 @@ src/libm/e_sqrt.i: src/libm/e_sqrt.c.i
 # target to preprocess a source file
 src/libm/e_sqrt.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i
 .PHONY : src/libm/e_sqrt.c.i
 
 src/libm/e_sqrt.s: src/libm/e_sqrt.c.s
@@ -2248,6 +2546,7 @@ src/libm/e_sqrt.s: src/libm/e_sqrt.c.s
 # target to generate assembly for a file
 src/libm/e_sqrt.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s
 .PHONY : src/libm/e_sqrt.c.s
 
 src/libm/k_cos.o: src/libm/k_cos.c.o
@@ -2256,6 +2555,7 @@ src/libm/k_cos.o: src/libm/k_cos.c.o
 # target to build an object file
 src/libm/k_cos.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_cos.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o
 .PHONY : src/libm/k_cos.c.o
 
 src/libm/k_cos.i: src/libm/k_cos.c.i
@@ -2264,6 +2564,7 @@ src/libm/k_cos.i: src/libm/k_cos.c.i
 # target to preprocess a source file
 src/libm/k_cos.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_cos.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i
 .PHONY : src/libm/k_cos.c.i
 
 src/libm/k_cos.s: src/libm/k_cos.c.s
@@ -2272,6 +2573,7 @@ src/libm/k_cos.s: src/libm/k_cos.c.s
 # target to generate assembly for a file
 src/libm/k_cos.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_cos.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s
 .PHONY : src/libm/k_cos.c.s
 
 src/libm/k_rem_pio2.o: src/libm/k_rem_pio2.c.o
@@ -2280,6 +2582,7 @@ src/libm/k_rem_pio2.o: src/libm/k_rem_pio2.c.o
 # target to build an object file
 src/libm/k_rem_pio2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o
 .PHONY : src/libm/k_rem_pio2.c.o
 
 src/libm/k_rem_pio2.i: src/libm/k_rem_pio2.c.i
@@ -2288,6 +2591,7 @@ src/libm/k_rem_pio2.i: src/libm/k_rem_pio2.c.i
 # target to preprocess a source file
 src/libm/k_rem_pio2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i
 .PHONY : src/libm/k_rem_pio2.c.i
 
 src/libm/k_rem_pio2.s: src/libm/k_rem_pio2.c.s
@@ -2296,6 +2600,7 @@ src/libm/k_rem_pio2.s: src/libm/k_rem_pio2.c.s
 # target to generate assembly for a file
 src/libm/k_rem_pio2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s
 .PHONY : src/libm/k_rem_pio2.c.s
 
 src/libm/k_sin.o: src/libm/k_sin.c.o
@@ -2304,6 +2609,7 @@ src/libm/k_sin.o: src/libm/k_sin.c.o
 # target to build an object file
 src/libm/k_sin.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_sin.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o
 .PHONY : src/libm/k_sin.c.o
 
 src/libm/k_sin.i: src/libm/k_sin.c.i
@@ -2312,6 +2618,7 @@ src/libm/k_sin.i: src/libm/k_sin.c.i
 # target to preprocess a source file
 src/libm/k_sin.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_sin.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i
 .PHONY : src/libm/k_sin.c.i
 
 src/libm/k_sin.s: src/libm/k_sin.c.s
@@ -2320,6 +2627,7 @@ src/libm/k_sin.s: src/libm/k_sin.c.s
 # target to generate assembly for a file
 src/libm/k_sin.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_sin.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s
 .PHONY : src/libm/k_sin.c.s
 
 src/libm/k_tan.o: src/libm/k_tan.c.o
@@ -2328,6 +2636,7 @@ src/libm/k_tan.o: src/libm/k_tan.c.o
 # target to build an object file
 src/libm/k_tan.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_tan.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o
 .PHONY : src/libm/k_tan.c.o
 
 src/libm/k_tan.i: src/libm/k_tan.c.i
@@ -2336,6 +2645,7 @@ src/libm/k_tan.i: src/libm/k_tan.c.i
 # target to preprocess a source file
 src/libm/k_tan.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_tan.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i
 .PHONY : src/libm/k_tan.c.i
 
 src/libm/k_tan.s: src/libm/k_tan.c.s
@@ -2344,6 +2654,7 @@ src/libm/k_tan.s: src/libm/k_tan.c.s
 # target to generate assembly for a file
 src/libm/k_tan.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_tan.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s
 .PHONY : src/libm/k_tan.c.s
 
 src/libm/s_atan.o: src/libm/s_atan.c.o
@@ -2352,6 +2663,7 @@ src/libm/s_atan.o: src/libm/s_atan.c.o
 # target to build an object file
 src/libm/s_atan.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_atan.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o
 .PHONY : src/libm/s_atan.c.o
 
 src/libm/s_atan.i: src/libm/s_atan.c.i
@@ -2360,6 +2672,7 @@ src/libm/s_atan.i: src/libm/s_atan.c.i
 # target to preprocess a source file
 src/libm/s_atan.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_atan.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i
 .PHONY : src/libm/s_atan.c.i
 
 src/libm/s_atan.s: src/libm/s_atan.c.s
@@ -2368,6 +2681,7 @@ src/libm/s_atan.s: src/libm/s_atan.c.s
 # target to generate assembly for a file
 src/libm/s_atan.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_atan.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s
 .PHONY : src/libm/s_atan.c.s
 
 src/libm/s_copysign.o: src/libm/s_copysign.c.o
@@ -2376,6 +2690,7 @@ src/libm/s_copysign.o: src/libm/s_copysign.c.o
 # target to build an object file
 src/libm/s_copysign.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o
 .PHONY : src/libm/s_copysign.c.o
 
 src/libm/s_copysign.i: src/libm/s_copysign.c.i
@@ -2384,6 +2699,7 @@ src/libm/s_copysign.i: src/libm/s_copysign.c.i
 # target to preprocess a source file
 src/libm/s_copysign.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i
 .PHONY : src/libm/s_copysign.c.i
 
 src/libm/s_copysign.s: src/libm/s_copysign.c.s
@@ -2392,6 +2708,7 @@ src/libm/s_copysign.s: src/libm/s_copysign.c.s
 # target to generate assembly for a file
 src/libm/s_copysign.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s
 .PHONY : src/libm/s_copysign.c.s
 
 src/libm/s_cos.o: src/libm/s_cos.c.o
@@ -2400,6 +2717,7 @@ src/libm/s_cos.o: src/libm/s_cos.c.o
 # target to build an object file
 src/libm/s_cos.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_cos.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o
 .PHONY : src/libm/s_cos.c.o
 
 src/libm/s_cos.i: src/libm/s_cos.c.i
@@ -2408,6 +2726,7 @@ src/libm/s_cos.i: src/libm/s_cos.c.i
 # target to preprocess a source file
 src/libm/s_cos.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_cos.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i
 .PHONY : src/libm/s_cos.c.i
 
 src/libm/s_cos.s: src/libm/s_cos.c.s
@@ -2416,6 +2735,7 @@ src/libm/s_cos.s: src/libm/s_cos.c.s
 # target to generate assembly for a file
 src/libm/s_cos.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_cos.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s
 .PHONY : src/libm/s_cos.c.s
 
 src/libm/s_fabs.o: src/libm/s_fabs.c.o
@@ -2424,6 +2744,7 @@ src/libm/s_fabs.o: src/libm/s_fabs.c.o
 # target to build an object file
 src/libm/s_fabs.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o
 .PHONY : src/libm/s_fabs.c.o
 
 src/libm/s_fabs.i: src/libm/s_fabs.c.i
@@ -2432,6 +2753,7 @@ src/libm/s_fabs.i: src/libm/s_fabs.c.i
 # target to preprocess a source file
 src/libm/s_fabs.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i
 .PHONY : src/libm/s_fabs.c.i
 
 src/libm/s_fabs.s: src/libm/s_fabs.c.s
@@ -2440,6 +2762,7 @@ src/libm/s_fabs.s: src/libm/s_fabs.c.s
 # target to generate assembly for a file
 src/libm/s_fabs.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s
 .PHONY : src/libm/s_fabs.c.s
 
 src/libm/s_floor.o: src/libm/s_floor.c.o
@@ -2448,6 +2771,7 @@ src/libm/s_floor.o: src/libm/s_floor.c.o
 # target to build an object file
 src/libm/s_floor.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_floor.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o
 .PHONY : src/libm/s_floor.c.o
 
 src/libm/s_floor.i: src/libm/s_floor.c.i
@@ -2456,6 +2780,7 @@ src/libm/s_floor.i: src/libm/s_floor.c.i
 # target to preprocess a source file
 src/libm/s_floor.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_floor.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i
 .PHONY : src/libm/s_floor.c.i
 
 src/libm/s_floor.s: src/libm/s_floor.c.s
@@ -2464,6 +2789,7 @@ src/libm/s_floor.s: src/libm/s_floor.c.s
 # target to generate assembly for a file
 src/libm/s_floor.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_floor.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s
 .PHONY : src/libm/s_floor.c.s
 
 src/libm/s_scalbn.o: src/libm/s_scalbn.c.o
@@ -2472,6 +2798,7 @@ src/libm/s_scalbn.o: src/libm/s_scalbn.c.o
 # target to build an object file
 src/libm/s_scalbn.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o
 .PHONY : src/libm/s_scalbn.c.o
 
 src/libm/s_scalbn.i: src/libm/s_scalbn.c.i
@@ -2480,6 +2807,7 @@ src/libm/s_scalbn.i: src/libm/s_scalbn.c.i
 # target to preprocess a source file
 src/libm/s_scalbn.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i
 .PHONY : src/libm/s_scalbn.c.i
 
 src/libm/s_scalbn.s: src/libm/s_scalbn.c.s
@@ -2488,6 +2816,7 @@ src/libm/s_scalbn.s: src/libm/s_scalbn.c.s
 # target to generate assembly for a file
 src/libm/s_scalbn.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s
 .PHONY : src/libm/s_scalbn.c.s
 
 src/libm/s_sin.o: src/libm/s_sin.c.o
@@ -2496,6 +2825,7 @@ src/libm/s_sin.o: src/libm/s_sin.c.o
 # target to build an object file
 src/libm/s_sin.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_sin.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o
 .PHONY : src/libm/s_sin.c.o
 
 src/libm/s_sin.i: src/libm/s_sin.c.i
@@ -2504,6 +2834,7 @@ src/libm/s_sin.i: src/libm/s_sin.c.i
 # target to preprocess a source file
 src/libm/s_sin.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_sin.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i
 .PHONY : src/libm/s_sin.c.i
 
 src/libm/s_sin.s: src/libm/s_sin.c.s
@@ -2512,6 +2843,7 @@ src/libm/s_sin.s: src/libm/s_sin.c.s
 # target to generate assembly for a file
 src/libm/s_sin.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_sin.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s
 .PHONY : src/libm/s_sin.c.s
 
 src/libm/s_tan.o: src/libm/s_tan.c.o
@@ -2520,6 +2852,7 @@ src/libm/s_tan.o: src/libm/s_tan.c.o
 # target to build an object file
 src/libm/s_tan.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_tan.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o
 .PHONY : src/libm/s_tan.c.o
 
 src/libm/s_tan.i: src/libm/s_tan.c.i
@@ -2528,6 +2861,7 @@ src/libm/s_tan.i: src/libm/s_tan.c.i
 # target to preprocess a source file
 src/libm/s_tan.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_tan.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i
 .PHONY : src/libm/s_tan.c.i
 
 src/libm/s_tan.s: src/libm/s_tan.c.s
@@ -2536,6 +2870,7 @@ src/libm/s_tan.s: src/libm/s_tan.c.s
 # target to generate assembly for a file
 src/libm/s_tan.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_tan.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s
 .PHONY : src/libm/s_tan.c.s
 
 src/loadso/dlopen/SDL_sysloadso.o: src/loadso/dlopen/SDL_sysloadso.c.o
@@ -2544,6 +2879,7 @@ src/loadso/dlopen/SDL_sysloadso.o: src/loadso/dlopen/SDL_sysloadso.c.o
 # target to build an object file
 src/loadso/dlopen/SDL_sysloadso.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/loadso/dlopen/SDL_sysloadso.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o
 .PHONY : src/loadso/dlopen/SDL_sysloadso.c.o
 
 src/loadso/dlopen/SDL_sysloadso.i: src/loadso/dlopen/SDL_sysloadso.c.i
@@ -2552,6 +2888,7 @@ src/loadso/dlopen/SDL_sysloadso.i: src/loadso/dlopen/SDL_sysloadso.c.i
 # target to preprocess a source file
 src/loadso/dlopen/SDL_sysloadso.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/loadso/dlopen/SDL_sysloadso.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.i
 .PHONY : src/loadso/dlopen/SDL_sysloadso.c.i
 
 src/loadso/dlopen/SDL_sysloadso.s: src/loadso/dlopen/SDL_sysloadso.c.s
@@ -2560,6 +2897,7 @@ src/loadso/dlopen/SDL_sysloadso.s: src/loadso/dlopen/SDL_sysloadso.c.s
 # target to generate assembly for a file
 src/loadso/dlopen/SDL_sysloadso.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/loadso/dlopen/SDL_sysloadso.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.s
 .PHONY : src/loadso/dlopen/SDL_sysloadso.c.s
 
 src/locale/SDL_locale.o: src/locale/SDL_locale.c.o
@@ -2568,6 +2906,7 @@ src/locale/SDL_locale.o: src/locale/SDL_locale.c.o
 # target to build an object file
 src/locale/SDL_locale.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.o
 .PHONY : src/locale/SDL_locale.c.o
 
 src/locale/SDL_locale.i: src/locale/SDL_locale.c.i
@@ -2576,6 +2915,7 @@ src/locale/SDL_locale.i: src/locale/SDL_locale.c.i
 # target to preprocess a source file
 src/locale/SDL_locale.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.i
 .PHONY : src/locale/SDL_locale.c.i
 
 src/locale/SDL_locale.s: src/locale/SDL_locale.c.s
@@ -2584,6 +2924,7 @@ src/locale/SDL_locale.s: src/locale/SDL_locale.c.s
 # target to generate assembly for a file
 src/locale/SDL_locale.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.s
 .PHONY : src/locale/SDL_locale.c.s
 
 src/locale/unix/SDL_syslocale.o: src/locale/unix/SDL_syslocale.c.o
@@ -2592,6 +2933,7 @@ src/locale/unix/SDL_syslocale.o: src/locale/unix/SDL_syslocale.c.o
 # target to build an object file
 src/locale/unix/SDL_syslocale.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/locale/unix/SDL_syslocale.c.o
 .PHONY : src/locale/unix/SDL_syslocale.c.o
 
 src/locale/unix/SDL_syslocale.i: src/locale/unix/SDL_syslocale.c.i
@@ -2600,6 +2942,7 @@ src/locale/unix/SDL_syslocale.i: src/locale/unix/SDL_syslocale.c.i
 # target to preprocess a source file
 src/locale/unix/SDL_syslocale.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/locale/unix/SDL_syslocale.c.i
 .PHONY : src/locale/unix/SDL_syslocale.c.i
 
 src/locale/unix/SDL_syslocale.s: src/locale/unix/SDL_syslocale.c.s
@@ -2608,6 +2951,7 @@ src/locale/unix/SDL_syslocale.s: src/locale/unix/SDL_syslocale.c.s
 # target to generate assembly for a file
 src/locale/unix/SDL_syslocale.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/locale/unix/SDL_syslocale.c.s
 .PHONY : src/locale/unix/SDL_syslocale.c.s
 
 src/main/dummy/SDL_dummy_main.o: src/main/dummy/SDL_dummy_main.c.o
@@ -2640,6 +2984,7 @@ src/misc/SDL_url.o: src/misc/SDL_url.c.o
 # target to build an object file
 src/misc/SDL_url.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.o
 .PHONY : src/misc/SDL_url.c.o
 
 src/misc/SDL_url.i: src/misc/SDL_url.c.i
@@ -2648,6 +2993,7 @@ src/misc/SDL_url.i: src/misc/SDL_url.c.i
 # target to preprocess a source file
 src/misc/SDL_url.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.i
 .PHONY : src/misc/SDL_url.c.i
 
 src/misc/SDL_url.s: src/misc/SDL_url.c.s
@@ -2656,6 +3002,7 @@ src/misc/SDL_url.s: src/misc/SDL_url.c.s
 # target to generate assembly for a file
 src/misc/SDL_url.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.s
 .PHONY : src/misc/SDL_url.c.s
 
 src/misc/unix/SDL_sysurl.o: src/misc/unix/SDL_sysurl.c.o
@@ -2664,6 +3011,7 @@ src/misc/unix/SDL_sysurl.o: src/misc/unix/SDL_sysurl.c.o
 # target to build an object file
 src/misc/unix/SDL_sysurl.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/misc/unix/SDL_sysurl.c.o
 .PHONY : src/misc/unix/SDL_sysurl.c.o
 
 src/misc/unix/SDL_sysurl.i: src/misc/unix/SDL_sysurl.c.i
@@ -2672,6 +3020,7 @@ src/misc/unix/SDL_sysurl.i: src/misc/unix/SDL_sysurl.c.i
 # target to preprocess a source file
 src/misc/unix/SDL_sysurl.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/misc/unix/SDL_sysurl.c.i
 .PHONY : src/misc/unix/SDL_sysurl.c.i
 
 src/misc/unix/SDL_sysurl.s: src/misc/unix/SDL_sysurl.c.s
@@ -2680,6 +3029,7 @@ src/misc/unix/SDL_sysurl.s: src/misc/unix/SDL_sysurl.c.s
 # target to generate assembly for a file
 src/misc/unix/SDL_sysurl.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/misc/unix/SDL_sysurl.c.s
 .PHONY : src/misc/unix/SDL_sysurl.c.s
 
 src/power/SDL_power.o: src/power/SDL_power.c.o
@@ -2688,6 +3038,7 @@ src/power/SDL_power.o: src/power/SDL_power.c.o
 # target to build an object file
 src/power/SDL_power.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/power/SDL_power.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o
 .PHONY : src/power/SDL_power.c.o
 
 src/power/SDL_power.i: src/power/SDL_power.c.i
@@ -2696,6 +3047,7 @@ src/power/SDL_power.i: src/power/SDL_power.c.i
 # target to preprocess a source file
 src/power/SDL_power.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/power/SDL_power.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i
 .PHONY : src/power/SDL_power.c.i
 
 src/power/SDL_power.s: src/power/SDL_power.c.s
@@ -2704,6 +3056,7 @@ src/power/SDL_power.s: src/power/SDL_power.c.s
 # target to generate assembly for a file
 src/power/SDL_power.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/power/SDL_power.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s
 .PHONY : src/power/SDL_power.c.s
 
 src/power/linux/SDL_syspower.o: src/power/linux/SDL_syspower.c.o
@@ -2712,6 +3065,7 @@ src/power/linux/SDL_syspower.o: src/power/linux/SDL_syspower.c.o
 # target to build an object file
 src/power/linux/SDL_syspower.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/power/linux/SDL_syspower.c.o
 .PHONY : src/power/linux/SDL_syspower.c.o
 
 src/power/linux/SDL_syspower.i: src/power/linux/SDL_syspower.c.i
@@ -2720,6 +3074,7 @@ src/power/linux/SDL_syspower.i: src/power/linux/SDL_syspower.c.i
 # target to preprocess a source file
 src/power/linux/SDL_syspower.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/power/linux/SDL_syspower.c.i
 .PHONY : src/power/linux/SDL_syspower.c.i
 
 src/power/linux/SDL_syspower.s: src/power/linux/SDL_syspower.c.s
@@ -2728,6 +3083,7 @@ src/power/linux/SDL_syspower.s: src/power/linux/SDL_syspower.c.s
 # target to generate assembly for a file
 src/power/linux/SDL_syspower.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/power/linux/SDL_syspower.c.s
 .PHONY : src/power/linux/SDL_syspower.c.s
 
 src/render/SDL_d3dmath.o: src/render/SDL_d3dmath.c.o
@@ -2736,6 +3092,7 @@ src/render/SDL_d3dmath.o: src/render/SDL_d3dmath.c.o
 # target to build an object file
 src/render/SDL_d3dmath.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o
 .PHONY : src/render/SDL_d3dmath.c.o
 
 src/render/SDL_d3dmath.i: src/render/SDL_d3dmath.c.i
@@ -2744,6 +3101,7 @@ src/render/SDL_d3dmath.i: src/render/SDL_d3dmath.c.i
 # target to preprocess a source file
 src/render/SDL_d3dmath.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i
 .PHONY : src/render/SDL_d3dmath.c.i
 
 src/render/SDL_d3dmath.s: src/render/SDL_d3dmath.c.s
@@ -2752,6 +3110,7 @@ src/render/SDL_d3dmath.s: src/render/SDL_d3dmath.c.s
 # target to generate assembly for a file
 src/render/SDL_d3dmath.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s
 .PHONY : src/render/SDL_d3dmath.c.s
 
 src/render/SDL_render.o: src/render/SDL_render.c.o
@@ -2760,6 +3119,7 @@ src/render/SDL_render.o: src/render/SDL_render.c.o
 # target to build an object file
 src/render/SDL_render.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o
 .PHONY : src/render/SDL_render.c.o
 
 src/render/SDL_render.i: src/render/SDL_render.c.i
@@ -2768,6 +3128,7 @@ src/render/SDL_render.i: src/render/SDL_render.c.i
 # target to preprocess a source file
 src/render/SDL_render.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i
 .PHONY : src/render/SDL_render.c.i
 
 src/render/SDL_render.s: src/render/SDL_render.c.s
@@ -2776,6 +3137,7 @@ src/render/SDL_render.s: src/render/SDL_render.c.s
 # target to generate assembly for a file
 src/render/SDL_render.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s
 .PHONY : src/render/SDL_render.c.s
 
 src/render/SDL_yuv_sw.o: src/render/SDL_yuv_sw.c.o
@@ -2784,6 +3146,7 @@ src/render/SDL_yuv_sw.o: src/render/SDL_yuv_sw.c.o
 # target to build an object file
 src/render/SDL_yuv_sw.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o
 .PHONY : src/render/SDL_yuv_sw.c.o
 
 src/render/SDL_yuv_sw.i: src/render/SDL_yuv_sw.c.i
@@ -2792,6 +3155,7 @@ src/render/SDL_yuv_sw.i: src/render/SDL_yuv_sw.c.i
 # target to preprocess a source file
 src/render/SDL_yuv_sw.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i
 .PHONY : src/render/SDL_yuv_sw.c.i
 
 src/render/SDL_yuv_sw.s: src/render/SDL_yuv_sw.c.s
@@ -2800,6 +3164,7 @@ src/render/SDL_yuv_sw.s: src/render/SDL_yuv_sw.c.s
 # target to generate assembly for a file
 src/render/SDL_yuv_sw.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s
 .PHONY : src/render/SDL_yuv_sw.c.s
 
 src/render/direct3d/SDL_render_d3d.o: src/render/direct3d/SDL_render_d3d.c.o
@@ -2808,6 +3173,7 @@ src/render/direct3d/SDL_render_d3d.o: src/render/direct3d/SDL_render_d3d.c.o
 # target to build an object file
 src/render/direct3d/SDL_render_d3d.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o
 .PHONY : src/render/direct3d/SDL_render_d3d.c.o
 
 src/render/direct3d/SDL_render_d3d.i: src/render/direct3d/SDL_render_d3d.c.i
@@ -2816,6 +3182,7 @@ src/render/direct3d/SDL_render_d3d.i: src/render/direct3d/SDL_render_d3d.c.i
 # target to preprocess a source file
 src/render/direct3d/SDL_render_d3d.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i
 .PHONY : src/render/direct3d/SDL_render_d3d.c.i
 
 src/render/direct3d/SDL_render_d3d.s: src/render/direct3d/SDL_render_d3d.c.s
@@ -2824,6 +3191,7 @@ src/render/direct3d/SDL_render_d3d.s: src/render/direct3d/SDL_render_d3d.c.s
 # target to generate assembly for a file
 src/render/direct3d/SDL_render_d3d.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s
 .PHONY : src/render/direct3d/SDL_render_d3d.c.s
 
 src/render/direct3d/SDL_shaders_d3d.o: src/render/direct3d/SDL_shaders_d3d.c.o
@@ -2832,6 +3200,7 @@ src/render/direct3d/SDL_shaders_d3d.o: src/render/direct3d/SDL_shaders_d3d.c.o
 # target to build an object file
 src/render/direct3d/SDL_shaders_d3d.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.o
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.o
 
 src/render/direct3d/SDL_shaders_d3d.i: src/render/direct3d/SDL_shaders_d3d.c.i
@@ -2840,6 +3209,7 @@ src/render/direct3d/SDL_shaders_d3d.i: src/render/direct3d/SDL_shaders_d3d.c.i
 # target to preprocess a source file
 src/render/direct3d/SDL_shaders_d3d.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.i
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.i
 
 src/render/direct3d/SDL_shaders_d3d.s: src/render/direct3d/SDL_shaders_d3d.c.s
@@ -2848,6 +3218,7 @@ src/render/direct3d/SDL_shaders_d3d.s: src/render/direct3d/SDL_shaders_d3d.c.s
 # target to generate assembly for a file
 src/render/direct3d/SDL_shaders_d3d.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.s
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.s
 
 src/render/direct3d11/SDL_render_d3d11.o: src/render/direct3d11/SDL_render_d3d11.c.o
@@ -2856,6 +3227,7 @@ src/render/direct3d11/SDL_render_d3d11.o: src/render/direct3d11/SDL_render_d3d11
 # target to build an object file
 src/render/direct3d11/SDL_render_d3d11.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.o
 
 src/render/direct3d11/SDL_render_d3d11.i: src/render/direct3d11/SDL_render_d3d11.c.i
@@ -2864,6 +3236,7 @@ src/render/direct3d11/SDL_render_d3d11.i: src/render/direct3d11/SDL_render_d3d11
 # target to preprocess a source file
 src/render/direct3d11/SDL_render_d3d11.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.i
 
 src/render/direct3d11/SDL_render_d3d11.s: src/render/direct3d11/SDL_render_d3d11.c.s
@@ -2872,6 +3245,7 @@ src/render/direct3d11/SDL_render_d3d11.s: src/render/direct3d11/SDL_render_d3d11
 # target to generate assembly for a file
 src/render/direct3d11/SDL_render_d3d11.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.s
 
 src/render/direct3d11/SDL_shaders_d3d11.o: src/render/direct3d11/SDL_shaders_d3d11.c.o
@@ -2880,6 +3254,7 @@ src/render/direct3d11/SDL_shaders_d3d11.o: src/render/direct3d11/SDL_shaders_d3d
 # target to build an object file
 src/render/direct3d11/SDL_shaders_d3d11.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.o
 
 src/render/direct3d11/SDL_shaders_d3d11.i: src/render/direct3d11/SDL_shaders_d3d11.c.i
@@ -2888,6 +3263,7 @@ src/render/direct3d11/SDL_shaders_d3d11.i: src/render/direct3d11/SDL_shaders_d3d
 # target to preprocess a source file
 src/render/direct3d11/SDL_shaders_d3d11.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.i
 
 src/render/direct3d11/SDL_shaders_d3d11.s: src/render/direct3d11/SDL_shaders_d3d11.c.s
@@ -2896,6 +3272,7 @@ src/render/direct3d11/SDL_shaders_d3d11.s: src/render/direct3d11/SDL_shaders_d3d
 # target to generate assembly for a file
 src/render/direct3d11/SDL_shaders_d3d11.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.s
 
 src/render/direct3d12/SDL_render_d3d12.o: src/render/direct3d12/SDL_render_d3d12.c.o
@@ -2904,6 +3281,7 @@ src/render/direct3d12/SDL_render_d3d12.o: src/render/direct3d12/SDL_render_d3d12
 # target to build an object file
 src/render/direct3d12/SDL_render_d3d12.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.o
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.o
 
 src/render/direct3d12/SDL_render_d3d12.i: src/render/direct3d12/SDL_render_d3d12.c.i
@@ -2912,6 +3290,7 @@ src/render/direct3d12/SDL_render_d3d12.i: src/render/direct3d12/SDL_render_d3d12
 # target to preprocess a source file
 src/render/direct3d12/SDL_render_d3d12.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.i
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.i
 
 src/render/direct3d12/SDL_render_d3d12.s: src/render/direct3d12/SDL_render_d3d12.c.s
@@ -2920,6 +3299,7 @@ src/render/direct3d12/SDL_render_d3d12.s: src/render/direct3d12/SDL_render_d3d12
 # target to generate assembly for a file
 src/render/direct3d12/SDL_render_d3d12.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.s
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.s
 
 src/render/direct3d12/SDL_shaders_d3d12.o: src/render/direct3d12/SDL_shaders_d3d12.c.o
@@ -2928,6 +3308,7 @@ src/render/direct3d12/SDL_shaders_d3d12.o: src/render/direct3d12/SDL_shaders_d3d
 # target to build an object file
 src/render/direct3d12/SDL_shaders_d3d12.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.o
 
 src/render/direct3d12/SDL_shaders_d3d12.i: src/render/direct3d12/SDL_shaders_d3d12.c.i
@@ -2936,6 +3317,7 @@ src/render/direct3d12/SDL_shaders_d3d12.i: src/render/direct3d12/SDL_shaders_d3d
 # target to preprocess a source file
 src/render/direct3d12/SDL_shaders_d3d12.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.i
 
 src/render/direct3d12/SDL_shaders_d3d12.s: src/render/direct3d12/SDL_shaders_d3d12.c.s
@@ -2944,6 +3326,7 @@ src/render/direct3d12/SDL_shaders_d3d12.s: src/render/direct3d12/SDL_shaders_d3d
 # target to generate assembly for a file
 src/render/direct3d12/SDL_shaders_d3d12.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.s
 
 src/render/opengl/SDL_render_gl.o: src/render/opengl/SDL_render_gl.c.o
@@ -2952,6 +3335,7 @@ src/render/opengl/SDL_render_gl.o: src/render/opengl/SDL_render_gl.c.o
 # target to build an object file
 src/render/opengl/SDL_render_gl.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o
 .PHONY : src/render/opengl/SDL_render_gl.c.o
 
 src/render/opengl/SDL_render_gl.i: src/render/opengl/SDL_render_gl.c.i
@@ -2960,6 +3344,7 @@ src/render/opengl/SDL_render_gl.i: src/render/opengl/SDL_render_gl.c.i
 # target to preprocess a source file
 src/render/opengl/SDL_render_gl.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i
 .PHONY : src/render/opengl/SDL_render_gl.c.i
 
 src/render/opengl/SDL_render_gl.s: src/render/opengl/SDL_render_gl.c.s
@@ -2968,6 +3353,7 @@ src/render/opengl/SDL_render_gl.s: src/render/opengl/SDL_render_gl.c.s
 # target to generate assembly for a file
 src/render/opengl/SDL_render_gl.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s
 .PHONY : src/render/opengl/SDL_render_gl.c.s
 
 src/render/opengl/SDL_shaders_gl.o: src/render/opengl/SDL_shaders_gl.c.o
@@ -2976,6 +3362,7 @@ src/render/opengl/SDL_shaders_gl.o: src/render/opengl/SDL_shaders_gl.c.o
 # target to build an object file
 src/render/opengl/SDL_shaders_gl.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o
 .PHONY : src/render/opengl/SDL_shaders_gl.c.o
 
 src/render/opengl/SDL_shaders_gl.i: src/render/opengl/SDL_shaders_gl.c.i
@@ -2984,6 +3371,7 @@ src/render/opengl/SDL_shaders_gl.i: src/render/opengl/SDL_shaders_gl.c.i
 # target to preprocess a source file
 src/render/opengl/SDL_shaders_gl.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i
 .PHONY : src/render/opengl/SDL_shaders_gl.c.i
 
 src/render/opengl/SDL_shaders_gl.s: src/render/opengl/SDL_shaders_gl.c.s
@@ -2992,6 +3380,7 @@ src/render/opengl/SDL_shaders_gl.s: src/render/opengl/SDL_shaders_gl.c.s
 # target to generate assembly for a file
 src/render/opengl/SDL_shaders_gl.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s
 .PHONY : src/render/opengl/SDL_shaders_gl.c.s
 
 src/render/opengles/SDL_render_gles.o: src/render/opengles/SDL_render_gles.c.o
@@ -3000,6 +3389,7 @@ src/render/opengles/SDL_render_gles.o: src/render/opengles/SDL_render_gles.c.o
 # target to build an object file
 src/render/opengles/SDL_render_gles.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o
 .PHONY : src/render/opengles/SDL_render_gles.c.o
 
 src/render/opengles/SDL_render_gles.i: src/render/opengles/SDL_render_gles.c.i
@@ -3008,6 +3398,7 @@ src/render/opengles/SDL_render_gles.i: src/render/opengles/SDL_render_gles.c.i
 # target to preprocess a source file
 src/render/opengles/SDL_render_gles.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i
 .PHONY : src/render/opengles/SDL_render_gles.c.i
 
 src/render/opengles/SDL_render_gles.s: src/render/opengles/SDL_render_gles.c.s
@@ -3016,6 +3407,7 @@ src/render/opengles/SDL_render_gles.s: src/render/opengles/SDL_render_gles.c.s
 # target to generate assembly for a file
 src/render/opengles/SDL_render_gles.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s
 .PHONY : src/render/opengles/SDL_render_gles.c.s
 
 src/render/opengles2/SDL_render_gles2.o: src/render/opengles2/SDL_render_gles2.c.o
@@ -3024,6 +3416,7 @@ src/render/opengles2/SDL_render_gles2.o: src/render/opengles2/SDL_render_gles2.c
 # target to build an object file
 src/render/opengles2/SDL_render_gles2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o
 .PHONY : src/render/opengles2/SDL_render_gles2.c.o
 
 src/render/opengles2/SDL_render_gles2.i: src/render/opengles2/SDL_render_gles2.c.i
@@ -3032,6 +3425,7 @@ src/render/opengles2/SDL_render_gles2.i: src/render/opengles2/SDL_render_gles2.c
 # target to preprocess a source file
 src/render/opengles2/SDL_render_gles2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i
 .PHONY : src/render/opengles2/SDL_render_gles2.c.i
 
 src/render/opengles2/SDL_render_gles2.s: src/render/opengles2/SDL_render_gles2.c.s
@@ -3040,6 +3434,7 @@ src/render/opengles2/SDL_render_gles2.s: src/render/opengles2/SDL_render_gles2.c
 # target to generate assembly for a file
 src/render/opengles2/SDL_render_gles2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s
 .PHONY : src/render/opengles2/SDL_render_gles2.c.s
 
 src/render/opengles2/SDL_shaders_gles2.o: src/render/opengles2/SDL_shaders_gles2.c.o
@@ -3048,6 +3443,7 @@ src/render/opengles2/SDL_shaders_gles2.o: src/render/opengles2/SDL_shaders_gles2
 # target to build an object file
 src/render/opengles2/SDL_shaders_gles2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.o
 
 src/render/opengles2/SDL_shaders_gles2.i: src/render/opengles2/SDL_shaders_gles2.c.i
@@ -3056,6 +3452,7 @@ src/render/opengles2/SDL_shaders_gles2.i: src/render/opengles2/SDL_shaders_gles2
 # target to preprocess a source file
 src/render/opengles2/SDL_shaders_gles2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.i
 
 src/render/opengles2/SDL_shaders_gles2.s: src/render/opengles2/SDL_shaders_gles2.c.s
@@ -3064,6 +3461,7 @@ src/render/opengles2/SDL_shaders_gles2.s: src/render/opengles2/SDL_shaders_gles2
 # target to generate assembly for a file
 src/render/opengles2/SDL_shaders_gles2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.s
 
 src/render/ps2/SDL_render_ps2.o: src/render/ps2/SDL_render_ps2.c.o
@@ -3072,6 +3470,7 @@ src/render/ps2/SDL_render_ps2.o: src/render/ps2/SDL_render_ps2.c.o
 # target to build an object file
 src/render/ps2/SDL_render_ps2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.o
 .PHONY : src/render/ps2/SDL_render_ps2.c.o
 
 src/render/ps2/SDL_render_ps2.i: src/render/ps2/SDL_render_ps2.c.i
@@ -3080,6 +3479,7 @@ src/render/ps2/SDL_render_ps2.i: src/render/ps2/SDL_render_ps2.c.i
 # target to preprocess a source file
 src/render/ps2/SDL_render_ps2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.i
 .PHONY : src/render/ps2/SDL_render_ps2.c.i
 
 src/render/ps2/SDL_render_ps2.s: src/render/ps2/SDL_render_ps2.c.s
@@ -3088,6 +3488,7 @@ src/render/ps2/SDL_render_ps2.s: src/render/ps2/SDL_render_ps2.c.s
 # target to generate assembly for a file
 src/render/ps2/SDL_render_ps2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.s
 .PHONY : src/render/ps2/SDL_render_ps2.c.s
 
 src/render/psp/SDL_render_psp.o: src/render/psp/SDL_render_psp.c.o
@@ -3096,6 +3497,7 @@ src/render/psp/SDL_render_psp.o: src/render/psp/SDL_render_psp.c.o
 # target to build an object file
 src/render/psp/SDL_render_psp.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o
 .PHONY : src/render/psp/SDL_render_psp.c.o
 
 src/render/psp/SDL_render_psp.i: src/render/psp/SDL_render_psp.c.i
@@ -3104,6 +3506,7 @@ src/render/psp/SDL_render_psp.i: src/render/psp/SDL_render_psp.c.i
 # target to preprocess a source file
 src/render/psp/SDL_render_psp.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i
 .PHONY : src/render/psp/SDL_render_psp.c.i
 
 src/render/psp/SDL_render_psp.s: src/render/psp/SDL_render_psp.c.s
@@ -3112,6 +3515,7 @@ src/render/psp/SDL_render_psp.s: src/render/psp/SDL_render_psp.c.s
 # target to generate assembly for a file
 src/render/psp/SDL_render_psp.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s
 .PHONY : src/render/psp/SDL_render_psp.c.s
 
 src/render/software/SDL_blendfillrect.o: src/render/software/SDL_blendfillrect.c.o
@@ -3120,6 +3524,7 @@ src/render/software/SDL_blendfillrect.o: src/render/software/SDL_blendfillrect.c
 # target to build an object file
 src/render/software/SDL_blendfillrect.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o
 .PHONY : src/render/software/SDL_blendfillrect.c.o
 
 src/render/software/SDL_blendfillrect.i: src/render/software/SDL_blendfillrect.c.i
@@ -3128,6 +3533,7 @@ src/render/software/SDL_blendfillrect.i: src/render/software/SDL_blendfillrect.c
 # target to preprocess a source file
 src/render/software/SDL_blendfillrect.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i
 .PHONY : src/render/software/SDL_blendfillrect.c.i
 
 src/render/software/SDL_blendfillrect.s: src/render/software/SDL_blendfillrect.c.s
@@ -3136,6 +3542,7 @@ src/render/software/SDL_blendfillrect.s: src/render/software/SDL_blendfillrect.c
 # target to generate assembly for a file
 src/render/software/SDL_blendfillrect.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s
 .PHONY : src/render/software/SDL_blendfillrect.c.s
 
 src/render/software/SDL_blendline.o: src/render/software/SDL_blendline.c.o
@@ -3144,6 +3551,7 @@ src/render/software/SDL_blendline.o: src/render/software/SDL_blendline.c.o
 # target to build an object file
 src/render/software/SDL_blendline.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o
 .PHONY : src/render/software/SDL_blendline.c.o
 
 src/render/software/SDL_blendline.i: src/render/software/SDL_blendline.c.i
@@ -3152,6 +3560,7 @@ src/render/software/SDL_blendline.i: src/render/software/SDL_blendline.c.i
 # target to preprocess a source file
 src/render/software/SDL_blendline.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i
 .PHONY : src/render/software/SDL_blendline.c.i
 
 src/render/software/SDL_blendline.s: src/render/software/SDL_blendline.c.s
@@ -3160,6 +3569,7 @@ src/render/software/SDL_blendline.s: src/render/software/SDL_blendline.c.s
 # target to generate assembly for a file
 src/render/software/SDL_blendline.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s
 .PHONY : src/render/software/SDL_blendline.c.s
 
 src/render/software/SDL_blendpoint.o: src/render/software/SDL_blendpoint.c.o
@@ -3168,6 +3578,7 @@ src/render/software/SDL_blendpoint.o: src/render/software/SDL_blendpoint.c.o
 # target to build an object file
 src/render/software/SDL_blendpoint.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o
 .PHONY : src/render/software/SDL_blendpoint.c.o
 
 src/render/software/SDL_blendpoint.i: src/render/software/SDL_blendpoint.c.i
@@ -3176,6 +3587,7 @@ src/render/software/SDL_blendpoint.i: src/render/software/SDL_blendpoint.c.i
 # target to preprocess a source file
 src/render/software/SDL_blendpoint.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i
 .PHONY : src/render/software/SDL_blendpoint.c.i
 
 src/render/software/SDL_blendpoint.s: src/render/software/SDL_blendpoint.c.s
@@ -3184,6 +3596,7 @@ src/render/software/SDL_blendpoint.s: src/render/software/SDL_blendpoint.c.s
 # target to generate assembly for a file
 src/render/software/SDL_blendpoint.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s
 .PHONY : src/render/software/SDL_blendpoint.c.s
 
 src/render/software/SDL_drawline.o: src/render/software/SDL_drawline.c.o
@@ -3192,6 +3605,7 @@ src/render/software/SDL_drawline.o: src/render/software/SDL_drawline.c.o
 # target to build an object file
 src/render/software/SDL_drawline.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o
 .PHONY : src/render/software/SDL_drawline.c.o
 
 src/render/software/SDL_drawline.i: src/render/software/SDL_drawline.c.i
@@ -3200,6 +3614,7 @@ src/render/software/SDL_drawline.i: src/render/software/SDL_drawline.c.i
 # target to preprocess a source file
 src/render/software/SDL_drawline.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i
 .PHONY : src/render/software/SDL_drawline.c.i
 
 src/render/software/SDL_drawline.s: src/render/software/SDL_drawline.c.s
@@ -3208,6 +3623,7 @@ src/render/software/SDL_drawline.s: src/render/software/SDL_drawline.c.s
 # target to generate assembly for a file
 src/render/software/SDL_drawline.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s
 .PHONY : src/render/software/SDL_drawline.c.s
 
 src/render/software/SDL_drawpoint.o: src/render/software/SDL_drawpoint.c.o
@@ -3216,6 +3632,7 @@ src/render/software/SDL_drawpoint.o: src/render/software/SDL_drawpoint.c.o
 # target to build an object file
 src/render/software/SDL_drawpoint.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o
 .PHONY : src/render/software/SDL_drawpoint.c.o
 
 src/render/software/SDL_drawpoint.i: src/render/software/SDL_drawpoint.c.i
@@ -3224,6 +3641,7 @@ src/render/software/SDL_drawpoint.i: src/render/software/SDL_drawpoint.c.i
 # target to preprocess a source file
 src/render/software/SDL_drawpoint.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i
 .PHONY : src/render/software/SDL_drawpoint.c.i
 
 src/render/software/SDL_drawpoint.s: src/render/software/SDL_drawpoint.c.s
@@ -3232,6 +3650,7 @@ src/render/software/SDL_drawpoint.s: src/render/software/SDL_drawpoint.c.s
 # target to generate assembly for a file
 src/render/software/SDL_drawpoint.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s
 .PHONY : src/render/software/SDL_drawpoint.c.s
 
 src/render/software/SDL_render_sw.o: src/render/software/SDL_render_sw.c.o
@@ -3240,6 +3659,7 @@ src/render/software/SDL_render_sw.o: src/render/software/SDL_render_sw.c.o
 # target to build an object file
 src/render/software/SDL_render_sw.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o
 .PHONY : src/render/software/SDL_render_sw.c.o
 
 src/render/software/SDL_render_sw.i: src/render/software/SDL_render_sw.c.i
@@ -3248,6 +3668,7 @@ src/render/software/SDL_render_sw.i: src/render/software/SDL_render_sw.c.i
 # target to preprocess a source file
 src/render/software/SDL_render_sw.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i
 .PHONY : src/render/software/SDL_render_sw.c.i
 
 src/render/software/SDL_render_sw.s: src/render/software/SDL_render_sw.c.s
@@ -3256,6 +3677,7 @@ src/render/software/SDL_render_sw.s: src/render/software/SDL_render_sw.c.s
 # target to generate assembly for a file
 src/render/software/SDL_render_sw.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s
 .PHONY : src/render/software/SDL_render_sw.c.s
 
 src/render/software/SDL_rotate.o: src/render/software/SDL_rotate.c.o
@@ -3264,6 +3686,7 @@ src/render/software/SDL_rotate.o: src/render/software/SDL_rotate.c.o
 # target to build an object file
 src/render/software/SDL_rotate.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o
 .PHONY : src/render/software/SDL_rotate.c.o
 
 src/render/software/SDL_rotate.i: src/render/software/SDL_rotate.c.i
@@ -3272,6 +3695,7 @@ src/render/software/SDL_rotate.i: src/render/software/SDL_rotate.c.i
 # target to preprocess a source file
 src/render/software/SDL_rotate.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i
 .PHONY : src/render/software/SDL_rotate.c.i
 
 src/render/software/SDL_rotate.s: src/render/software/SDL_rotate.c.s
@@ -3280,6 +3704,7 @@ src/render/software/SDL_rotate.s: src/render/software/SDL_rotate.c.s
 # target to generate assembly for a file
 src/render/software/SDL_rotate.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s
 .PHONY : src/render/software/SDL_rotate.c.s
 
 src/render/software/SDL_triangle.o: src/render/software/SDL_triangle.c.o
@@ -3288,6 +3713,7 @@ src/render/software/SDL_triangle.o: src/render/software/SDL_triangle.c.o
 # target to build an object file
 src/render/software/SDL_triangle.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.o
 .PHONY : src/render/software/SDL_triangle.c.o
 
 src/render/software/SDL_triangle.i: src/render/software/SDL_triangle.c.i
@@ -3296,6 +3722,7 @@ src/render/software/SDL_triangle.i: src/render/software/SDL_triangle.c.i
 # target to preprocess a source file
 src/render/software/SDL_triangle.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.i
 .PHONY : src/render/software/SDL_triangle.c.i
 
 src/render/software/SDL_triangle.s: src/render/software/SDL_triangle.c.s
@@ -3304,6 +3731,7 @@ src/render/software/SDL_triangle.s: src/render/software/SDL_triangle.c.s
 # target to generate assembly for a file
 src/render/software/SDL_triangle.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.s
 .PHONY : src/render/software/SDL_triangle.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm.o: src/render/vitagxm/SDL_render_vita_gxm.c.o
@@ -3312,6 +3740,7 @@ src/render/vitagxm/SDL_render_vita_gxm.o: src/render/vitagxm/SDL_render_vita_gxm
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.o
 
 src/render/vitagxm/SDL_render_vita_gxm.i: src/render/vitagxm/SDL_render_vita_gxm.c.i
@@ -3320,6 +3749,7 @@ src/render/vitagxm/SDL_render_vita_gxm.i: src/render/vitagxm/SDL_render_vita_gxm
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm.s: src/render/vitagxm/SDL_render_vita_gxm.c.s
@@ -3328,6 +3758,7 @@ src/render/vitagxm/SDL_render_vita_gxm.s: src/render/vitagxm/SDL_render_vita_gxm
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.o: src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
@@ -3336,6 +3767,7 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.o: src/render/vitagxm/SDL_render_v
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.i: src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
@@ -3344,6 +3776,7 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.i: src/render/vitagxm/SDL_render_v
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.s: src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
@@ -3352,6 +3785,7 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.s: src/render/vitagxm/SDL_render_v
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.o: src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
@@ -3360,6 +3794,7 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.o: src/render/vitagxm/SDL_render_vi
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.i: src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
@@ -3368,6 +3803,7 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.i: src/render/vitagxm/SDL_render_vi
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.s: src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
@@ -3376,6 +3812,7 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.s: src/render/vitagxm/SDL_render_vi
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
 
 src/sensor/SDL_sensor.o: src/sensor/SDL_sensor.c.o
@@ -3384,6 +3821,7 @@ src/sensor/SDL_sensor.o: src/sensor/SDL_sensor.c.o
 # target to build an object file
 src/sensor/SDL_sensor.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.o
 .PHONY : src/sensor/SDL_sensor.c.o
 
 src/sensor/SDL_sensor.i: src/sensor/SDL_sensor.c.i
@@ -3392,6 +3830,7 @@ src/sensor/SDL_sensor.i: src/sensor/SDL_sensor.c.i
 # target to preprocess a source file
 src/sensor/SDL_sensor.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.i
 .PHONY : src/sensor/SDL_sensor.c.i
 
 src/sensor/SDL_sensor.s: src/sensor/SDL_sensor.c.s
@@ -3400,6 +3839,7 @@ src/sensor/SDL_sensor.s: src/sensor/SDL_sensor.c.s
 # target to generate assembly for a file
 src/sensor/SDL_sensor.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.s
 .PHONY : src/sensor/SDL_sensor.c.s
 
 src/sensor/dummy/SDL_dummysensor.o: src/sensor/dummy/SDL_dummysensor.c.o
@@ -3408,6 +3848,7 @@ src/sensor/dummy/SDL_dummysensor.o: src/sensor/dummy/SDL_dummysensor.c.o
 # target to build an object file
 src/sensor/dummy/SDL_dummysensor.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/sensor/dummy/SDL_dummysensor.c.o
 .PHONY : src/sensor/dummy/SDL_dummysensor.c.o
 
 src/sensor/dummy/SDL_dummysensor.i: src/sensor/dummy/SDL_dummysensor.c.i
@@ -3416,6 +3857,7 @@ src/sensor/dummy/SDL_dummysensor.i: src/sensor/dummy/SDL_dummysensor.c.i
 # target to preprocess a source file
 src/sensor/dummy/SDL_dummysensor.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/sensor/dummy/SDL_dummysensor.c.i
 .PHONY : src/sensor/dummy/SDL_dummysensor.c.i
 
 src/sensor/dummy/SDL_dummysensor.s: src/sensor/dummy/SDL_dummysensor.c.s
@@ -3424,6 +3866,7 @@ src/sensor/dummy/SDL_dummysensor.s: src/sensor/dummy/SDL_dummysensor.c.s
 # target to generate assembly for a file
 src/sensor/dummy/SDL_dummysensor.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/sensor/dummy/SDL_dummysensor.c.s
 .PHONY : src/sensor/dummy/SDL_dummysensor.c.s
 
 src/stdlib/SDL_crc16.o: src/stdlib/SDL_crc16.c.o
@@ -3432,6 +3875,7 @@ src/stdlib/SDL_crc16.o: src/stdlib/SDL_crc16.c.o
 # target to build an object file
 src/stdlib/SDL_crc16.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.o
 .PHONY : src/stdlib/SDL_crc16.c.o
 
 src/stdlib/SDL_crc16.i: src/stdlib/SDL_crc16.c.i
@@ -3440,6 +3884,7 @@ src/stdlib/SDL_crc16.i: src/stdlib/SDL_crc16.c.i
 # target to preprocess a source file
 src/stdlib/SDL_crc16.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.i
 .PHONY : src/stdlib/SDL_crc16.c.i
 
 src/stdlib/SDL_crc16.s: src/stdlib/SDL_crc16.c.s
@@ -3448,6 +3893,7 @@ src/stdlib/SDL_crc16.s: src/stdlib/SDL_crc16.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_crc16.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.s
 .PHONY : src/stdlib/SDL_crc16.c.s
 
 src/stdlib/SDL_crc32.o: src/stdlib/SDL_crc32.c.o
@@ -3456,6 +3902,7 @@ src/stdlib/SDL_crc32.o: src/stdlib/SDL_crc32.c.o
 # target to build an object file
 src/stdlib/SDL_crc32.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.o
 .PHONY : src/stdlib/SDL_crc32.c.o
 
 src/stdlib/SDL_crc32.i: src/stdlib/SDL_crc32.c.i
@@ -3464,6 +3911,7 @@ src/stdlib/SDL_crc32.i: src/stdlib/SDL_crc32.c.i
 # target to preprocess a source file
 src/stdlib/SDL_crc32.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.i
 .PHONY : src/stdlib/SDL_crc32.c.i
 
 src/stdlib/SDL_crc32.s: src/stdlib/SDL_crc32.c.s
@@ -3472,6 +3920,7 @@ src/stdlib/SDL_crc32.s: src/stdlib/SDL_crc32.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_crc32.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.s
 .PHONY : src/stdlib/SDL_crc32.c.s
 
 src/stdlib/SDL_getenv.o: src/stdlib/SDL_getenv.c.o
@@ -3480,6 +3929,7 @@ src/stdlib/SDL_getenv.o: src/stdlib/SDL_getenv.c.o
 # target to build an object file
 src/stdlib/SDL_getenv.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o
 .PHONY : src/stdlib/SDL_getenv.c.o
 
 src/stdlib/SDL_getenv.i: src/stdlib/SDL_getenv.c.i
@@ -3488,6 +3938,7 @@ src/stdlib/SDL_getenv.i: src/stdlib/SDL_getenv.c.i
 # target to preprocess a source file
 src/stdlib/SDL_getenv.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i
 .PHONY : src/stdlib/SDL_getenv.c.i
 
 src/stdlib/SDL_getenv.s: src/stdlib/SDL_getenv.c.s
@@ -3496,6 +3947,7 @@ src/stdlib/SDL_getenv.s: src/stdlib/SDL_getenv.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_getenv.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s
 .PHONY : src/stdlib/SDL_getenv.c.s
 
 src/stdlib/SDL_iconv.o: src/stdlib/SDL_iconv.c.o
@@ -3504,6 +3956,7 @@ src/stdlib/SDL_iconv.o: src/stdlib/SDL_iconv.c.o
 # target to build an object file
 src/stdlib/SDL_iconv.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o
 .PHONY : src/stdlib/SDL_iconv.c.o
 
 src/stdlib/SDL_iconv.i: src/stdlib/SDL_iconv.c.i
@@ -3512,6 +3965,7 @@ src/stdlib/SDL_iconv.i: src/stdlib/SDL_iconv.c.i
 # target to preprocess a source file
 src/stdlib/SDL_iconv.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i
 .PHONY : src/stdlib/SDL_iconv.c.i
 
 src/stdlib/SDL_iconv.s: src/stdlib/SDL_iconv.c.s
@@ -3520,6 +3974,7 @@ src/stdlib/SDL_iconv.s: src/stdlib/SDL_iconv.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_iconv.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s
 .PHONY : src/stdlib/SDL_iconv.c.s
 
 src/stdlib/SDL_malloc.o: src/stdlib/SDL_malloc.c.o
@@ -3528,6 +3983,7 @@ src/stdlib/SDL_malloc.o: src/stdlib/SDL_malloc.c.o
 # target to build an object file
 src/stdlib/SDL_malloc.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o
 .PHONY : src/stdlib/SDL_malloc.c.o
 
 src/stdlib/SDL_malloc.i: src/stdlib/SDL_malloc.c.i
@@ -3536,6 +3992,7 @@ src/stdlib/SDL_malloc.i: src/stdlib/SDL_malloc.c.i
 # target to preprocess a source file
 src/stdlib/SDL_malloc.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i
 .PHONY : src/stdlib/SDL_malloc.c.i
 
 src/stdlib/SDL_malloc.s: src/stdlib/SDL_malloc.c.s
@@ -3544,6 +4001,7 @@ src/stdlib/SDL_malloc.s: src/stdlib/SDL_malloc.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_malloc.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s
 .PHONY : src/stdlib/SDL_malloc.c.s
 
 src/stdlib/SDL_mslibc.o: src/stdlib/SDL_mslibc.c.o
@@ -3552,6 +4010,7 @@ src/stdlib/SDL_mslibc.o: src/stdlib/SDL_mslibc.c.o
 # target to build an object file
 src/stdlib/SDL_mslibc.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.o
 .PHONY : src/stdlib/SDL_mslibc.c.o
 
 src/stdlib/SDL_mslibc.i: src/stdlib/SDL_mslibc.c.i
@@ -3560,6 +4019,7 @@ src/stdlib/SDL_mslibc.i: src/stdlib/SDL_mslibc.c.i
 # target to preprocess a source file
 src/stdlib/SDL_mslibc.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.i
 .PHONY : src/stdlib/SDL_mslibc.c.i
 
 src/stdlib/SDL_mslibc.s: src/stdlib/SDL_mslibc.c.s
@@ -3568,6 +4028,7 @@ src/stdlib/SDL_mslibc.s: src/stdlib/SDL_mslibc.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_mslibc.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.s
 .PHONY : src/stdlib/SDL_mslibc.c.s
 
 src/stdlib/SDL_qsort.o: src/stdlib/SDL_qsort.c.o
@@ -3576,6 +4037,7 @@ src/stdlib/SDL_qsort.o: src/stdlib/SDL_qsort.c.o
 # target to build an object file
 src/stdlib/SDL_qsort.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o
 .PHONY : src/stdlib/SDL_qsort.c.o
 
 src/stdlib/SDL_qsort.i: src/stdlib/SDL_qsort.c.i
@@ -3584,6 +4046,7 @@ src/stdlib/SDL_qsort.i: src/stdlib/SDL_qsort.c.i
 # target to preprocess a source file
 src/stdlib/SDL_qsort.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i
 .PHONY : src/stdlib/SDL_qsort.c.i
 
 src/stdlib/SDL_qsort.s: src/stdlib/SDL_qsort.c.s
@@ -3592,6 +4055,7 @@ src/stdlib/SDL_qsort.s: src/stdlib/SDL_qsort.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_qsort.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s
 .PHONY : src/stdlib/SDL_qsort.c.s
 
 src/stdlib/SDL_stdlib.o: src/stdlib/SDL_stdlib.c.o
@@ -3600,6 +4064,7 @@ src/stdlib/SDL_stdlib.o: src/stdlib/SDL_stdlib.c.o
 # target to build an object file
 src/stdlib/SDL_stdlib.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o
 .PHONY : src/stdlib/SDL_stdlib.c.o
 
 src/stdlib/SDL_stdlib.i: src/stdlib/SDL_stdlib.c.i
@@ -3608,6 +4073,7 @@ src/stdlib/SDL_stdlib.i: src/stdlib/SDL_stdlib.c.i
 # target to preprocess a source file
 src/stdlib/SDL_stdlib.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i
 .PHONY : src/stdlib/SDL_stdlib.c.i
 
 src/stdlib/SDL_stdlib.s: src/stdlib/SDL_stdlib.c.s
@@ -3616,6 +4082,7 @@ src/stdlib/SDL_stdlib.s: src/stdlib/SDL_stdlib.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_stdlib.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s
 .PHONY : src/stdlib/SDL_stdlib.c.s
 
 src/stdlib/SDL_string.o: src/stdlib/SDL_string.c.o
@@ -3624,6 +4091,7 @@ src/stdlib/SDL_string.o: src/stdlib/SDL_string.c.o
 # target to build an object file
 src/stdlib/SDL_string.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o
 .PHONY : src/stdlib/SDL_string.c.o
 
 src/stdlib/SDL_string.i: src/stdlib/SDL_string.c.i
@@ -3632,6 +4100,7 @@ src/stdlib/SDL_string.i: src/stdlib/SDL_string.c.i
 # target to preprocess a source file
 src/stdlib/SDL_string.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i
 .PHONY : src/stdlib/SDL_string.c.i
 
 src/stdlib/SDL_string.s: src/stdlib/SDL_string.c.s
@@ -3640,6 +4109,7 @@ src/stdlib/SDL_string.s: src/stdlib/SDL_string.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_string.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s
 .PHONY : src/stdlib/SDL_string.c.s
 
 src/stdlib/SDL_strtokr.o: src/stdlib/SDL_strtokr.c.o
@@ -3648,6 +4118,7 @@ src/stdlib/SDL_strtokr.o: src/stdlib/SDL_strtokr.c.o
 # target to build an object file
 src/stdlib/SDL_strtokr.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.o
 .PHONY : src/stdlib/SDL_strtokr.c.o
 
 src/stdlib/SDL_strtokr.i: src/stdlib/SDL_strtokr.c.i
@@ -3656,6 +4127,7 @@ src/stdlib/SDL_strtokr.i: src/stdlib/SDL_strtokr.c.i
 # target to preprocess a source file
 src/stdlib/SDL_strtokr.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.i
 .PHONY : src/stdlib/SDL_strtokr.c.i
 
 src/stdlib/SDL_strtokr.s: src/stdlib/SDL_strtokr.c.s
@@ -3664,6 +4136,7 @@ src/stdlib/SDL_strtokr.s: src/stdlib/SDL_strtokr.c.s
 # target to generate assembly for a file
 src/stdlib/SDL_strtokr.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.s
 .PHONY : src/stdlib/SDL_strtokr.c.s
 
 src/test/SDL_test_assert.o: src/test/SDL_test_assert.c.o
@@ -4056,6 +4529,7 @@ src/thread/SDL_thread.o: src/thread/SDL_thread.c.o
 # target to build an object file
 src/thread/SDL_thread.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o
 .PHONY : src/thread/SDL_thread.c.o
 
 src/thread/SDL_thread.i: src/thread/SDL_thread.c.i
@@ -4064,6 +4538,7 @@ src/thread/SDL_thread.i: src/thread/SDL_thread.c.i
 # target to preprocess a source file
 src/thread/SDL_thread.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i
 .PHONY : src/thread/SDL_thread.c.i
 
 src/thread/SDL_thread.s: src/thread/SDL_thread.c.s
@@ -4072,6 +4547,7 @@ src/thread/SDL_thread.s: src/thread/SDL_thread.c.s
 # target to generate assembly for a file
 src/thread/SDL_thread.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s
 .PHONY : src/thread/SDL_thread.c.s
 
 src/thread/pthread/SDL_syscond.o: src/thread/pthread/SDL_syscond.c.o
@@ -4080,6 +4556,7 @@ src/thread/pthread/SDL_syscond.o: src/thread/pthread/SDL_syscond.c.o
 # target to build an object file
 src/thread/pthread/SDL_syscond.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o
 .PHONY : src/thread/pthread/SDL_syscond.c.o
 
 src/thread/pthread/SDL_syscond.i: src/thread/pthread/SDL_syscond.c.i
@@ -4088,6 +4565,7 @@ src/thread/pthread/SDL_syscond.i: src/thread/pthread/SDL_syscond.c.i
 # target to preprocess a source file
 src/thread/pthread/SDL_syscond.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.i
 .PHONY : src/thread/pthread/SDL_syscond.c.i
 
 src/thread/pthread/SDL_syscond.s: src/thread/pthread/SDL_syscond.c.s
@@ -4096,6 +4574,7 @@ src/thread/pthread/SDL_syscond.s: src/thread/pthread/SDL_syscond.c.s
 # target to generate assembly for a file
 src/thread/pthread/SDL_syscond.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.s
 .PHONY : src/thread/pthread/SDL_syscond.c.s
 
 src/thread/pthread/SDL_sysmutex.o: src/thread/pthread/SDL_sysmutex.c.o
@@ -4104,6 +4583,7 @@ src/thread/pthread/SDL_sysmutex.o: src/thread/pthread/SDL_sysmutex.c.o
 # target to build an object file
 src/thread/pthread/SDL_sysmutex.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o
 .PHONY : src/thread/pthread/SDL_sysmutex.c.o
 
 src/thread/pthread/SDL_sysmutex.i: src/thread/pthread/SDL_sysmutex.c.i
@@ -4112,6 +4592,7 @@ src/thread/pthread/SDL_sysmutex.i: src/thread/pthread/SDL_sysmutex.c.i
 # target to preprocess a source file
 src/thread/pthread/SDL_sysmutex.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.i
 .PHONY : src/thread/pthread/SDL_sysmutex.c.i
 
 src/thread/pthread/SDL_sysmutex.s: src/thread/pthread/SDL_sysmutex.c.s
@@ -4120,6 +4601,7 @@ src/thread/pthread/SDL_sysmutex.s: src/thread/pthread/SDL_sysmutex.c.s
 # target to generate assembly for a file
 src/thread/pthread/SDL_sysmutex.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.s
 .PHONY : src/thread/pthread/SDL_sysmutex.c.s
 
 src/thread/pthread/SDL_syssem.o: src/thread/pthread/SDL_syssem.c.o
@@ -4128,6 +4610,7 @@ src/thread/pthread/SDL_syssem.o: src/thread/pthread/SDL_syssem.c.o
 # target to build an object file
 src/thread/pthread/SDL_syssem.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o
 .PHONY : src/thread/pthread/SDL_syssem.c.o
 
 src/thread/pthread/SDL_syssem.i: src/thread/pthread/SDL_syssem.c.i
@@ -4136,6 +4619,7 @@ src/thread/pthread/SDL_syssem.i: src/thread/pthread/SDL_syssem.c.i
 # target to preprocess a source file
 src/thread/pthread/SDL_syssem.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.i
 .PHONY : src/thread/pthread/SDL_syssem.c.i
 
 src/thread/pthread/SDL_syssem.s: src/thread/pthread/SDL_syssem.c.s
@@ -4144,6 +4628,7 @@ src/thread/pthread/SDL_syssem.s: src/thread/pthread/SDL_syssem.c.s
 # target to generate assembly for a file
 src/thread/pthread/SDL_syssem.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.s
 .PHONY : src/thread/pthread/SDL_syssem.c.s
 
 src/thread/pthread/SDL_systhread.o: src/thread/pthread/SDL_systhread.c.o
@@ -4152,6 +4637,7 @@ src/thread/pthread/SDL_systhread.o: src/thread/pthread/SDL_systhread.c.o
 # target to build an object file
 src/thread/pthread/SDL_systhread.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o
 .PHONY : src/thread/pthread/SDL_systhread.c.o
 
 src/thread/pthread/SDL_systhread.i: src/thread/pthread/SDL_systhread.c.i
@@ -4160,6 +4646,7 @@ src/thread/pthread/SDL_systhread.i: src/thread/pthread/SDL_systhread.c.i
 # target to preprocess a source file
 src/thread/pthread/SDL_systhread.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.i
 .PHONY : src/thread/pthread/SDL_systhread.c.i
 
 src/thread/pthread/SDL_systhread.s: src/thread/pthread/SDL_systhread.c.s
@@ -4168,6 +4655,7 @@ src/thread/pthread/SDL_systhread.s: src/thread/pthread/SDL_systhread.c.s
 # target to generate assembly for a file
 src/thread/pthread/SDL_systhread.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.s
 .PHONY : src/thread/pthread/SDL_systhread.c.s
 
 src/thread/pthread/SDL_systls.o: src/thread/pthread/SDL_systls.c.o
@@ -4176,6 +4664,7 @@ src/thread/pthread/SDL_systls.o: src/thread/pthread/SDL_systls.c.o
 # target to build an object file
 src/thread/pthread/SDL_systls.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o
 .PHONY : src/thread/pthread/SDL_systls.c.o
 
 src/thread/pthread/SDL_systls.i: src/thread/pthread/SDL_systls.c.i
@@ -4184,6 +4673,7 @@ src/thread/pthread/SDL_systls.i: src/thread/pthread/SDL_systls.c.i
 # target to preprocess a source file
 src/thread/pthread/SDL_systls.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.i
 .PHONY : src/thread/pthread/SDL_systls.c.i
 
 src/thread/pthread/SDL_systls.s: src/thread/pthread/SDL_systls.c.s
@@ -4192,6 +4682,7 @@ src/thread/pthread/SDL_systls.s: src/thread/pthread/SDL_systls.c.s
 # target to generate assembly for a file
 src/thread/pthread/SDL_systls.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.s
 .PHONY : src/thread/pthread/SDL_systls.c.s
 
 src/timer/SDL_timer.o: src/timer/SDL_timer.c.o
@@ -4200,6 +4691,7 @@ src/timer/SDL_timer.o: src/timer/SDL_timer.c.o
 # target to build an object file
 src/timer/SDL_timer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o
 .PHONY : src/timer/SDL_timer.c.o
 
 src/timer/SDL_timer.i: src/timer/SDL_timer.c.i
@@ -4208,6 +4700,7 @@ src/timer/SDL_timer.i: src/timer/SDL_timer.c.i
 # target to preprocess a source file
 src/timer/SDL_timer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i
 .PHONY : src/timer/SDL_timer.c.i
 
 src/timer/SDL_timer.s: src/timer/SDL_timer.c.s
@@ -4216,6 +4709,7 @@ src/timer/SDL_timer.s: src/timer/SDL_timer.c.s
 # target to generate assembly for a file
 src/timer/SDL_timer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s
 .PHONY : src/timer/SDL_timer.c.s
 
 src/timer/unix/SDL_systimer.o: src/timer/unix/SDL_systimer.c.o
@@ -4224,6 +4718,7 @@ src/timer/unix/SDL_systimer.o: src/timer/unix/SDL_systimer.c.o
 # target to build an object file
 src/timer/unix/SDL_systimer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o
 .PHONY : src/timer/unix/SDL_systimer.c.o
 
 src/timer/unix/SDL_systimer.i: src/timer/unix/SDL_systimer.c.i
@@ -4232,6 +4727,7 @@ src/timer/unix/SDL_systimer.i: src/timer/unix/SDL_systimer.c.i
 # target to preprocess a source file
 src/timer/unix/SDL_systimer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.i
 .PHONY : src/timer/unix/SDL_systimer.c.i
 
 src/timer/unix/SDL_systimer.s: src/timer/unix/SDL_systimer.c.s
@@ -4240,6 +4736,7 @@ src/timer/unix/SDL_systimer.s: src/timer/unix/SDL_systimer.c.s
 # target to generate assembly for a file
 src/timer/unix/SDL_systimer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.s
 .PHONY : src/timer/unix/SDL_systimer.c.s
 
 src/video/SDL_RLEaccel.o: src/video/SDL_RLEaccel.c.o
@@ -4248,6 +4745,7 @@ src/video/SDL_RLEaccel.o: src/video/SDL_RLEaccel.c.o
 # target to build an object file
 src/video/SDL_RLEaccel.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o
 .PHONY : src/video/SDL_RLEaccel.c.o
 
 src/video/SDL_RLEaccel.i: src/video/SDL_RLEaccel.c.i
@@ -4256,6 +4754,7 @@ src/video/SDL_RLEaccel.i: src/video/SDL_RLEaccel.c.i
 # target to preprocess a source file
 src/video/SDL_RLEaccel.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i
 .PHONY : src/video/SDL_RLEaccel.c.i
 
 src/video/SDL_RLEaccel.s: src/video/SDL_RLEaccel.c.s
@@ -4264,6 +4763,7 @@ src/video/SDL_RLEaccel.s: src/video/SDL_RLEaccel.c.s
 # target to generate assembly for a file
 src/video/SDL_RLEaccel.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s
 .PHONY : src/video/SDL_RLEaccel.c.s
 
 src/video/SDL_blit.o: src/video/SDL_blit.c.o
@@ -4272,6 +4772,7 @@ src/video/SDL_blit.o: src/video/SDL_blit.c.o
 # target to build an object file
 src/video/SDL_blit.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o
 .PHONY : src/video/SDL_blit.c.o
 
 src/video/SDL_blit.i: src/video/SDL_blit.c.i
@@ -4280,6 +4781,7 @@ src/video/SDL_blit.i: src/video/SDL_blit.c.i
 # target to preprocess a source file
 src/video/SDL_blit.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i
 .PHONY : src/video/SDL_blit.c.i
 
 src/video/SDL_blit.s: src/video/SDL_blit.c.s
@@ -4288,6 +4790,7 @@ src/video/SDL_blit.s: src/video/SDL_blit.c.s
 # target to generate assembly for a file
 src/video/SDL_blit.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s
 .PHONY : src/video/SDL_blit.c.s
 
 src/video/SDL_blit_0.o: src/video/SDL_blit_0.c.o
@@ -4296,6 +4799,7 @@ src/video/SDL_blit_0.o: src/video/SDL_blit_0.c.o
 # target to build an object file
 src/video/SDL_blit_0.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o
 .PHONY : src/video/SDL_blit_0.c.o
 
 src/video/SDL_blit_0.i: src/video/SDL_blit_0.c.i
@@ -4304,6 +4808,7 @@ src/video/SDL_blit_0.i: src/video/SDL_blit_0.c.i
 # target to preprocess a source file
 src/video/SDL_blit_0.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i
 .PHONY : src/video/SDL_blit_0.c.i
 
 src/video/SDL_blit_0.s: src/video/SDL_blit_0.c.s
@@ -4312,6 +4817,7 @@ src/video/SDL_blit_0.s: src/video/SDL_blit_0.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_0.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s
 .PHONY : src/video/SDL_blit_0.c.s
 
 src/video/SDL_blit_1.o: src/video/SDL_blit_1.c.o
@@ -4320,6 +4826,7 @@ src/video/SDL_blit_1.o: src/video/SDL_blit_1.c.o
 # target to build an object file
 src/video/SDL_blit_1.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o
 .PHONY : src/video/SDL_blit_1.c.o
 
 src/video/SDL_blit_1.i: src/video/SDL_blit_1.c.i
@@ -4328,6 +4835,7 @@ src/video/SDL_blit_1.i: src/video/SDL_blit_1.c.i
 # target to preprocess a source file
 src/video/SDL_blit_1.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i
 .PHONY : src/video/SDL_blit_1.c.i
 
 src/video/SDL_blit_1.s: src/video/SDL_blit_1.c.s
@@ -4336,6 +4844,7 @@ src/video/SDL_blit_1.s: src/video/SDL_blit_1.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_1.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s
 .PHONY : src/video/SDL_blit_1.c.s
 
 src/video/SDL_blit_A.o: src/video/SDL_blit_A.c.o
@@ -4344,6 +4853,7 @@ src/video/SDL_blit_A.o: src/video/SDL_blit_A.c.o
 # target to build an object file
 src/video/SDL_blit_A.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o
 .PHONY : src/video/SDL_blit_A.c.o
 
 src/video/SDL_blit_A.i: src/video/SDL_blit_A.c.i
@@ -4352,6 +4862,7 @@ src/video/SDL_blit_A.i: src/video/SDL_blit_A.c.i
 # target to preprocess a source file
 src/video/SDL_blit_A.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i
 .PHONY : src/video/SDL_blit_A.c.i
 
 src/video/SDL_blit_A.s: src/video/SDL_blit_A.c.s
@@ -4360,6 +4871,7 @@ src/video/SDL_blit_A.s: src/video/SDL_blit_A.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_A.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s
 .PHONY : src/video/SDL_blit_A.c.s
 
 src/video/SDL_blit_N.o: src/video/SDL_blit_N.c.o
@@ -4368,6 +4880,7 @@ src/video/SDL_blit_N.o: src/video/SDL_blit_N.c.o
 # target to build an object file
 src/video/SDL_blit_N.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o
 .PHONY : src/video/SDL_blit_N.c.o
 
 src/video/SDL_blit_N.i: src/video/SDL_blit_N.c.i
@@ -4376,6 +4889,7 @@ src/video/SDL_blit_N.i: src/video/SDL_blit_N.c.i
 # target to preprocess a source file
 src/video/SDL_blit_N.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i
 .PHONY : src/video/SDL_blit_N.c.i
 
 src/video/SDL_blit_N.s: src/video/SDL_blit_N.c.s
@@ -4384,6 +4898,7 @@ src/video/SDL_blit_N.s: src/video/SDL_blit_N.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_N.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s
 .PHONY : src/video/SDL_blit_N.c.s
 
 src/video/SDL_blit_auto.o: src/video/SDL_blit_auto.c.o
@@ -4392,6 +4907,7 @@ src/video/SDL_blit_auto.o: src/video/SDL_blit_auto.c.o
 # target to build an object file
 src/video/SDL_blit_auto.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o
 .PHONY : src/video/SDL_blit_auto.c.o
 
 src/video/SDL_blit_auto.i: src/video/SDL_blit_auto.c.i
@@ -4400,6 +4916,7 @@ src/video/SDL_blit_auto.i: src/video/SDL_blit_auto.c.i
 # target to preprocess a source file
 src/video/SDL_blit_auto.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i
 .PHONY : src/video/SDL_blit_auto.c.i
 
 src/video/SDL_blit_auto.s: src/video/SDL_blit_auto.c.s
@@ -4408,6 +4925,7 @@ src/video/SDL_blit_auto.s: src/video/SDL_blit_auto.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_auto.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s
 .PHONY : src/video/SDL_blit_auto.c.s
 
 src/video/SDL_blit_copy.o: src/video/SDL_blit_copy.c.o
@@ -4416,6 +4934,7 @@ src/video/SDL_blit_copy.o: src/video/SDL_blit_copy.c.o
 # target to build an object file
 src/video/SDL_blit_copy.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o
 .PHONY : src/video/SDL_blit_copy.c.o
 
 src/video/SDL_blit_copy.i: src/video/SDL_blit_copy.c.i
@@ -4424,6 +4943,7 @@ src/video/SDL_blit_copy.i: src/video/SDL_blit_copy.c.i
 # target to preprocess a source file
 src/video/SDL_blit_copy.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i
 .PHONY : src/video/SDL_blit_copy.c.i
 
 src/video/SDL_blit_copy.s: src/video/SDL_blit_copy.c.s
@@ -4432,6 +4952,7 @@ src/video/SDL_blit_copy.s: src/video/SDL_blit_copy.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_copy.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s
 .PHONY : src/video/SDL_blit_copy.c.s
 
 src/video/SDL_blit_slow.o: src/video/SDL_blit_slow.c.o
@@ -4440,6 +4961,7 @@ src/video/SDL_blit_slow.o: src/video/SDL_blit_slow.c.o
 # target to build an object file
 src/video/SDL_blit_slow.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o
 .PHONY : src/video/SDL_blit_slow.c.o
 
 src/video/SDL_blit_slow.i: src/video/SDL_blit_slow.c.i
@@ -4448,6 +4970,7 @@ src/video/SDL_blit_slow.i: src/video/SDL_blit_slow.c.i
 # target to preprocess a source file
 src/video/SDL_blit_slow.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i
 .PHONY : src/video/SDL_blit_slow.c.i
 
 src/video/SDL_blit_slow.s: src/video/SDL_blit_slow.c.s
@@ -4456,6 +4979,7 @@ src/video/SDL_blit_slow.s: src/video/SDL_blit_slow.c.s
 # target to generate assembly for a file
 src/video/SDL_blit_slow.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s
 .PHONY : src/video/SDL_blit_slow.c.s
 
 src/video/SDL_bmp.o: src/video/SDL_bmp.c.o
@@ -4464,6 +4988,7 @@ src/video/SDL_bmp.o: src/video/SDL_bmp.c.o
 # target to build an object file
 src/video/SDL_bmp.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o
 .PHONY : src/video/SDL_bmp.c.o
 
 src/video/SDL_bmp.i: src/video/SDL_bmp.c.i
@@ -4472,6 +4997,7 @@ src/video/SDL_bmp.i: src/video/SDL_bmp.c.i
 # target to preprocess a source file
 src/video/SDL_bmp.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i
 .PHONY : src/video/SDL_bmp.c.i
 
 src/video/SDL_bmp.s: src/video/SDL_bmp.c.s
@@ -4480,6 +5006,7 @@ src/video/SDL_bmp.s: src/video/SDL_bmp.c.s
 # target to generate assembly for a file
 src/video/SDL_bmp.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s
 .PHONY : src/video/SDL_bmp.c.s
 
 src/video/SDL_clipboard.o: src/video/SDL_clipboard.c.o
@@ -4488,6 +5015,7 @@ src/video/SDL_clipboard.o: src/video/SDL_clipboard.c.o
 # target to build an object file
 src/video/SDL_clipboard.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o
 .PHONY : src/video/SDL_clipboard.c.o
 
 src/video/SDL_clipboard.i: src/video/SDL_clipboard.c.i
@@ -4496,6 +5024,7 @@ src/video/SDL_clipboard.i: src/video/SDL_clipboard.c.i
 # target to preprocess a source file
 src/video/SDL_clipboard.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i
 .PHONY : src/video/SDL_clipboard.c.i
 
 src/video/SDL_clipboard.s: src/video/SDL_clipboard.c.s
@@ -4504,6 +5033,7 @@ src/video/SDL_clipboard.s: src/video/SDL_clipboard.c.s
 # target to generate assembly for a file
 src/video/SDL_clipboard.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s
 .PHONY : src/video/SDL_clipboard.c.s
 
 src/video/SDL_egl.o: src/video/SDL_egl.c.o
@@ -4512,6 +5042,7 @@ src/video/SDL_egl.o: src/video/SDL_egl.c.o
 # target to build an object file
 src/video/SDL_egl.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o
 .PHONY : src/video/SDL_egl.c.o
 
 src/video/SDL_egl.i: src/video/SDL_egl.c.i
@@ -4520,6 +5051,7 @@ src/video/SDL_egl.i: src/video/SDL_egl.c.i
 # target to preprocess a source file
 src/video/SDL_egl.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i
 .PHONY : src/video/SDL_egl.c.i
 
 src/video/SDL_egl.s: src/video/SDL_egl.c.s
@@ -4528,6 +5060,7 @@ src/video/SDL_egl.s: src/video/SDL_egl.c.s
 # target to generate assembly for a file
 src/video/SDL_egl.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s
 .PHONY : src/video/SDL_egl.c.s
 
 src/video/SDL_fillrect.o: src/video/SDL_fillrect.c.o
@@ -4536,6 +5069,7 @@ src/video/SDL_fillrect.o: src/video/SDL_fillrect.c.o
 # target to build an object file
 src/video/SDL_fillrect.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o
 .PHONY : src/video/SDL_fillrect.c.o
 
 src/video/SDL_fillrect.i: src/video/SDL_fillrect.c.i
@@ -4544,6 +5078,7 @@ src/video/SDL_fillrect.i: src/video/SDL_fillrect.c.i
 # target to preprocess a source file
 src/video/SDL_fillrect.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i
 .PHONY : src/video/SDL_fillrect.c.i
 
 src/video/SDL_fillrect.s: src/video/SDL_fillrect.c.s
@@ -4552,6 +5087,7 @@ src/video/SDL_fillrect.s: src/video/SDL_fillrect.c.s
 # target to generate assembly for a file
 src/video/SDL_fillrect.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s
 .PHONY : src/video/SDL_fillrect.c.s
 
 src/video/SDL_pixels.o: src/video/SDL_pixels.c.o
@@ -4560,6 +5096,7 @@ src/video/SDL_pixels.o: src/video/SDL_pixels.c.o
 # target to build an object file
 src/video/SDL_pixels.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o
 .PHONY : src/video/SDL_pixels.c.o
 
 src/video/SDL_pixels.i: src/video/SDL_pixels.c.i
@@ -4568,6 +5105,7 @@ src/video/SDL_pixels.i: src/video/SDL_pixels.c.i
 # target to preprocess a source file
 src/video/SDL_pixels.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i
 .PHONY : src/video/SDL_pixels.c.i
 
 src/video/SDL_pixels.s: src/video/SDL_pixels.c.s
@@ -4576,6 +5114,7 @@ src/video/SDL_pixels.s: src/video/SDL_pixels.c.s
 # target to generate assembly for a file
 src/video/SDL_pixels.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s
 .PHONY : src/video/SDL_pixels.c.s
 
 src/video/SDL_rect.o: src/video/SDL_rect.c.o
@@ -4584,6 +5123,7 @@ src/video/SDL_rect.o: src/video/SDL_rect.c.o
 # target to build an object file
 src/video/SDL_rect.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o
 .PHONY : src/video/SDL_rect.c.o
 
 src/video/SDL_rect.i: src/video/SDL_rect.c.i
@@ -4592,6 +5132,7 @@ src/video/SDL_rect.i: src/video/SDL_rect.c.i
 # target to preprocess a source file
 src/video/SDL_rect.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i
 .PHONY : src/video/SDL_rect.c.i
 
 src/video/SDL_rect.s: src/video/SDL_rect.c.s
@@ -4600,6 +5141,7 @@ src/video/SDL_rect.s: src/video/SDL_rect.c.s
 # target to generate assembly for a file
 src/video/SDL_rect.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s
 .PHONY : src/video/SDL_rect.c.s
 
 src/video/SDL_shape.o: src/video/SDL_shape.c.o
@@ -4608,6 +5150,7 @@ src/video/SDL_shape.o: src/video/SDL_shape.c.o
 # target to build an object file
 src/video/SDL_shape.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o
 .PHONY : src/video/SDL_shape.c.o
 
 src/video/SDL_shape.i: src/video/SDL_shape.c.i
@@ -4616,6 +5159,7 @@ src/video/SDL_shape.i: src/video/SDL_shape.c.i
 # target to preprocess a source file
 src/video/SDL_shape.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i
 .PHONY : src/video/SDL_shape.c.i
 
 src/video/SDL_shape.s: src/video/SDL_shape.c.s
@@ -4624,6 +5168,7 @@ src/video/SDL_shape.s: src/video/SDL_shape.c.s
 # target to generate assembly for a file
 src/video/SDL_shape.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s
 .PHONY : src/video/SDL_shape.c.s
 
 src/video/SDL_stretch.o: src/video/SDL_stretch.c.o
@@ -4632,6 +5177,7 @@ src/video/SDL_stretch.o: src/video/SDL_stretch.c.o
 # target to build an object file
 src/video/SDL_stretch.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o
 .PHONY : src/video/SDL_stretch.c.o
 
 src/video/SDL_stretch.i: src/video/SDL_stretch.c.i
@@ -4640,6 +5186,7 @@ src/video/SDL_stretch.i: src/video/SDL_stretch.c.i
 # target to preprocess a source file
 src/video/SDL_stretch.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i
 .PHONY : src/video/SDL_stretch.c.i
 
 src/video/SDL_stretch.s: src/video/SDL_stretch.c.s
@@ -4648,6 +5195,7 @@ src/video/SDL_stretch.s: src/video/SDL_stretch.c.s
 # target to generate assembly for a file
 src/video/SDL_stretch.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s
 .PHONY : src/video/SDL_stretch.c.s
 
 src/video/SDL_surface.o: src/video/SDL_surface.c.o
@@ -4656,6 +5204,7 @@ src/video/SDL_surface.o: src/video/SDL_surface.c.o
 # target to build an object file
 src/video/SDL_surface.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o
 .PHONY : src/video/SDL_surface.c.o
 
 src/video/SDL_surface.i: src/video/SDL_surface.c.i
@@ -4664,6 +5213,7 @@ src/video/SDL_surface.i: src/video/SDL_surface.c.i
 # target to preprocess a source file
 src/video/SDL_surface.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i
 .PHONY : src/video/SDL_surface.c.i
 
 src/video/SDL_surface.s: src/video/SDL_surface.c.s
@@ -4672,6 +5222,7 @@ src/video/SDL_surface.s: src/video/SDL_surface.c.s
 # target to generate assembly for a file
 src/video/SDL_surface.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s
 .PHONY : src/video/SDL_surface.c.s
 
 src/video/SDL_video.o: src/video/SDL_video.c.o
@@ -4680,6 +5231,7 @@ src/video/SDL_video.o: src/video/SDL_video.c.o
 # target to build an object file
 src/video/SDL_video.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_video.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o
 .PHONY : src/video/SDL_video.c.o
 
 src/video/SDL_video.i: src/video/SDL_video.c.i
@@ -4688,6 +5240,7 @@ src/video/SDL_video.i: src/video/SDL_video.c.i
 # target to preprocess a source file
 src/video/SDL_video.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_video.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i
 .PHONY : src/video/SDL_video.c.i
 
 src/video/SDL_video.s: src/video/SDL_video.c.s
@@ -4696,6 +5249,7 @@ src/video/SDL_video.s: src/video/SDL_video.c.s
 # target to generate assembly for a file
 src/video/SDL_video.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_video.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s
 .PHONY : src/video/SDL_video.c.s
 
 src/video/SDL_vulkan_utils.o: src/video/SDL_vulkan_utils.c.o
@@ -4704,6 +5258,7 @@ src/video/SDL_vulkan_utils.o: src/video/SDL_vulkan_utils.c.o
 # target to build an object file
 src/video/SDL_vulkan_utils.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o
 .PHONY : src/video/SDL_vulkan_utils.c.o
 
 src/video/SDL_vulkan_utils.i: src/video/SDL_vulkan_utils.c.i
@@ -4712,6 +5267,7 @@ src/video/SDL_vulkan_utils.i: src/video/SDL_vulkan_utils.c.i
 # target to preprocess a source file
 src/video/SDL_vulkan_utils.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i
 .PHONY : src/video/SDL_vulkan_utils.c.i
 
 src/video/SDL_vulkan_utils.s: src/video/SDL_vulkan_utils.c.s
@@ -4720,6 +5276,7 @@ src/video/SDL_vulkan_utils.s: src/video/SDL_vulkan_utils.c.s
 # target to generate assembly for a file
 src/video/SDL_vulkan_utils.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s
 .PHONY : src/video/SDL_vulkan_utils.c.s
 
 src/video/SDL_yuv.o: src/video/SDL_yuv.c.o
@@ -4728,6 +5285,7 @@ src/video/SDL_yuv.o: src/video/SDL_yuv.c.o
 # target to build an object file
 src/video/SDL_yuv.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.o
 .PHONY : src/video/SDL_yuv.c.o
 
 src/video/SDL_yuv.i: src/video/SDL_yuv.c.i
@@ -4736,6 +5294,7 @@ src/video/SDL_yuv.i: src/video/SDL_yuv.c.i
 # target to preprocess a source file
 src/video/SDL_yuv.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.i
 .PHONY : src/video/SDL_yuv.c.i
 
 src/video/SDL_yuv.s: src/video/SDL_yuv.c.s
@@ -4744,6 +5303,7 @@ src/video/SDL_yuv.s: src/video/SDL_yuv.c.s
 # target to generate assembly for a file
 src/video/SDL_yuv.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.s
 .PHONY : src/video/SDL_yuv.c.s
 
 src/video/dummy/SDL_nullevents.o: src/video/dummy/SDL_nullevents.c.o
@@ -4752,6 +5312,7 @@ src/video/dummy/SDL_nullevents.o: src/video/dummy/SDL_nullevents.c.o
 # target to build an object file
 src/video/dummy/SDL_nullevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o
 .PHONY : src/video/dummy/SDL_nullevents.c.o
 
 src/video/dummy/SDL_nullevents.i: src/video/dummy/SDL_nullevents.c.i
@@ -4760,6 +5321,7 @@ src/video/dummy/SDL_nullevents.i: src/video/dummy/SDL_nullevents.c.i
 # target to preprocess a source file
 src/video/dummy/SDL_nullevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i
 .PHONY : src/video/dummy/SDL_nullevents.c.i
 
 src/video/dummy/SDL_nullevents.s: src/video/dummy/SDL_nullevents.c.s
@@ -4768,6 +5330,7 @@ src/video/dummy/SDL_nullevents.s: src/video/dummy/SDL_nullevents.c.s
 # target to generate assembly for a file
 src/video/dummy/SDL_nullevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s
 .PHONY : src/video/dummy/SDL_nullevents.c.s
 
 src/video/dummy/SDL_nullframebuffer.o: src/video/dummy/SDL_nullframebuffer.c.o
@@ -4776,6 +5339,7 @@ src/video/dummy/SDL_nullframebuffer.o: src/video/dummy/SDL_nullframebuffer.c.o
 # target to build an object file
 src/video/dummy/SDL_nullframebuffer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.o
 
 src/video/dummy/SDL_nullframebuffer.i: src/video/dummy/SDL_nullframebuffer.c.i
@@ -4784,6 +5348,7 @@ src/video/dummy/SDL_nullframebuffer.i: src/video/dummy/SDL_nullframebuffer.c.i
 # target to preprocess a source file
 src/video/dummy/SDL_nullframebuffer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.i
 
 src/video/dummy/SDL_nullframebuffer.s: src/video/dummy/SDL_nullframebuffer.c.s
@@ -4792,6 +5357,7 @@ src/video/dummy/SDL_nullframebuffer.s: src/video/dummy/SDL_nullframebuffer.c.s
 # target to generate assembly for a file
 src/video/dummy/SDL_nullframebuffer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.s
 
 src/video/dummy/SDL_nullvideo.o: src/video/dummy/SDL_nullvideo.c.o
@@ -4800,6 +5366,7 @@ src/video/dummy/SDL_nullvideo.o: src/video/dummy/SDL_nullvideo.c.o
 # target to build an object file
 src/video/dummy/SDL_nullvideo.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o
 .PHONY : src/video/dummy/SDL_nullvideo.c.o
 
 src/video/dummy/SDL_nullvideo.i: src/video/dummy/SDL_nullvideo.c.i
@@ -4808,6 +5375,7 @@ src/video/dummy/SDL_nullvideo.i: src/video/dummy/SDL_nullvideo.c.i
 # target to preprocess a source file
 src/video/dummy/SDL_nullvideo.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i
 .PHONY : src/video/dummy/SDL_nullvideo.c.i
 
 src/video/dummy/SDL_nullvideo.s: src/video/dummy/SDL_nullvideo.c.s
@@ -4816,6 +5384,7 @@ src/video/dummy/SDL_nullvideo.s: src/video/dummy/SDL_nullvideo.c.s
 # target to generate assembly for a file
 src/video/dummy/SDL_nullvideo.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s
 .PHONY : src/video/dummy/SDL_nullvideo.c.s
 
 src/video/kmsdrm/SDL_kmsdrmdyn.o: src/video/kmsdrm/SDL_kmsdrmdyn.c.o
@@ -4824,6 +5393,7 @@ src/video/kmsdrm/SDL_kmsdrmdyn.o: src/video/kmsdrm/SDL_kmsdrmdyn.c.o
 # target to build an object file
 src/video/kmsdrm/SDL_kmsdrmdyn.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o
 .PHONY : src/video/kmsdrm/SDL_kmsdrmdyn.c.o
 
 src/video/kmsdrm/SDL_kmsdrmdyn.i: src/video/kmsdrm/SDL_kmsdrmdyn.c.i
@@ -4832,6 +5402,7 @@ src/video/kmsdrm/SDL_kmsdrmdyn.i: src/video/kmsdrm/SDL_kmsdrmdyn.c.i
 # target to preprocess a source file
 src/video/kmsdrm/SDL_kmsdrmdyn.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.i
 .PHONY : src/video/kmsdrm/SDL_kmsdrmdyn.c.i
 
 src/video/kmsdrm/SDL_kmsdrmdyn.s: src/video/kmsdrm/SDL_kmsdrmdyn.c.s
@@ -4840,6 +5411,7 @@ src/video/kmsdrm/SDL_kmsdrmdyn.s: src/video/kmsdrm/SDL_kmsdrmdyn.c.s
 # target to generate assembly for a file
 src/video/kmsdrm/SDL_kmsdrmdyn.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.s
 .PHONY : src/video/kmsdrm/SDL_kmsdrmdyn.c.s
 
 src/video/kmsdrm/SDL_kmsdrmevents.o: src/video/kmsdrm/SDL_kmsdrmevents.c.o
@@ -4848,6 +5420,7 @@ src/video/kmsdrm/SDL_kmsdrmevents.o: src/video/kmsdrm/SDL_kmsdrmevents.c.o
 # target to build an object file
 src/video/kmsdrm/SDL_kmsdrmevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o
 .PHONY : src/video/kmsdrm/SDL_kmsdrmevents.c.o
 
 src/video/kmsdrm/SDL_kmsdrmevents.i: src/video/kmsdrm/SDL_kmsdrmevents.c.i
@@ -4856,6 +5429,7 @@ src/video/kmsdrm/SDL_kmsdrmevents.i: src/video/kmsdrm/SDL_kmsdrmevents.c.i
 # target to preprocess a source file
 src/video/kmsdrm/SDL_kmsdrmevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.i
 .PHONY : src/video/kmsdrm/SDL_kmsdrmevents.c.i
 
 src/video/kmsdrm/SDL_kmsdrmevents.s: src/video/kmsdrm/SDL_kmsdrmevents.c.s
@@ -4864,6 +5438,7 @@ src/video/kmsdrm/SDL_kmsdrmevents.s: src/video/kmsdrm/SDL_kmsdrmevents.c.s
 # target to generate assembly for a file
 src/video/kmsdrm/SDL_kmsdrmevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.s
 .PHONY : src/video/kmsdrm/SDL_kmsdrmevents.c.s
 
 src/video/kmsdrm/SDL_kmsdrmmouse.o: src/video/kmsdrm/SDL_kmsdrmmouse.c.o
@@ -4872,6 +5447,7 @@ src/video/kmsdrm/SDL_kmsdrmmouse.o: src/video/kmsdrm/SDL_kmsdrmmouse.c.o
 # target to build an object file
 src/video/kmsdrm/SDL_kmsdrmmouse.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o
 .PHONY : src/video/kmsdrm/SDL_kmsdrmmouse.c.o
 
 src/video/kmsdrm/SDL_kmsdrmmouse.i: src/video/kmsdrm/SDL_kmsdrmmouse.c.i
@@ -4880,6 +5456,7 @@ src/video/kmsdrm/SDL_kmsdrmmouse.i: src/video/kmsdrm/SDL_kmsdrmmouse.c.i
 # target to preprocess a source file
 src/video/kmsdrm/SDL_kmsdrmmouse.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.i
 .PHONY : src/video/kmsdrm/SDL_kmsdrmmouse.c.i
 
 src/video/kmsdrm/SDL_kmsdrmmouse.s: src/video/kmsdrm/SDL_kmsdrmmouse.c.s
@@ -4888,6 +5465,7 @@ src/video/kmsdrm/SDL_kmsdrmmouse.s: src/video/kmsdrm/SDL_kmsdrmmouse.c.s
 # target to generate assembly for a file
 src/video/kmsdrm/SDL_kmsdrmmouse.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.s
 .PHONY : src/video/kmsdrm/SDL_kmsdrmmouse.c.s
 
 src/video/kmsdrm/SDL_kmsdrmopengles.o: src/video/kmsdrm/SDL_kmsdrmopengles.c.o
@@ -4896,6 +5474,7 @@ src/video/kmsdrm/SDL_kmsdrmopengles.o: src/video/kmsdrm/SDL_kmsdrmopengles.c.o
 # target to build an object file
 src/video/kmsdrm/SDL_kmsdrmopengles.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o
 .PHONY : src/video/kmsdrm/SDL_kmsdrmopengles.c.o
 
 src/video/kmsdrm/SDL_kmsdrmopengles.i: src/video/kmsdrm/SDL_kmsdrmopengles.c.i
@@ -4904,6 +5483,7 @@ src/video/kmsdrm/SDL_kmsdrmopengles.i: src/video/kmsdrm/SDL_kmsdrmopengles.c.i
 # target to preprocess a source file
 src/video/kmsdrm/SDL_kmsdrmopengles.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.i
 .PHONY : src/video/kmsdrm/SDL_kmsdrmopengles.c.i
 
 src/video/kmsdrm/SDL_kmsdrmopengles.s: src/video/kmsdrm/SDL_kmsdrmopengles.c.s
@@ -4912,6 +5492,7 @@ src/video/kmsdrm/SDL_kmsdrmopengles.s: src/video/kmsdrm/SDL_kmsdrmopengles.c.s
 # target to generate assembly for a file
 src/video/kmsdrm/SDL_kmsdrmopengles.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.s
 .PHONY : src/video/kmsdrm/SDL_kmsdrmopengles.c.s
 
 src/video/kmsdrm/SDL_kmsdrmvideo.o: src/video/kmsdrm/SDL_kmsdrmvideo.c.o
@@ -4920,6 +5501,7 @@ src/video/kmsdrm/SDL_kmsdrmvideo.o: src/video/kmsdrm/SDL_kmsdrmvideo.c.o
 # target to build an object file
 src/video/kmsdrm/SDL_kmsdrmvideo.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o
 .PHONY : src/video/kmsdrm/SDL_kmsdrmvideo.c.o
 
 src/video/kmsdrm/SDL_kmsdrmvideo.i: src/video/kmsdrm/SDL_kmsdrmvideo.c.i
@@ -4928,6 +5510,7 @@ src/video/kmsdrm/SDL_kmsdrmvideo.i: src/video/kmsdrm/SDL_kmsdrmvideo.c.i
 # target to preprocess a source file
 src/video/kmsdrm/SDL_kmsdrmvideo.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.i
 .PHONY : src/video/kmsdrm/SDL_kmsdrmvideo.c.i
 
 src/video/kmsdrm/SDL_kmsdrmvideo.s: src/video/kmsdrm/SDL_kmsdrmvideo.c.s
@@ -4936,6 +5519,7 @@ src/video/kmsdrm/SDL_kmsdrmvideo.s: src/video/kmsdrm/SDL_kmsdrmvideo.c.s
 # target to generate assembly for a file
 src/video/kmsdrm/SDL_kmsdrmvideo.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.s
 .PHONY : src/video/kmsdrm/SDL_kmsdrmvideo.c.s
 
 src/video/kmsdrm/SDL_kmsdrmvulkan.o: src/video/kmsdrm/SDL_kmsdrmvulkan.c.o
@@ -4944,6 +5528,7 @@ src/video/kmsdrm/SDL_kmsdrmvulkan.o: src/video/kmsdrm/SDL_kmsdrmvulkan.c.o
 # target to build an object file
 src/video/kmsdrm/SDL_kmsdrmvulkan.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o
 .PHONY : src/video/kmsdrm/SDL_kmsdrmvulkan.c.o
 
 src/video/kmsdrm/SDL_kmsdrmvulkan.i: src/video/kmsdrm/SDL_kmsdrmvulkan.c.i
@@ -4952,6 +5537,7 @@ src/video/kmsdrm/SDL_kmsdrmvulkan.i: src/video/kmsdrm/SDL_kmsdrmvulkan.c.i
 # target to preprocess a source file
 src/video/kmsdrm/SDL_kmsdrmvulkan.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.i
 .PHONY : src/video/kmsdrm/SDL_kmsdrmvulkan.c.i
 
 src/video/kmsdrm/SDL_kmsdrmvulkan.s: src/video/kmsdrm/SDL_kmsdrmvulkan.c.s
@@ -4960,6 +5546,7 @@ src/video/kmsdrm/SDL_kmsdrmvulkan.s: src/video/kmsdrm/SDL_kmsdrmvulkan.c.s
 # target to generate assembly for a file
 src/video/kmsdrm/SDL_kmsdrmvulkan.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.s
 .PHONY : src/video/kmsdrm/SDL_kmsdrmvulkan.c.s
 
 src/video/offscreen/SDL_offscreenevents.o: src/video/offscreen/SDL_offscreenevents.c.o
@@ -4968,6 +5555,7 @@ src/video/offscreen/SDL_offscreenevents.o: src/video/offscreen/SDL_offscreeneven
 # target to build an object file
 src/video/offscreen/SDL_offscreenevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenevents.c.o
 .PHONY : src/video/offscreen/SDL_offscreenevents.c.o
 
 src/video/offscreen/SDL_offscreenevents.i: src/video/offscreen/SDL_offscreenevents.c.i
@@ -4976,6 +5564,7 @@ src/video/offscreen/SDL_offscreenevents.i: src/video/offscreen/SDL_offscreeneven
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenevents.c.i
 .PHONY : src/video/offscreen/SDL_offscreenevents.c.i
 
 src/video/offscreen/SDL_offscreenevents.s: src/video/offscreen/SDL_offscreenevents.c.s
@@ -4984,6 +5573,7 @@ src/video/offscreen/SDL_offscreenevents.s: src/video/offscreen/SDL_offscreeneven
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenevents.c.s
 .PHONY : src/video/offscreen/SDL_offscreenevents.c.s
 
 src/video/offscreen/SDL_offscreenframebuffer.o: src/video/offscreen/SDL_offscreenframebuffer.c.o
@@ -4992,6 +5582,7 @@ src/video/offscreen/SDL_offscreenframebuffer.o: src/video/offscreen/SDL_offscree
 # target to build an object file
 src/video/offscreen/SDL_offscreenframebuffer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o
 .PHONY : src/video/offscreen/SDL_offscreenframebuffer.c.o
 
 src/video/offscreen/SDL_offscreenframebuffer.i: src/video/offscreen/SDL_offscreenframebuffer.c.i
@@ -5000,6 +5591,7 @@ src/video/offscreen/SDL_offscreenframebuffer.i: src/video/offscreen/SDL_offscree
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenframebuffer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenframebuffer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenframebuffer.c.i
 .PHONY : src/video/offscreen/SDL_offscreenframebuffer.c.i
 
 src/video/offscreen/SDL_offscreenframebuffer.s: src/video/offscreen/SDL_offscreenframebuffer.c.s
@@ -5008,6 +5600,7 @@ src/video/offscreen/SDL_offscreenframebuffer.s: src/video/offscreen/SDL_offscree
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenframebuffer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenframebuffer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenframebuffer.c.s
 .PHONY : src/video/offscreen/SDL_offscreenframebuffer.c.s
 
 src/video/offscreen/SDL_offscreenopengles.o: src/video/offscreen/SDL_offscreenopengles.c.o
@@ -5016,6 +5609,7 @@ src/video/offscreen/SDL_offscreenopengles.o: src/video/offscreen/SDL_offscreenop
 # target to build an object file
 src/video/offscreen/SDL_offscreenopengles.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenopengles.c.o
 .PHONY : src/video/offscreen/SDL_offscreenopengles.c.o
 
 src/video/offscreen/SDL_offscreenopengles.i: src/video/offscreen/SDL_offscreenopengles.c.i
@@ -5024,6 +5618,7 @@ src/video/offscreen/SDL_offscreenopengles.i: src/video/offscreen/SDL_offscreenop
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenopengles.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenopengles.c.i
 .PHONY : src/video/offscreen/SDL_offscreenopengles.c.i
 
 src/video/offscreen/SDL_offscreenopengles.s: src/video/offscreen/SDL_offscreenopengles.c.s
@@ -5032,6 +5627,7 @@ src/video/offscreen/SDL_offscreenopengles.s: src/video/offscreen/SDL_offscreenop
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenopengles.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenopengles.c.s
 .PHONY : src/video/offscreen/SDL_offscreenopengles.c.s
 
 src/video/offscreen/SDL_offscreenvideo.o: src/video/offscreen/SDL_offscreenvideo.c.o
@@ -5040,6 +5636,7 @@ src/video/offscreen/SDL_offscreenvideo.o: src/video/offscreen/SDL_offscreenvideo
 # target to build an object file
 src/video/offscreen/SDL_offscreenvideo.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenvideo.c.o
 .PHONY : src/video/offscreen/SDL_offscreenvideo.c.o
 
 src/video/offscreen/SDL_offscreenvideo.i: src/video/offscreen/SDL_offscreenvideo.c.i
@@ -5048,6 +5645,7 @@ src/video/offscreen/SDL_offscreenvideo.i: src/video/offscreen/SDL_offscreenvideo
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenvideo.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenvideo.c.i
 .PHONY : src/video/offscreen/SDL_offscreenvideo.c.i
 
 src/video/offscreen/SDL_offscreenvideo.s: src/video/offscreen/SDL_offscreenvideo.c.s
@@ -5056,6 +5654,7 @@ src/video/offscreen/SDL_offscreenvideo.s: src/video/offscreen/SDL_offscreenvideo
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenvideo.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenvideo.c.s
 .PHONY : src/video/offscreen/SDL_offscreenvideo.c.s
 
 src/video/offscreen/SDL_offscreenwindow.o: src/video/offscreen/SDL_offscreenwindow.c.o
@@ -5064,6 +5663,7 @@ src/video/offscreen/SDL_offscreenwindow.o: src/video/offscreen/SDL_offscreenwind
 # target to build an object file
 src/video/offscreen/SDL_offscreenwindow.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenwindow.c.o
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.o
 
 src/video/offscreen/SDL_offscreenwindow.i: src/video/offscreen/SDL_offscreenwindow.c.i
@@ -5072,6 +5672,7 @@ src/video/offscreen/SDL_offscreenwindow.i: src/video/offscreen/SDL_offscreenwind
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenwindow.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenwindow.c.i
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.i
 
 src/video/offscreen/SDL_offscreenwindow.s: src/video/offscreen/SDL_offscreenwindow.c.s
@@ -5080,6 +5681,7 @@ src/video/offscreen/SDL_offscreenwindow.s: src/video/offscreen/SDL_offscreenwind
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenwindow.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/offscreen/SDL_offscreenwindow.c.s
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.s
 
 src/video/wayland/SDL_waylandclipboard.o: src/video/wayland/SDL_waylandclipboard.c.o
@@ -5088,6 +5690,7 @@ src/video/wayland/SDL_waylandclipboard.o: src/video/wayland/SDL_waylandclipboard
 # target to build an object file
 src/video/wayland/SDL_waylandclipboard.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandclipboard.c.o
 .PHONY : src/video/wayland/SDL_waylandclipboard.c.o
 
 src/video/wayland/SDL_waylandclipboard.i: src/video/wayland/SDL_waylandclipboard.c.i
@@ -5096,6 +5699,7 @@ src/video/wayland/SDL_waylandclipboard.i: src/video/wayland/SDL_waylandclipboard
 # target to preprocess a source file
 src/video/wayland/SDL_waylandclipboard.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandclipboard.c.i
 .PHONY : src/video/wayland/SDL_waylandclipboard.c.i
 
 src/video/wayland/SDL_waylandclipboard.s: src/video/wayland/SDL_waylandclipboard.c.s
@@ -5104,6 +5708,7 @@ src/video/wayland/SDL_waylandclipboard.s: src/video/wayland/SDL_waylandclipboard
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandclipboard.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandclipboard.c.s
 .PHONY : src/video/wayland/SDL_waylandclipboard.c.s
 
 src/video/wayland/SDL_waylanddatamanager.o: src/video/wayland/SDL_waylanddatamanager.c.o
@@ -5112,6 +5717,7 @@ src/video/wayland/SDL_waylanddatamanager.o: src/video/wayland/SDL_waylanddataman
 # target to build an object file
 src/video/wayland/SDL_waylanddatamanager.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylanddatamanager.c.o
 .PHONY : src/video/wayland/SDL_waylanddatamanager.c.o
 
 src/video/wayland/SDL_waylanddatamanager.i: src/video/wayland/SDL_waylanddatamanager.c.i
@@ -5120,6 +5726,7 @@ src/video/wayland/SDL_waylanddatamanager.i: src/video/wayland/SDL_waylanddataman
 # target to preprocess a source file
 src/video/wayland/SDL_waylanddatamanager.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylanddatamanager.c.i
 .PHONY : src/video/wayland/SDL_waylanddatamanager.c.i
 
 src/video/wayland/SDL_waylanddatamanager.s: src/video/wayland/SDL_waylanddatamanager.c.s
@@ -5128,6 +5735,7 @@ src/video/wayland/SDL_waylanddatamanager.s: src/video/wayland/SDL_waylanddataman
 # target to generate assembly for a file
 src/video/wayland/SDL_waylanddatamanager.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylanddatamanager.c.s
 .PHONY : src/video/wayland/SDL_waylanddatamanager.c.s
 
 src/video/wayland/SDL_waylanddyn.o: src/video/wayland/SDL_waylanddyn.c.o
@@ -5136,6 +5744,7 @@ src/video/wayland/SDL_waylanddyn.o: src/video/wayland/SDL_waylanddyn.c.o
 # target to build an object file
 src/video/wayland/SDL_waylanddyn.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylanddyn.c.o
 .PHONY : src/video/wayland/SDL_waylanddyn.c.o
 
 src/video/wayland/SDL_waylanddyn.i: src/video/wayland/SDL_waylanddyn.c.i
@@ -5144,6 +5753,7 @@ src/video/wayland/SDL_waylanddyn.i: src/video/wayland/SDL_waylanddyn.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylanddyn.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylanddyn.c.i
 .PHONY : src/video/wayland/SDL_waylanddyn.c.i
 
 src/video/wayland/SDL_waylanddyn.s: src/video/wayland/SDL_waylanddyn.c.s
@@ -5152,6 +5762,7 @@ src/video/wayland/SDL_waylanddyn.s: src/video/wayland/SDL_waylanddyn.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylanddyn.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylanddyn.c.s
 .PHONY : src/video/wayland/SDL_waylanddyn.c.s
 
 src/video/wayland/SDL_waylandevents.o: src/video/wayland/SDL_waylandevents.c.o
@@ -5160,6 +5771,7 @@ src/video/wayland/SDL_waylandevents.o: src/video/wayland/SDL_waylandevents.c.o
 # target to build an object file
 src/video/wayland/SDL_waylandevents.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandevents.c.o
 .PHONY : src/video/wayland/SDL_waylandevents.c.o
 
 src/video/wayland/SDL_waylandevents.i: src/video/wayland/SDL_waylandevents.c.i
@@ -5168,6 +5780,7 @@ src/video/wayland/SDL_waylandevents.i: src/video/wayland/SDL_waylandevents.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylandevents.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandevents.c.i
 .PHONY : src/video/wayland/SDL_waylandevents.c.i
 
 src/video/wayland/SDL_waylandevents.s: src/video/wayland/SDL_waylandevents.c.s
@@ -5176,6 +5789,7 @@ src/video/wayland/SDL_waylandevents.s: src/video/wayland/SDL_waylandevents.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandevents.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandevents.c.s
 .PHONY : src/video/wayland/SDL_waylandevents.c.s
 
 src/video/wayland/SDL_waylandkeyboard.o: src/video/wayland/SDL_waylandkeyboard.c.o
@@ -5184,6 +5798,7 @@ src/video/wayland/SDL_waylandkeyboard.o: src/video/wayland/SDL_waylandkeyboard.c
 # target to build an object file
 src/video/wayland/SDL_waylandkeyboard.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandkeyboard.c.o
 .PHONY : src/video/wayland/SDL_waylandkeyboard.c.o
 
 src/video/wayland/SDL_waylandkeyboard.i: src/video/wayland/SDL_waylandkeyboard.c.i
@@ -5192,6 +5807,7 @@ src/video/wayland/SDL_waylandkeyboard.i: src/video/wayland/SDL_waylandkeyboard.c
 # target to preprocess a source file
 src/video/wayland/SDL_waylandkeyboard.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandkeyboard.c.i
 .PHONY : src/video/wayland/SDL_waylandkeyboard.c.i
 
 src/video/wayland/SDL_waylandkeyboard.s: src/video/wayland/SDL_waylandkeyboard.c.s
@@ -5200,6 +5816,7 @@ src/video/wayland/SDL_waylandkeyboard.s: src/video/wayland/SDL_waylandkeyboard.c
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandkeyboard.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandkeyboard.c.s
 .PHONY : src/video/wayland/SDL_waylandkeyboard.c.s
 
 src/video/wayland/SDL_waylandmessagebox.o: src/video/wayland/SDL_waylandmessagebox.c.o
@@ -5208,6 +5825,7 @@ src/video/wayland/SDL_waylandmessagebox.o: src/video/wayland/SDL_waylandmessageb
 # target to build an object file
 src/video/wayland/SDL_waylandmessagebox.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandmessagebox.c.o
 .PHONY : src/video/wayland/SDL_waylandmessagebox.c.o
 
 src/video/wayland/SDL_waylandmessagebox.i: src/video/wayland/SDL_waylandmessagebox.c.i
@@ -5216,6 +5834,7 @@ src/video/wayland/SDL_waylandmessagebox.i: src/video/wayland/SDL_waylandmessageb
 # target to preprocess a source file
 src/video/wayland/SDL_waylandmessagebox.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandmessagebox.c.i
 .PHONY : src/video/wayland/SDL_waylandmessagebox.c.i
 
 src/video/wayland/SDL_waylandmessagebox.s: src/video/wayland/SDL_waylandmessagebox.c.s
@@ -5224,6 +5843,7 @@ src/video/wayland/SDL_waylandmessagebox.s: src/video/wayland/SDL_waylandmessageb
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandmessagebox.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandmessagebox.c.s
 .PHONY : src/video/wayland/SDL_waylandmessagebox.c.s
 
 src/video/wayland/SDL_waylandmouse.o: src/video/wayland/SDL_waylandmouse.c.o
@@ -5232,6 +5852,7 @@ src/video/wayland/SDL_waylandmouse.o: src/video/wayland/SDL_waylandmouse.c.o
 # target to build an object file
 src/video/wayland/SDL_waylandmouse.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandmouse.c.o
 .PHONY : src/video/wayland/SDL_waylandmouse.c.o
 
 src/video/wayland/SDL_waylandmouse.i: src/video/wayland/SDL_waylandmouse.c.i
@@ -5240,6 +5861,7 @@ src/video/wayland/SDL_waylandmouse.i: src/video/wayland/SDL_waylandmouse.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylandmouse.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandmouse.c.i
 .PHONY : src/video/wayland/SDL_waylandmouse.c.i
 
 src/video/wayland/SDL_waylandmouse.s: src/video/wayland/SDL_waylandmouse.c.s
@@ -5248,6 +5870,7 @@ src/video/wayland/SDL_waylandmouse.s: src/video/wayland/SDL_waylandmouse.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandmouse.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandmouse.c.s
 .PHONY : src/video/wayland/SDL_waylandmouse.c.s
 
 src/video/wayland/SDL_waylandopengles.o: src/video/wayland/SDL_waylandopengles.c.o
@@ -5256,6 +5879,7 @@ src/video/wayland/SDL_waylandopengles.o: src/video/wayland/SDL_waylandopengles.c
 # target to build an object file
 src/video/wayland/SDL_waylandopengles.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandopengles.c.o
 .PHONY : src/video/wayland/SDL_waylandopengles.c.o
 
 src/video/wayland/SDL_waylandopengles.i: src/video/wayland/SDL_waylandopengles.c.i
@@ -5264,6 +5888,7 @@ src/video/wayland/SDL_waylandopengles.i: src/video/wayland/SDL_waylandopengles.c
 # target to preprocess a source file
 src/video/wayland/SDL_waylandopengles.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandopengles.c.i
 .PHONY : src/video/wayland/SDL_waylandopengles.c.i
 
 src/video/wayland/SDL_waylandopengles.s: src/video/wayland/SDL_waylandopengles.c.s
@@ -5272,6 +5897,7 @@ src/video/wayland/SDL_waylandopengles.s: src/video/wayland/SDL_waylandopengles.c
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandopengles.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandopengles.c.s
 .PHONY : src/video/wayland/SDL_waylandopengles.c.s
 
 src/video/wayland/SDL_waylandshmbuffer.o: src/video/wayland/SDL_waylandshmbuffer.c.o
@@ -5280,6 +5906,7 @@ src/video/wayland/SDL_waylandshmbuffer.o: src/video/wayland/SDL_waylandshmbuffer
 # target to build an object file
 src/video/wayland/SDL_waylandshmbuffer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandshmbuffer.c.o
 .PHONY : src/video/wayland/SDL_waylandshmbuffer.c.o
 
 src/video/wayland/SDL_waylandshmbuffer.i: src/video/wayland/SDL_waylandshmbuffer.c.i
@@ -5288,6 +5915,7 @@ src/video/wayland/SDL_waylandshmbuffer.i: src/video/wayland/SDL_waylandshmbuffer
 # target to preprocess a source file
 src/video/wayland/SDL_waylandshmbuffer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandshmbuffer.c.i
 .PHONY : src/video/wayland/SDL_waylandshmbuffer.c.i
 
 src/video/wayland/SDL_waylandshmbuffer.s: src/video/wayland/SDL_waylandshmbuffer.c.s
@@ -5296,6 +5924,7 @@ src/video/wayland/SDL_waylandshmbuffer.s: src/video/wayland/SDL_waylandshmbuffer
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandshmbuffer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandshmbuffer.c.s
 .PHONY : src/video/wayland/SDL_waylandshmbuffer.c.s
 
 src/video/wayland/SDL_waylandtouch.o: src/video/wayland/SDL_waylandtouch.c.o
@@ -5304,6 +5933,7 @@ src/video/wayland/SDL_waylandtouch.o: src/video/wayland/SDL_waylandtouch.c.o
 # target to build an object file
 src/video/wayland/SDL_waylandtouch.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandtouch.c.o
 .PHONY : src/video/wayland/SDL_waylandtouch.c.o
 
 src/video/wayland/SDL_waylandtouch.i: src/video/wayland/SDL_waylandtouch.c.i
@@ -5312,6 +5942,7 @@ src/video/wayland/SDL_waylandtouch.i: src/video/wayland/SDL_waylandtouch.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylandtouch.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandtouch.c.i
 .PHONY : src/video/wayland/SDL_waylandtouch.c.i
 
 src/video/wayland/SDL_waylandtouch.s: src/video/wayland/SDL_waylandtouch.c.s
@@ -5320,6 +5951,7 @@ src/video/wayland/SDL_waylandtouch.s: src/video/wayland/SDL_waylandtouch.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandtouch.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandtouch.c.s
 .PHONY : src/video/wayland/SDL_waylandtouch.c.s
 
 src/video/wayland/SDL_waylandvideo.o: src/video/wayland/SDL_waylandvideo.c.o
@@ -5328,6 +5960,7 @@ src/video/wayland/SDL_waylandvideo.o: src/video/wayland/SDL_waylandvideo.c.o
 # target to build an object file
 src/video/wayland/SDL_waylandvideo.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandvideo.c.o
 .PHONY : src/video/wayland/SDL_waylandvideo.c.o
 
 src/video/wayland/SDL_waylandvideo.i: src/video/wayland/SDL_waylandvideo.c.i
@@ -5336,6 +5969,7 @@ src/video/wayland/SDL_waylandvideo.i: src/video/wayland/SDL_waylandvideo.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylandvideo.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandvideo.c.i
 .PHONY : src/video/wayland/SDL_waylandvideo.c.i
 
 src/video/wayland/SDL_waylandvideo.s: src/video/wayland/SDL_waylandvideo.c.s
@@ -5344,6 +5978,7 @@ src/video/wayland/SDL_waylandvideo.s: src/video/wayland/SDL_waylandvideo.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandvideo.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandvideo.c.s
 .PHONY : src/video/wayland/SDL_waylandvideo.c.s
 
 src/video/wayland/SDL_waylandvulkan.o: src/video/wayland/SDL_waylandvulkan.c.o
@@ -5352,6 +5987,7 @@ src/video/wayland/SDL_waylandvulkan.o: src/video/wayland/SDL_waylandvulkan.c.o
 # target to build an object file
 src/video/wayland/SDL_waylandvulkan.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandvulkan.c.o
 .PHONY : src/video/wayland/SDL_waylandvulkan.c.o
 
 src/video/wayland/SDL_waylandvulkan.i: src/video/wayland/SDL_waylandvulkan.c.i
@@ -5360,6 +5996,7 @@ src/video/wayland/SDL_waylandvulkan.i: src/video/wayland/SDL_waylandvulkan.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylandvulkan.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandvulkan.c.i
 .PHONY : src/video/wayland/SDL_waylandvulkan.c.i
 
 src/video/wayland/SDL_waylandvulkan.s: src/video/wayland/SDL_waylandvulkan.c.s
@@ -5368,6 +6005,7 @@ src/video/wayland/SDL_waylandvulkan.s: src/video/wayland/SDL_waylandvulkan.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandvulkan.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandvulkan.c.s
 .PHONY : src/video/wayland/SDL_waylandvulkan.c.s
 
 src/video/wayland/SDL_waylandwindow.o: src/video/wayland/SDL_waylandwindow.c.o
@@ -5376,6 +6014,7 @@ src/video/wayland/SDL_waylandwindow.o: src/video/wayland/SDL_waylandwindow.c.o
 # target to build an object file
 src/video/wayland/SDL_waylandwindow.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandwindow.c.o
 .PHONY : src/video/wayland/SDL_waylandwindow.c.o
 
 src/video/wayland/SDL_waylandwindow.i: src/video/wayland/SDL_waylandwindow.c.i
@@ -5384,6 +6023,7 @@ src/video/wayland/SDL_waylandwindow.i: src/video/wayland/SDL_waylandwindow.c.i
 # target to preprocess a source file
 src/video/wayland/SDL_waylandwindow.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandwindow.c.i
 .PHONY : src/video/wayland/SDL_waylandwindow.c.i
 
 src/video/wayland/SDL_waylandwindow.s: src/video/wayland/SDL_waylandwindow.c.s
@@ -5392,6 +6032,7 @@ src/video/wayland/SDL_waylandwindow.s: src/video/wayland/SDL_waylandwindow.c.s
 # target to generate assembly for a file
 src/video/wayland/SDL_waylandwindow.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/wayland/SDL_waylandwindow.c.s
 .PHONY : src/video/wayland/SDL_waylandwindow.c.s
 
 src/video/x11/SDL_x11clipboard.o: src/video/x11/SDL_x11clipboard.c.o
@@ -5400,6 +6041,7 @@ src/video/x11/SDL_x11clipboard.o: src/video/x11/SDL_x11clipboard.c.o
 # target to build an object file
 src/video/x11/SDL_x11clipboard.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11clipboard.c.o
 .PHONY : src/video/x11/SDL_x11clipboard.c.o
 
 src/video/x11/SDL_x11clipboard.i: src/video/x11/SDL_x11clipboard.c.i
@@ -5408,6 +6050,7 @@ src/video/x11/SDL_x11clipboard.i: src/video/x11/SDL_x11clipboard.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11clipboard.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11clipboard.c.i
 .PHONY : src/video/x11/SDL_x11clipboard.c.i
 
 src/video/x11/SDL_x11clipboard.s: src/video/x11/SDL_x11clipboard.c.s
@@ -5416,6 +6059,7 @@ src/video/x11/SDL_x11clipboard.s: src/video/x11/SDL_x11clipboard.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11clipboard.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11clipboard.c.s
 .PHONY : src/video/x11/SDL_x11clipboard.c.s
 
 src/video/x11/SDL_x11dyn.o: src/video/x11/SDL_x11dyn.c.o
@@ -5424,6 +6068,7 @@ src/video/x11/SDL_x11dyn.o: src/video/x11/SDL_x11dyn.c.o
 # target to build an object file
 src/video/x11/SDL_x11dyn.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11dyn.c.o
 .PHONY : src/video/x11/SDL_x11dyn.c.o
 
 src/video/x11/SDL_x11dyn.i: src/video/x11/SDL_x11dyn.c.i
@@ -5432,6 +6077,7 @@ src/video/x11/SDL_x11dyn.i: src/video/x11/SDL_x11dyn.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11dyn.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11dyn.c.i
 .PHONY : src/video/x11/SDL_x11dyn.c.i
 
 src/video/x11/SDL_x11dyn.s: src/video/x11/SDL_x11dyn.c.s
@@ -5440,6 +6086,7 @@ src/video/x11/SDL_x11dyn.s: src/video/x11/SDL_x11dyn.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11dyn.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11dyn.c.s
 .PHONY : src/video/x11/SDL_x11dyn.c.s
 
 src/video/x11/SDL_x11events.o: src/video/x11/SDL_x11events.c.o
@@ -5448,6 +6095,7 @@ src/video/x11/SDL_x11events.o: src/video/x11/SDL_x11events.c.o
 # target to build an object file
 src/video/x11/SDL_x11events.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11events.c.o
 .PHONY : src/video/x11/SDL_x11events.c.o
 
 src/video/x11/SDL_x11events.i: src/video/x11/SDL_x11events.c.i
@@ -5456,6 +6104,7 @@ src/video/x11/SDL_x11events.i: src/video/x11/SDL_x11events.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11events.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11events.c.i
 .PHONY : src/video/x11/SDL_x11events.c.i
 
 src/video/x11/SDL_x11events.s: src/video/x11/SDL_x11events.c.s
@@ -5464,6 +6113,7 @@ src/video/x11/SDL_x11events.s: src/video/x11/SDL_x11events.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11events.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11events.c.s
 .PHONY : src/video/x11/SDL_x11events.c.s
 
 src/video/x11/SDL_x11framebuffer.o: src/video/x11/SDL_x11framebuffer.c.o
@@ -5472,6 +6122,7 @@ src/video/x11/SDL_x11framebuffer.o: src/video/x11/SDL_x11framebuffer.c.o
 # target to build an object file
 src/video/x11/SDL_x11framebuffer.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11framebuffer.c.o
 .PHONY : src/video/x11/SDL_x11framebuffer.c.o
 
 src/video/x11/SDL_x11framebuffer.i: src/video/x11/SDL_x11framebuffer.c.i
@@ -5480,6 +6131,7 @@ src/video/x11/SDL_x11framebuffer.i: src/video/x11/SDL_x11framebuffer.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11framebuffer.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11framebuffer.c.i
 .PHONY : src/video/x11/SDL_x11framebuffer.c.i
 
 src/video/x11/SDL_x11framebuffer.s: src/video/x11/SDL_x11framebuffer.c.s
@@ -5488,6 +6140,7 @@ src/video/x11/SDL_x11framebuffer.s: src/video/x11/SDL_x11framebuffer.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11framebuffer.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11framebuffer.c.s
 .PHONY : src/video/x11/SDL_x11framebuffer.c.s
 
 src/video/x11/SDL_x11keyboard.o: src/video/x11/SDL_x11keyboard.c.o
@@ -5496,6 +6149,7 @@ src/video/x11/SDL_x11keyboard.o: src/video/x11/SDL_x11keyboard.c.o
 # target to build an object file
 src/video/x11/SDL_x11keyboard.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11keyboard.c.o
 .PHONY : src/video/x11/SDL_x11keyboard.c.o
 
 src/video/x11/SDL_x11keyboard.i: src/video/x11/SDL_x11keyboard.c.i
@@ -5504,6 +6158,7 @@ src/video/x11/SDL_x11keyboard.i: src/video/x11/SDL_x11keyboard.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11keyboard.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11keyboard.c.i
 .PHONY : src/video/x11/SDL_x11keyboard.c.i
 
 src/video/x11/SDL_x11keyboard.s: src/video/x11/SDL_x11keyboard.c.s
@@ -5512,6 +6167,7 @@ src/video/x11/SDL_x11keyboard.s: src/video/x11/SDL_x11keyboard.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11keyboard.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11keyboard.c.s
 .PHONY : src/video/x11/SDL_x11keyboard.c.s
 
 src/video/x11/SDL_x11messagebox.o: src/video/x11/SDL_x11messagebox.c.o
@@ -5520,6 +6176,7 @@ src/video/x11/SDL_x11messagebox.o: src/video/x11/SDL_x11messagebox.c.o
 # target to build an object file
 src/video/x11/SDL_x11messagebox.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11messagebox.c.o
 .PHONY : src/video/x11/SDL_x11messagebox.c.o
 
 src/video/x11/SDL_x11messagebox.i: src/video/x11/SDL_x11messagebox.c.i
@@ -5528,6 +6185,7 @@ src/video/x11/SDL_x11messagebox.i: src/video/x11/SDL_x11messagebox.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11messagebox.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11messagebox.c.i
 .PHONY : src/video/x11/SDL_x11messagebox.c.i
 
 src/video/x11/SDL_x11messagebox.s: src/video/x11/SDL_x11messagebox.c.s
@@ -5536,6 +6194,7 @@ src/video/x11/SDL_x11messagebox.s: src/video/x11/SDL_x11messagebox.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11messagebox.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11messagebox.c.s
 .PHONY : src/video/x11/SDL_x11messagebox.c.s
 
 src/video/x11/SDL_x11modes.o: src/video/x11/SDL_x11modes.c.o
@@ -5544,6 +6203,7 @@ src/video/x11/SDL_x11modes.o: src/video/x11/SDL_x11modes.c.o
 # target to build an object file
 src/video/x11/SDL_x11modes.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11modes.c.o
 .PHONY : src/video/x11/SDL_x11modes.c.o
 
 src/video/x11/SDL_x11modes.i: src/video/x11/SDL_x11modes.c.i
@@ -5552,6 +6212,7 @@ src/video/x11/SDL_x11modes.i: src/video/x11/SDL_x11modes.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11modes.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11modes.c.i
 .PHONY : src/video/x11/SDL_x11modes.c.i
 
 src/video/x11/SDL_x11modes.s: src/video/x11/SDL_x11modes.c.s
@@ -5560,6 +6221,7 @@ src/video/x11/SDL_x11modes.s: src/video/x11/SDL_x11modes.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11modes.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11modes.c.s
 .PHONY : src/video/x11/SDL_x11modes.c.s
 
 src/video/x11/SDL_x11mouse.o: src/video/x11/SDL_x11mouse.c.o
@@ -5568,6 +6230,7 @@ src/video/x11/SDL_x11mouse.o: src/video/x11/SDL_x11mouse.c.o
 # target to build an object file
 src/video/x11/SDL_x11mouse.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11mouse.c.o
 .PHONY : src/video/x11/SDL_x11mouse.c.o
 
 src/video/x11/SDL_x11mouse.i: src/video/x11/SDL_x11mouse.c.i
@@ -5576,6 +6239,7 @@ src/video/x11/SDL_x11mouse.i: src/video/x11/SDL_x11mouse.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11mouse.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11mouse.c.i
 .PHONY : src/video/x11/SDL_x11mouse.c.i
 
 src/video/x11/SDL_x11mouse.s: src/video/x11/SDL_x11mouse.c.s
@@ -5584,6 +6248,7 @@ src/video/x11/SDL_x11mouse.s: src/video/x11/SDL_x11mouse.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11mouse.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11mouse.c.s
 .PHONY : src/video/x11/SDL_x11mouse.c.s
 
 src/video/x11/SDL_x11opengl.o: src/video/x11/SDL_x11opengl.c.o
@@ -5592,6 +6257,7 @@ src/video/x11/SDL_x11opengl.o: src/video/x11/SDL_x11opengl.c.o
 # target to build an object file
 src/video/x11/SDL_x11opengl.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengl.c.o
 .PHONY : src/video/x11/SDL_x11opengl.c.o
 
 src/video/x11/SDL_x11opengl.i: src/video/x11/SDL_x11opengl.c.i
@@ -5600,6 +6266,7 @@ src/video/x11/SDL_x11opengl.i: src/video/x11/SDL_x11opengl.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11opengl.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengl.c.i
 .PHONY : src/video/x11/SDL_x11opengl.c.i
 
 src/video/x11/SDL_x11opengl.s: src/video/x11/SDL_x11opengl.c.s
@@ -5608,6 +6275,7 @@ src/video/x11/SDL_x11opengl.s: src/video/x11/SDL_x11opengl.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11opengl.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengl.c.s
 .PHONY : src/video/x11/SDL_x11opengl.c.s
 
 src/video/x11/SDL_x11opengles.o: src/video/x11/SDL_x11opengles.c.o
@@ -5616,6 +6284,7 @@ src/video/x11/SDL_x11opengles.o: src/video/x11/SDL_x11opengles.c.o
 # target to build an object file
 src/video/x11/SDL_x11opengles.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengles.c.o
 .PHONY : src/video/x11/SDL_x11opengles.c.o
 
 src/video/x11/SDL_x11opengles.i: src/video/x11/SDL_x11opengles.c.i
@@ -5624,6 +6293,7 @@ src/video/x11/SDL_x11opengles.i: src/video/x11/SDL_x11opengles.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11opengles.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengles.c.i
 .PHONY : src/video/x11/SDL_x11opengles.c.i
 
 src/video/x11/SDL_x11opengles.s: src/video/x11/SDL_x11opengles.c.s
@@ -5632,6 +6302,7 @@ src/video/x11/SDL_x11opengles.s: src/video/x11/SDL_x11opengles.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11opengles.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengles.c.s
 .PHONY : src/video/x11/SDL_x11opengles.c.s
 
 src/video/x11/SDL_x11shape.o: src/video/x11/SDL_x11shape.c.o
@@ -5640,6 +6311,7 @@ src/video/x11/SDL_x11shape.o: src/video/x11/SDL_x11shape.c.o
 # target to build an object file
 src/video/x11/SDL_x11shape.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11shape.c.o
 .PHONY : src/video/x11/SDL_x11shape.c.o
 
 src/video/x11/SDL_x11shape.i: src/video/x11/SDL_x11shape.c.i
@@ -5648,6 +6320,7 @@ src/video/x11/SDL_x11shape.i: src/video/x11/SDL_x11shape.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11shape.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11shape.c.i
 .PHONY : src/video/x11/SDL_x11shape.c.i
 
 src/video/x11/SDL_x11shape.s: src/video/x11/SDL_x11shape.c.s
@@ -5656,6 +6329,7 @@ src/video/x11/SDL_x11shape.s: src/video/x11/SDL_x11shape.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11shape.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11shape.c.s
 .PHONY : src/video/x11/SDL_x11shape.c.s
 
 src/video/x11/SDL_x11touch.o: src/video/x11/SDL_x11touch.c.o
@@ -5664,6 +6338,7 @@ src/video/x11/SDL_x11touch.o: src/video/x11/SDL_x11touch.c.o
 # target to build an object file
 src/video/x11/SDL_x11touch.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11touch.c.o
 .PHONY : src/video/x11/SDL_x11touch.c.o
 
 src/video/x11/SDL_x11touch.i: src/video/x11/SDL_x11touch.c.i
@@ -5672,6 +6347,7 @@ src/video/x11/SDL_x11touch.i: src/video/x11/SDL_x11touch.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11touch.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11touch.c.i
 .PHONY : src/video/x11/SDL_x11touch.c.i
 
 src/video/x11/SDL_x11touch.s: src/video/x11/SDL_x11touch.c.s
@@ -5680,6 +6356,7 @@ src/video/x11/SDL_x11touch.s: src/video/x11/SDL_x11touch.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11touch.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11touch.c.s
 .PHONY : src/video/x11/SDL_x11touch.c.s
 
 src/video/x11/SDL_x11video.o: src/video/x11/SDL_x11video.c.o
@@ -5688,6 +6365,7 @@ src/video/x11/SDL_x11video.o: src/video/x11/SDL_x11video.c.o
 # target to build an object file
 src/video/x11/SDL_x11video.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11video.c.o
 .PHONY : src/video/x11/SDL_x11video.c.o
 
 src/video/x11/SDL_x11video.i: src/video/x11/SDL_x11video.c.i
@@ -5696,6 +6374,7 @@ src/video/x11/SDL_x11video.i: src/video/x11/SDL_x11video.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11video.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11video.c.i
 .PHONY : src/video/x11/SDL_x11video.c.i
 
 src/video/x11/SDL_x11video.s: src/video/x11/SDL_x11video.c.s
@@ -5704,6 +6383,7 @@ src/video/x11/SDL_x11video.s: src/video/x11/SDL_x11video.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11video.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11video.c.s
 .PHONY : src/video/x11/SDL_x11video.c.s
 
 src/video/x11/SDL_x11vulkan.o: src/video/x11/SDL_x11vulkan.c.o
@@ -5712,6 +6392,7 @@ src/video/x11/SDL_x11vulkan.o: src/video/x11/SDL_x11vulkan.c.o
 # target to build an object file
 src/video/x11/SDL_x11vulkan.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11vulkan.c.o
 .PHONY : src/video/x11/SDL_x11vulkan.c.o
 
 src/video/x11/SDL_x11vulkan.i: src/video/x11/SDL_x11vulkan.c.i
@@ -5720,6 +6401,7 @@ src/video/x11/SDL_x11vulkan.i: src/video/x11/SDL_x11vulkan.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11vulkan.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11vulkan.c.i
 .PHONY : src/video/x11/SDL_x11vulkan.c.i
 
 src/video/x11/SDL_x11vulkan.s: src/video/x11/SDL_x11vulkan.c.s
@@ -5728,6 +6410,7 @@ src/video/x11/SDL_x11vulkan.s: src/video/x11/SDL_x11vulkan.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11vulkan.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11vulkan.c.s
 .PHONY : src/video/x11/SDL_x11vulkan.c.s
 
 src/video/x11/SDL_x11window.o: src/video/x11/SDL_x11window.c.o
@@ -5736,6 +6419,7 @@ src/video/x11/SDL_x11window.o: src/video/x11/SDL_x11window.c.o
 # target to build an object file
 src/video/x11/SDL_x11window.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11window.c.o
 .PHONY : src/video/x11/SDL_x11window.c.o
 
 src/video/x11/SDL_x11window.i: src/video/x11/SDL_x11window.c.i
@@ -5744,6 +6428,7 @@ src/video/x11/SDL_x11window.i: src/video/x11/SDL_x11window.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11window.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11window.c.i
 .PHONY : src/video/x11/SDL_x11window.c.i
 
 src/video/x11/SDL_x11window.s: src/video/x11/SDL_x11window.c.s
@@ -5752,6 +6437,7 @@ src/video/x11/SDL_x11window.s: src/video/x11/SDL_x11window.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11window.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11window.c.s
 .PHONY : src/video/x11/SDL_x11window.c.s
 
 src/video/x11/SDL_x11xfixes.o: src/video/x11/SDL_x11xfixes.c.o
@@ -5760,6 +6446,7 @@ src/video/x11/SDL_x11xfixes.o: src/video/x11/SDL_x11xfixes.c.o
 # target to build an object file
 src/video/x11/SDL_x11xfixes.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xfixes.c.o
 .PHONY : src/video/x11/SDL_x11xfixes.c.o
 
 src/video/x11/SDL_x11xfixes.i: src/video/x11/SDL_x11xfixes.c.i
@@ -5768,6 +6455,7 @@ src/video/x11/SDL_x11xfixes.i: src/video/x11/SDL_x11xfixes.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11xfixes.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xfixes.c.i
 .PHONY : src/video/x11/SDL_x11xfixes.c.i
 
 src/video/x11/SDL_x11xfixes.s: src/video/x11/SDL_x11xfixes.c.s
@@ -5776,6 +6464,7 @@ src/video/x11/SDL_x11xfixes.s: src/video/x11/SDL_x11xfixes.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11xfixes.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xfixes.c.s
 .PHONY : src/video/x11/SDL_x11xfixes.c.s
 
 src/video/x11/SDL_x11xinput2.o: src/video/x11/SDL_x11xinput2.c.o
@@ -5784,6 +6473,7 @@ src/video/x11/SDL_x11xinput2.o: src/video/x11/SDL_x11xinput2.c.o
 # target to build an object file
 src/video/x11/SDL_x11xinput2.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xinput2.c.o
 .PHONY : src/video/x11/SDL_x11xinput2.c.o
 
 src/video/x11/SDL_x11xinput2.i: src/video/x11/SDL_x11xinput2.c.i
@@ -5792,6 +6482,7 @@ src/video/x11/SDL_x11xinput2.i: src/video/x11/SDL_x11xinput2.c.i
 # target to preprocess a source file
 src/video/x11/SDL_x11xinput2.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xinput2.c.i
 .PHONY : src/video/x11/SDL_x11xinput2.c.i
 
 src/video/x11/SDL_x11xinput2.s: src/video/x11/SDL_x11xinput2.c.s
@@ -5800,6 +6491,7 @@ src/video/x11/SDL_x11xinput2.s: src/video/x11/SDL_x11xinput2.c.s
 # target to generate assembly for a file
 src/video/x11/SDL_x11xinput2.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xinput2.c.s
 .PHONY : src/video/x11/SDL_x11xinput2.c.s
 
 src/video/x11/edid-parse.o: src/video/x11/edid-parse.c.o
@@ -5808,6 +6500,7 @@ src/video/x11/edid-parse.o: src/video/x11/edid-parse.c.o
 # target to build an object file
 src/video/x11/edid-parse.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/edid-parse.c.o
 .PHONY : src/video/x11/edid-parse.c.o
 
 src/video/x11/edid-parse.i: src/video/x11/edid-parse.c.i
@@ -5816,6 +6509,7 @@ src/video/x11/edid-parse.i: src/video/x11/edid-parse.c.i
 # target to preprocess a source file
 src/video/x11/edid-parse.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/edid-parse.c.i
 .PHONY : src/video/x11/edid-parse.c.i
 
 src/video/x11/edid-parse.s: src/video/x11/edid-parse.c.s
@@ -5824,6 +6518,7 @@ src/video/x11/edid-parse.s: src/video/x11/edid-parse.c.s
 # target to generate assembly for a file
 src/video/x11/edid-parse.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/x11/edid-parse.c.s
 .PHONY : src/video/x11/edid-parse.c.s
 
 src/video/yuv2rgb/yuv_rgb_lsx.o: src/video/yuv2rgb/yuv_rgb_lsx.c.o
@@ -5832,6 +6527,7 @@ src/video/yuv2rgb/yuv_rgb_lsx.o: src/video/yuv2rgb/yuv_rgb_lsx.c.o
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb_lsx.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o
 .PHONY : src/video/yuv2rgb/yuv_rgb_lsx.c.o
 
 src/video/yuv2rgb/yuv_rgb_lsx.i: src/video/yuv2rgb/yuv_rgb_lsx.c.i
@@ -5840,6 +6536,7 @@ src/video/yuv2rgb/yuv_rgb_lsx.i: src/video/yuv2rgb/yuv_rgb_lsx.c.i
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb_lsx.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb_lsx.c.i
 
 src/video/yuv2rgb/yuv_rgb_lsx.s: src/video/yuv2rgb/yuv_rgb_lsx.c.s
@@ -5848,6 +6545,7 @@ src/video/yuv2rgb/yuv_rgb_lsx.s: src/video/yuv2rgb/yuv_rgb_lsx.c.s
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb_lsx.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_lsx.c.s
 
 src/video/yuv2rgb/yuv_rgb_sse.o: src/video/yuv2rgb/yuv_rgb_sse.c.o
@@ -5856,6 +6554,7 @@ src/video/yuv2rgb/yuv_rgb_sse.o: src/video/yuv2rgb/yuv_rgb_sse.c.o
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb_sse.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o
 .PHONY : src/video/yuv2rgb/yuv_rgb_sse.c.o
 
 src/video/yuv2rgb/yuv_rgb_sse.i: src/video/yuv2rgb/yuv_rgb_sse.c.i
@@ -5864,6 +6563,7 @@ src/video/yuv2rgb/yuv_rgb_sse.i: src/video/yuv2rgb/yuv_rgb_sse.c.i
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb_sse.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_sse.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_sse.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb_sse.c.i
 
 src/video/yuv2rgb/yuv_rgb_sse.s: src/video/yuv2rgb/yuv_rgb_sse.c.s
@@ -5872,6 +6572,7 @@ src/video/yuv2rgb/yuv_rgb_sse.s: src/video/yuv2rgb/yuv_rgb_sse.c.s
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb_sse.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_sse.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_sse.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_sse.c.s
 
 src/video/yuv2rgb/yuv_rgb_std.o: src/video/yuv2rgb/yuv_rgb_std.c.o
@@ -5880,6 +6581,7 @@ src/video/yuv2rgb/yuv_rgb_std.o: src/video/yuv2rgb/yuv_rgb_std.c.o
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb_std.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_std.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_std.c.o
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.o
 
 src/video/yuv2rgb/yuv_rgb_std.i: src/video/yuv2rgb/yuv_rgb_std.c.i
@@ -5888,6 +6590,7 @@ src/video/yuv2rgb/yuv_rgb_std.i: src/video/yuv2rgb/yuv_rgb_std.c.i
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb_std.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_std.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_std.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.i
 
 src/video/yuv2rgb/yuv_rgb_std.s: src/video/yuv2rgb/yuv_rgb_std.c.s
@@ -5896,6 +6599,7 @@ src/video/yuv2rgb/yuv_rgb_std.s: src/video/yuv2rgb/yuv_rgb_std.c.s
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb_std.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_std.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb_std.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.s
 
 wayland-generated-protocols/cursor-shape-v1-protocol.o: wayland-generated-protocols/cursor-shape-v1-protocol.c.o
@@ -5904,6 +6608,7 @@ wayland-generated-protocols/cursor-shape-v1-protocol.o: wayland-generated-protoc
 # target to build an object file
 wayland-generated-protocols/cursor-shape-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.c.o
 
 wayland-generated-protocols/cursor-shape-v1-protocol.i: wayland-generated-protocols/cursor-shape-v1-protocol.c.i
@@ -5912,6 +6617,7 @@ wayland-generated-protocols/cursor-shape-v1-protocol.i: wayland-generated-protoc
 # target to preprocess a source file
 wayland-generated-protocols/cursor-shape-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.c.i
 
 wayland-generated-protocols/cursor-shape-v1-protocol.s: wayland-generated-protocols/cursor-shape-v1-protocol.c.s
@@ -5920,6 +6626,7 @@ wayland-generated-protocols/cursor-shape-v1-protocol.s: wayland-generated-protoc
 # target to generate assembly for a file
 wayland-generated-protocols/cursor-shape-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/cursor-shape-v1-protocol.c.s
 
 wayland-generated-protocols/fractional-scale-v1-protocol.o: wayland-generated-protocols/fractional-scale-v1-protocol.c.o
@@ -5928,6 +6635,7 @@ wayland-generated-protocols/fractional-scale-v1-protocol.o: wayland-generated-pr
 # target to build an object file
 wayland-generated-protocols/fractional-scale-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.c.o
 
 wayland-generated-protocols/fractional-scale-v1-protocol.i: wayland-generated-protocols/fractional-scale-v1-protocol.c.i
@@ -5936,6 +6644,7 @@ wayland-generated-protocols/fractional-scale-v1-protocol.i: wayland-generated-pr
 # target to preprocess a source file
 wayland-generated-protocols/fractional-scale-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.c.i
 
 wayland-generated-protocols/fractional-scale-v1-protocol.s: wayland-generated-protocols/fractional-scale-v1-protocol.c.s
@@ -5944,6 +6653,7 @@ wayland-generated-protocols/fractional-scale-v1-protocol.s: wayland-generated-pr
 # target to generate assembly for a file
 wayland-generated-protocols/fractional-scale-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/fractional-scale-v1-protocol.c.s
 
 wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.o: wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
@@ -5952,6 +6662,7 @@ wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.o: wayland-generat
 # target to build an object file
 wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.i: wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
@@ -5960,6 +6671,7 @@ wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.i: wayland-generat
 # target to preprocess a source file
 wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.s: wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
@@ -5968,6 +6680,7 @@ wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.s: wayland-generat
 # target to generate assembly for a file
 wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.o: wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
@@ -5976,6 +6689,7 @@ wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.o: w
 # target to build an object file
 wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.i: wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
@@ -5984,6 +6698,7 @@ wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.i: w
 # target to preprocess a source file
 wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.s: wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
@@ -5992,6 +6707,7 @@ wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.s: w
 # target to generate assembly for a file
 wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.o: wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
@@ -6000,6 +6716,7 @@ wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.o: wayland-
 # target to build an object file
 wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.i: wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
@@ -6008,6 +6725,7 @@ wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.i: wayland-
 # target to preprocess a source file
 wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.s: wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
@@ -6016,6 +6734,7 @@ wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.s: wayland-
 # target to generate assembly for a file
 wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/primary-selection-unstable-v1-protocol.o: wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
@@ -6024,6 +6743,7 @@ wayland-generated-protocols/primary-selection-unstable-v1-protocol.o: wayland-ge
 # target to build an object file
 wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/primary-selection-unstable-v1-protocol.i: wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
@@ -6032,6 +6752,7 @@ wayland-generated-protocols/primary-selection-unstable-v1-protocol.i: wayland-ge
 # target to preprocess a source file
 wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/primary-selection-unstable-v1-protocol.s: wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
@@ -6040,6 +6761,7 @@ wayland-generated-protocols/primary-selection-unstable-v1-protocol.s: wayland-ge
 # target to generate assembly for a file
 wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/relative-pointer-unstable-v1-protocol.o: wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
@@ -6048,6 +6770,7 @@ wayland-generated-protocols/relative-pointer-unstable-v1-protocol.o: wayland-gen
 # target to build an object file
 wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/relative-pointer-unstable-v1-protocol.i: wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
@@ -6056,6 +6779,7 @@ wayland-generated-protocols/relative-pointer-unstable-v1-protocol.i: wayland-gen
 # target to preprocess a source file
 wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/relative-pointer-unstable-v1-protocol.s: wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
@@ -6064,6 +6788,7 @@ wayland-generated-protocols/relative-pointer-unstable-v1-protocol.s: wayland-gen
 # target to generate assembly for a file
 wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/tablet-unstable-v2-protocol.o: wayland-generated-protocols/tablet-unstable-v2-protocol.c.o
@@ -6072,6 +6797,7 @@ wayland-generated-protocols/tablet-unstable-v2-protocol.o: wayland-generated-pro
 # target to build an object file
 wayland-generated-protocols/tablet-unstable-v2-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o
 .PHONY : wayland-generated-protocols/tablet-unstable-v2-protocol.c.o
 
 wayland-generated-protocols/tablet-unstable-v2-protocol.i: wayland-generated-protocols/tablet-unstable-v2-protocol.c.i
@@ -6080,6 +6806,7 @@ wayland-generated-protocols/tablet-unstable-v2-protocol.i: wayland-generated-pro
 # target to preprocess a source file
 wayland-generated-protocols/tablet-unstable-v2-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.i
 .PHONY : wayland-generated-protocols/tablet-unstable-v2-protocol.c.i
 
 wayland-generated-protocols/tablet-unstable-v2-protocol.s: wayland-generated-protocols/tablet-unstable-v2-protocol.c.s
@@ -6088,6 +6815,7 @@ wayland-generated-protocols/tablet-unstable-v2-protocol.s: wayland-generated-pro
 # target to generate assembly for a file
 wayland-generated-protocols/tablet-unstable-v2-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.s
 .PHONY : wayland-generated-protocols/tablet-unstable-v2-protocol.c.s
 
 wayland-generated-protocols/text-input-unstable-v3-protocol.o: wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
@@ -6096,6 +6824,7 @@ wayland-generated-protocols/text-input-unstable-v3-protocol.o: wayland-generated
 # target to build an object file
 wayland-generated-protocols/text-input-unstable-v3-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
 .PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
 
 wayland-generated-protocols/text-input-unstable-v3-protocol.i: wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
@@ -6104,6 +6833,7 @@ wayland-generated-protocols/text-input-unstable-v3-protocol.i: wayland-generated
 # target to preprocess a source file
 wayland-generated-protocols/text-input-unstable-v3-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
 .PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.c.i
 
 wayland-generated-protocols/text-input-unstable-v3-protocol.s: wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
@@ -6112,6 +6842,7 @@ wayland-generated-protocols/text-input-unstable-v3-protocol.s: wayland-generated
 # target to generate assembly for a file
 wayland-generated-protocols/text-input-unstable-v3-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
 .PHONY : wayland-generated-protocols/text-input-unstable-v3-protocol.c.s
 
 wayland-generated-protocols/viewporter-protocol.o: wayland-generated-protocols/viewporter-protocol.c.o
@@ -6120,6 +6851,7 @@ wayland-generated-protocols/viewporter-protocol.o: wayland-generated-protocols/v
 # target to build an object file
 wayland-generated-protocols/viewporter-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/viewporter-protocol.c.o
 .PHONY : wayland-generated-protocols/viewporter-protocol.c.o
 
 wayland-generated-protocols/viewporter-protocol.i: wayland-generated-protocols/viewporter-protocol.c.i
@@ -6128,6 +6860,7 @@ wayland-generated-protocols/viewporter-protocol.i: wayland-generated-protocols/v
 # target to preprocess a source file
 wayland-generated-protocols/viewporter-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/viewporter-protocol.c.i
 .PHONY : wayland-generated-protocols/viewporter-protocol.c.i
 
 wayland-generated-protocols/viewporter-protocol.s: wayland-generated-protocols/viewporter-protocol.c.s
@@ -6136,6 +6869,7 @@ wayland-generated-protocols/viewporter-protocol.s: wayland-generated-protocols/v
 # target to generate assembly for a file
 wayland-generated-protocols/viewporter-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/viewporter-protocol.c.s
 .PHONY : wayland-generated-protocols/viewporter-protocol.c.s
 
 wayland-generated-protocols/wayland-protocol.o: wayland-generated-protocols/wayland-protocol.c.o
@@ -6144,6 +6878,7 @@ wayland-generated-protocols/wayland-protocol.o: wayland-generated-protocols/wayl
 # target to build an object file
 wayland-generated-protocols/wayland-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/wayland-protocol.c.o
 .PHONY : wayland-generated-protocols/wayland-protocol.c.o
 
 wayland-generated-protocols/wayland-protocol.i: wayland-generated-protocols/wayland-protocol.c.i
@@ -6152,6 +6887,7 @@ wayland-generated-protocols/wayland-protocol.i: wayland-generated-protocols/wayl
 # target to preprocess a source file
 wayland-generated-protocols/wayland-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/wayland-protocol.c.i
 .PHONY : wayland-generated-protocols/wayland-protocol.c.i
 
 wayland-generated-protocols/wayland-protocol.s: wayland-generated-protocols/wayland-protocol.c.s
@@ -6160,6 +6896,7 @@ wayland-generated-protocols/wayland-protocol.s: wayland-generated-protocols/wayl
 # target to generate assembly for a file
 wayland-generated-protocols/wayland-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/wayland-protocol.c.s
 .PHONY : wayland-generated-protocols/wayland-protocol.c.s
 
 wayland-generated-protocols/xdg-activation-v1-protocol.o: wayland-generated-protocols/xdg-activation-v1-protocol.c.o
@@ -6168,6 +6905,7 @@ wayland-generated-protocols/xdg-activation-v1-protocol.o: wayland-generated-prot
 # target to build an object file
 wayland-generated-protocols/xdg-activation-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.c.o
 
 wayland-generated-protocols/xdg-activation-v1-protocol.i: wayland-generated-protocols/xdg-activation-v1-protocol.c.i
@@ -6176,6 +6914,7 @@ wayland-generated-protocols/xdg-activation-v1-protocol.i: wayland-generated-prot
 # target to preprocess a source file
 wayland-generated-protocols/xdg-activation-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.c.i
 
 wayland-generated-protocols/xdg-activation-v1-protocol.s: wayland-generated-protocols/xdg-activation-v1-protocol.c.s
@@ -6184,6 +6923,7 @@ wayland-generated-protocols/xdg-activation-v1-protocol.s: wayland-generated-prot
 # target to generate assembly for a file
 wayland-generated-protocols/xdg-activation-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/xdg-activation-v1-protocol.c.s
 
 wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.o: wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
@@ -6192,6 +6932,7 @@ wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.o: wayland-gener
 # target to build an object file
 wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.i: wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
@@ -6200,6 +6941,7 @@ wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.i: wayland-gener
 # target to preprocess a source file
 wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.s: wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
@@ -6208,6 +6950,7 @@ wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.s: wayland-gener
 # target to generate assembly for a file
 wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/xdg-output-unstable-v1-protocol.o: wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
@@ -6216,6 +6959,7 @@ wayland-generated-protocols/xdg-output-unstable-v1-protocol.o: wayland-generated
 # target to build an object file
 wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
 
 wayland-generated-protocols/xdg-output-unstable-v1-protocol.i: wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
@@ -6224,6 +6968,7 @@ wayland-generated-protocols/xdg-output-unstable-v1-protocol.i: wayland-generated
 # target to preprocess a source file
 wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i
 
 wayland-generated-protocols/xdg-output-unstable-v1-protocol.s: wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
@@ -6232,6 +6977,7 @@ wayland-generated-protocols/xdg-output-unstable-v1-protocol.s: wayland-generated
 # target to generate assembly for a file
 wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.s
 
 wayland-generated-protocols/xdg-shell-protocol.o: wayland-generated-protocols/xdg-shell-protocol.c.o
@@ -6240,6 +6986,7 @@ wayland-generated-protocols/xdg-shell-protocol.o: wayland-generated-protocols/xd
 # target to build an object file
 wayland-generated-protocols/xdg-shell-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-shell-protocol.c.o
 .PHONY : wayland-generated-protocols/xdg-shell-protocol.c.o
 
 wayland-generated-protocols/xdg-shell-protocol.i: wayland-generated-protocols/xdg-shell-protocol.c.i
@@ -6248,6 +6995,7 @@ wayland-generated-protocols/xdg-shell-protocol.i: wayland-generated-protocols/xd
 # target to preprocess a source file
 wayland-generated-protocols/xdg-shell-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-shell-protocol.c.i
 .PHONY : wayland-generated-protocols/xdg-shell-protocol.c.i
 
 wayland-generated-protocols/xdg-shell-protocol.s: wayland-generated-protocols/xdg-shell-protocol.c.s
@@ -6256,6 +7004,7 @@ wayland-generated-protocols/xdg-shell-protocol.s: wayland-generated-protocols/xd
 # target to generate assembly for a file
 wayland-generated-protocols/xdg-shell-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-shell-protocol.c.s
 .PHONY : wayland-generated-protocols/xdg-shell-protocol.c.s
 
 wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.o: wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
@@ -6264,6 +7013,7 @@ wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.o: wayland-generated-p
 # target to build an object file
 wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
 .PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
 
 wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.i: wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
@@ -6272,6 +7022,7 @@ wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.i: wayland-generated-p
 # target to preprocess a source file
 wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
 .PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i
 
 wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.s: wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
@@ -6280,6 +7031,7 @@ wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.s: wayland-generated-p
 # target to generate assembly for a file
 wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s:
 	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2.dir/build.make extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
+	cd /home/kindle/KindlePlayer/build && $(MAKE) $(MAKESILENT) -f extern/sdl/CMakeFiles/SDL2-static.dir/build.make extern/sdl/CMakeFiles/SDL2-static.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
 .PHONY : wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.s
 
 # Help Target
@@ -6293,6 +7045,7 @@ help:
 	@echo "... sdl_headers_copy"
 	@echo "... uninstall"
 	@echo "... SDL2"
+	@echo "... SDL2-static"
 	@echo "... SDL2_test"
 	@echo "... SDL2main"
 	@echo "... src/SDL.o"
@@ -6352,6 +7105,9 @@ help:
 	@echo "... src/audio/disk/SDL_diskaudio.o"
 	@echo "... src/audio/disk/SDL_diskaudio.i"
 	@echo "... src/audio/disk/SDL_diskaudio.s"
+	@echo "... src/audio/dsp/SDL_dspaudio.o"
+	@echo "... src/audio/dsp/SDL_dspaudio.i"
+	@echo "... src/audio/dsp/SDL_dspaudio.s"
 	@echo "... src/audio/dummy/SDL_dummyaudio.o"
 	@echo "... src/audio/dummy/SDL_dummyaudio.i"
 	@echo "... src/audio/dummy/SDL_dummyaudio.s"

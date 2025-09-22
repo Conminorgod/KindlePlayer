@@ -139,6 +139,7 @@ libSDL2-2.0.so.0.3300.0: \
   CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.o \
   CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.o \
   CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.o \
+  CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o \
   CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o \
   CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o \
   CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o \
@@ -544,6 +545,8 @@ CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.o:
 CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.o:
 
 CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.o:
+
+CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o:
 
 CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o:
 

@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o.d"
   "CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o"
   "CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o.d"
+  "CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o"
+  "CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o.d"
   "CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o"
   "CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o.d"
   "CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o"

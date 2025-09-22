@@ -200,7 +200,7 @@
 #define HAVE_SYSCONF 1
 /* #undef HAVE_SYSCTLBYNAME */
 #define HAVE_CLOCK_GETTIME 1
-#define HAVE_GETPAGESIZE 1
+/* #undef HAVE_GETPAGESIZE */
 #define HAVE_MPROTECT 1
 #define HAVE_ICONV 1
 /* #undef SDL_USE_LIBICONV */
@@ -227,7 +227,7 @@
 #define HAVE_INOTIFY_INIT 1
 #define HAVE_INOTIFY_INIT1 1
 #define HAVE_INOTIFY 1
-#define HAVE_LIBUSB 1
+/* #undef HAVE_LIBUSB */
 #define HAVE_O_CLOEXEC 1
 
 /* Apple platforms might be building universal binaries, where Intel builds
@@ -313,7 +313,7 @@
 /* #undef SDL_AUDIO_DRIVER_NAS */
 /* #undef SDL_AUDIO_DRIVER_NAS_DYNAMIC */
 /* #undef SDL_AUDIO_DRIVER_NETBSD */
-/* #undef SDL_AUDIO_DRIVER_OSS */
+#define SDL_AUDIO_DRIVER_OSS 1
 /* #undef SDL_AUDIO_DRIVER_PAUDIO */
 #define SDL_AUDIO_DRIVER_PIPEWIRE 1
 #define SDL_AUDIO_DRIVER_PIPEWIRE_DYNAMIC "libpipewire-0.3.so.0"
@@ -362,7 +362,7 @@
 /* #undef SDL_HAPTIC_DINPUT */
 /* #undef SDL_HAPTIC_XINPUT */
 /* #undef SDL_HAPTIC_ANDROID */
-#define SDL_LIBUSB_DYNAMIC "libusb-1.0.so.0"
+/* #undef SDL_LIBUSB_DYNAMIC */
 #define SDL_UDEV_DYNAMIC "libudev.so.1"
 
 /* Enable various sensor drivers */

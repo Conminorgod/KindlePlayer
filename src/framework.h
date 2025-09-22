@@ -3,4 +3,5 @@
 #include <iostream>
 
 void setup(SDL_Window *window, SDL_GLContext &gl_context);
+void showDockSpace();
 void cleanup(Mix_Music *music, SDL_GLContext gl_context, SDL_Window *window);

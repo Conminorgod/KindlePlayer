@@ -126,6 +126,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "extern/sdl/CMakeFiles/sdl_headers_copy.dir/DependInfo.cmake"
   "extern/sdl/CMakeFiles/SDL2main.dir/DependInfo.cmake"
   "extern/sdl/CMakeFiles/SDL2.dir/DependInfo.cmake"
+  "extern/sdl/CMakeFiles/SDL2-static.dir/DependInfo.cmake"
   "extern/sdl/CMakeFiles/SDL2_test.dir/DependInfo.cmake"
   "extern/sdl/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "extern/sdl_mixer/CMakeFiles/SDL2_mixer.dir/DependInfo.cmake"

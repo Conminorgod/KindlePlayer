@@ -27,6 +27,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_wave.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o.d"
   "/home/kindle/KindlePlayer/extern/sdl/src/audio/alsa/SDL_alsa_audio.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o.d"
   "/home/kindle/KindlePlayer/extern/sdl/src/audio/disk/SDL_diskaudio.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o.d"
+  "/home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o.d"
   "/home/kindle/KindlePlayer/extern/sdl/src/audio/dummy/SDL_dummyaudio.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o.d"
   "/home/kindle/KindlePlayer/extern/sdl/src/audio/jack/SDL_jackaudio.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o.d"
   "/home/kindle/KindlePlayer/extern/sdl/src/audio/pipewire/SDL_pipewire.c" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o" "gcc" "extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o.d"

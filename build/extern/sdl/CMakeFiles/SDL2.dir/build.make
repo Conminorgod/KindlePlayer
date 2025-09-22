@@ -2132,10 +2132,24 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.s"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kindle/KindlePlayer/extern/sdl/src/video/offscreen/SDL_offscreenwindow.c -o CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.s
 
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o"
+	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o -MF CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o.d -o CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c
+
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.i"
+	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c > CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.i
+
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.s"
+	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c -o CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.s
+
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/alsa/SDL_alsa_audio.c
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o -MF CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o.d -o CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/audio/alsa/SDL_alsa_audio.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.i: cmake_force
@@ -2149,7 +2163,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/jack/SDL_jackaudio.c
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o -MF CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o.d -o CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/audio/jack/SDL_jackaudio.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.i: cmake_force
@@ -2163,7 +2177,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/pipewire/SDL_pipewire.c
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o -MF CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o.d -o CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/audio/pipewire/SDL_pipewire.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.i: cmake_force
@@ -2177,7 +2191,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/pulseaudio/SDL_pulseaudio.c
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o -MF CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o.d -o CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/audio/pulseaudio/SDL_pulseaudio.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.i: cmake_force
@@ -2191,7 +2205,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/pulseaudio/SDL_pulseaudio.c.s: cmake_fo
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/sndio/SDL_sndioaudio.c
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o -MF CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o.d -o CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/audio/sndio/SDL_sndioaudio.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.i: cmake_force
@@ -2205,7 +2219,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/sndio/SDL_sndioaudio.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11clipboard.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11clipboard.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.i: cmake_force
@@ -2219,7 +2233,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11dyn.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11dyn.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.i: cmake_force
@@ -2233,7 +2247,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11events.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11events.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.i: cmake_force
@@ -2247,7 +2261,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11framebuffer.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11framebuffer.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.i: cmake_force
@@ -2261,7 +2275,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11keyboard.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11keyboard.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.i: cmake_force
@@ -2275,7 +2289,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11messagebox.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11messagebox.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.i: cmake_force
@@ -2289,7 +2303,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11modes.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11modes.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.i: cmake_force
@@ -2303,7 +2317,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11mouse.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11mouse.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.i: cmake_force
@@ -2317,7 +2331,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11opengl.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11opengl.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.i: cmake_force
@@ -2331,7 +2345,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11opengles.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11opengles.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.i: cmake_force
@@ -2345,7 +2359,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11shape.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11shape.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.i: cmake_force
@@ -2359,7 +2373,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11touch.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11touch.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.i: cmake_force
@@ -2373,7 +2387,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11video.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11video.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.i: cmake_force
@@ -2387,7 +2401,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11vulkan.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11vulkan.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.i: cmake_force
@@ -2401,7 +2415,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11window.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11window.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.i: cmake_force
@@ -2415,7 +2429,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11xfixes.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11xfixes.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.i: cmake_force
@@ -2429,7 +2443,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11xinput2.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11xinput2.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.i: cmake_force
@@ -2443,7 +2457,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/x11/edid-parse.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o -MF CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o.d -o CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/x11/edid-parse.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.i: cmake_force
@@ -2457,7 +2471,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmdyn.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o -MF CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o.d -o CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmdyn.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.i: cmake_force
@@ -2471,7 +2485,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmevents.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o -MF CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o.d -o CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmevents.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.i: cmake_force
@@ -2485,7 +2499,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.s: cmake_forc
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmmouse.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o -MF CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o.d -o CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmmouse.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.i: cmake_force
@@ -2499,7 +2513,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmopengles.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o -MF CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o.d -o CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmopengles.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.i: cmake_force
@@ -2513,7 +2527,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.s: cmake_fo
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmvideo.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o -MF CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o.d -o CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmvideo.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.i: cmake_force
@@ -2527,7 +2541,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmvulkan.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o -MF CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o.d -o CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmvulkan.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.i: cmake_force
@@ -2541,7 +2555,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.s: cmake_forc
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandclipboard.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandclipboard.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.i: cmake_force
@@ -2555,7 +2569,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.s: cmake
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylanddatamanager.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylanddatamanager.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.i: cmake_force
@@ -2569,7 +2583,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddatamanager.c.s: cma
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylanddyn.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylanddyn.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.i: cmake_force
@@ -2583,7 +2597,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylanddyn.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandevents.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandevents.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.i: cmake_force
@@ -2597,7 +2611,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandevents.c.s: cmake_fo
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandkeyboard.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandkeyboard.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.i: cmake_force
@@ -2611,7 +2625,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandkeyboard.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandmessagebox.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandmessagebox.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.i: cmake_force
@@ -2625,7 +2639,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmessagebox.c.s: cmak
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandmouse.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandmouse.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.i: cmake_force
@@ -2639,7 +2653,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandopengles.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandopengles.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.i: cmake_force
@@ -2653,7 +2667,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandopengles.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandshmbuffer.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandshmbuffer.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.i: cmake_force
@@ -2667,7 +2681,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandshmbuffer.c.s: cmake
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandtouch.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandtouch.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.i: cmake_force
@@ -2681,7 +2695,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandtouch.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvideo.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvideo.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.i: cmake_force
@@ -2695,7 +2709,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvideo.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvulkan.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvulkan.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.i: cmake_force
@@ -2709,7 +2723,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandvulkan.c.s: cmake_fo
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o: /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandwindow.c
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o -MF CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o.d -o CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandwindow.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.i: cmake_force
@@ -2723,7 +2737,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandwindow.c.s: cmake_fo
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/cursor-shape-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/cursor-shape-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.i: cmake_force
@@ -2737,7 +2751,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/cursor-shape-v1-proto
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/fractional-scale-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/fractional-scale-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.i: cmake_force
@@ -2751,7 +2765,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/fractional-scale-v1-p
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.i: cmake_force
@@ -2765,7 +2779,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/idle-inhibit-unstable
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.i: cmake_force
@@ -2779,7 +2793,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/keyboard-shortcuts-in
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.i: cmake_force
@@ -2793,7 +2807,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/pointer-constraints-u
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.i: cmake_force
@@ -2807,7 +2821,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/primary-selection-uns
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.i: cmake_force
@@ -2821,7 +2835,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/relative-pointer-unst
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o: extern/sdl/wayland-generated-protocols/tablet-unstable-v2-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/tablet-unstable-v2-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-protocol.c.i: cmake_force
@@ -2835,7 +2849,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/tablet-unstable-v2-pr
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: extern/sdl/wayland-generated-protocols/text-input-unstable-v3-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/text-input-unstable-v3-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.i: cmake_force
@@ -2849,7 +2863,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o: extern/sdl/wayland-generated-protocols/viewporter-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/viewporter-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c.i: cmake_force
@@ -2863,7 +2877,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/viewporter-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o: extern/sdl/wayland-generated-protocols/wayland-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/wayland-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.i: cmake_force
@@ -2877,7 +2891,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/wayland-protocol.c.s:
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/xdg-activation-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/xdg-activation-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.i: cmake_force
@@ -2891,7 +2905,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-pro
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.i: cmake_force
@@ -2905,7 +2919,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-decoration-unstab
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.i: cmake_force
@@ -2919,7 +2933,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-output-unstable-v
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: extern/sdl/wayland-generated-protocols/xdg-shell-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/xdg-shell-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.i: cmake_force
@@ -2933,7 +2947,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-shell-protocol.c.
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: extern/sdl/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o -MF CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o.d -o CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o -c /home/kindle/KindlePlayer/build/extern/sdl/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.i: cmake_force
@@ -2947,7 +2961,7 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-
 extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/unix/SDL_poll.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o -MF CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o.d -o CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/unix/SDL_poll.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.i: cmake_force
@@ -2961,7 +2975,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o: /home/kindle/KindlePlayer/extern/sdl/src/haptic/linux/SDL_syshaptic.c
 extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o -MF CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o.d -o CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/haptic/linux/SDL_syshaptic.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.i: cmake_force
@@ -2975,7 +2989,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_dbus.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_dbus.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.i: cmake_force
@@ -2989,7 +3003,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_dbus.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_ime.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_ime.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.i: cmake_force
@@ -3003,7 +3017,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_ime.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_fcitx.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_fcitx.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.i: cmake_force
@@ -3017,7 +3031,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_udev.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_udev.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.i: cmake_force
@@ -3031,7 +3045,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_udev.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.i: cmake_force
@@ -3045,7 +3059,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_kbd.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_kbd.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.i: cmake_force
@@ -3059,7 +3073,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_capabilities.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_capabilities.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.i: cmake_force
@@ -3073,7 +3087,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_threadprio.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_threadprio.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.i: cmake_force
@@ -3087,7 +3101,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o: /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_sandbox.c
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o -MF CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o.d -o CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_sandbox.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.i: cmake_force
@@ -3101,7 +3115,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_sandbox.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_combined.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_combined.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i: cmake_force
@@ -3115,7 +3129,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s: cmak
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_gamecube.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_gamecube.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i: cmake_force
@@ -3129,7 +3143,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s: cmak
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_luna.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_luna.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i: cmake_force
@@ -3143,7 +3157,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s: cmake_fo
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_ps3.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_ps3.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.i: cmake_force
@@ -3157,7 +3171,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_ps4.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_ps4.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i: cmake_force
@@ -3171,7 +3185,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_ps5.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_ps5.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i: cmake_force
@@ -3185,7 +3199,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_rumble.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_rumble.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i: cmake_force
@@ -3199,7 +3213,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_shield.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_shield.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i: cmake_force
@@ -3213,7 +3227,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_stadia.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_stadia.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i: cmake_force
@@ -3227,7 +3241,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_steam.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_steam.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i: cmake_force
@@ -3241,7 +3255,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s: cmake_f
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_steamdeck.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_steamdeck.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.i: cmake_force
@@ -3255,7 +3269,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.s: cma
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_switch.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_switch.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i: cmake_force
@@ -3269,7 +3283,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_wii.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_wii.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i: cmake_force
@@ -3283,7 +3297,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_xbox360.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_xbox360.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i: cmake_force
@@ -3297,7 +3311,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s: cmake
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_xbox360w.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_xbox360w.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i: cmake_force
@@ -3311,7 +3325,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s: cmak
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_xboxone.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_xboxone.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i: cmake_force
@@ -3325,7 +3339,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s: cmake
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapijoystick.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o -MF CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapijoystick.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i: cmake_force
@@ -3339,7 +3353,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s: cmake
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/linux/SDL_sysjoystick.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o -MF CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/linux/SDL_sysjoystick.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.i: cmake_force
@@ -3353,7 +3367,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.s: cmake_for
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o: /home/kindle/KindlePlayer/extern/sdl/src/joystick/steam/SDL_steamcontroller.c
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o -MF CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o.d -o CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/joystick/steam/SDL_steamcontroller.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.i: cmake_force
@@ -3367,7 +3381,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.s: cmake
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o: /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_systhread.c
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o -MF CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o.d -o CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_systhread.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.i: cmake_force
@@ -3381,7 +3395,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o: /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_sysmutex.c
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o -MF CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o.d -o CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_sysmutex.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.i: cmake_force
@@ -3395,7 +3409,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_sysmutex.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o: /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_syscond.c
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o -MF CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o.d -o CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_syscond.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.i: cmake_force
@@ -3409,7 +3423,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syscond.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o: /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_systls.c
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o -MF CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o.d -o CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_systls.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.i: cmake_force
@@ -3423,7 +3437,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systls.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o: /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_syssem.c
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o -MF CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o.d -o CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_syssem.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.i: cmake_force
@@ -3437,7 +3451,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_syssem.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o: /home/kindle/KindlePlayer/extern/sdl/src/misc/unix/SDL_sysurl.c
 extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o -MF CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o.d -o CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/misc/unix/SDL_sysurl.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.i: cmake_force
@@ -3451,7 +3465,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: /home/kindle/KindlePlayer/extern/sdl/src/power/linux/SDL_syspower.c
 extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o -MF CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o.d -o CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/power/linux/SDL_syspower.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.i: cmake_force
@@ -3465,7 +3479,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o: /home/kindle/KindlePlayer/extern/sdl/src/locale/unix/SDL_syslocale.c
 extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o -MF CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o.d -o CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/locale/unix/SDL_syslocale.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.i: cmake_force
@@ -3479,7 +3493,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: /home/kindle/KindlePlayer/extern/sdl/src/filesystem/unix/SDL_sysfilesystem.c
 extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o -MF CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o.d -o CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/filesystem/unix/SDL_sysfilesystem.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.i: cmake_force
@@ -3493,7 +3507,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.s: cmake_
 extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o: /home/kindle/KindlePlayer/extern/sdl/src/timer/unix/SDL_systimer.c
 extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o -MF CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o.d -o CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/timer/unix/SDL_systimer.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.i: cmake_force
@@ -3507,7 +3521,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.s: cmake_force
 extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o: extern/sdl/CMakeFiles/SDL2.dir/flags.make
 extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o: /home/kindle/KindlePlayer/extern/sdl/src/sensor/dummy/SDL_dummysensor.c
 extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o -MF CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o.d -o CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o -c /home/kindle/KindlePlayer/extern/sdl/src/sensor/dummy/SDL_dummysensor.c
 
 extern/sdl/CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.i: cmake_force
@@ -3658,6 +3672,7 @@ SDL2_OBJECTS = \
 "CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.o" \
 "CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.o" \
 "CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.o" \
+"CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o" \
 "CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o" \
 "CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o" \
 "CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o" \
@@ -3899,6 +3914,7 @@ extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/video/off
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.o
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.o
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.o
+extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o
@@ -4001,7 +4017,7 @@ extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/src/sensor/du
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/build.make
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/compiler_depend.ts
 extern/sdl/libSDL2-2.0.so.0.3300.0: extern/sdl/CMakeFiles/SDL2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Linking C shared library libSDL2-2.0.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kindle/KindlePlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Linking C shared library libSDL2-2.0.so"
 	cd /home/kindle/KindlePlayer/build/extern/sdl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/kindle/KindlePlayer/build/extern/sdl && $(CMAKE_COMMAND) -E cmake_symlink_library libSDL2-2.0.so.0.3300.0 libSDL2-2.0.so.0 libSDL2-2.0.so
 

@@ -6,12 +6,12 @@
 #include <GL/gl3w.h>
 #include <iostream>
 
+// all of the boilerplate stuff for imgui and sdl and opengl and EVERYTHING
 void setup(SDL_Window *window, SDL_GLContext &gl_context) {
 	if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO) != 0) {
 		std::cerr << "SDL Init failed: " << SDL_GetError() << "\n";
 	}
 
-// Init Audio
 	if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0) {
 		std::cerr << "SDL Mixer Error: " << Mix_GetError() << "\n";
 	}
@@ -34,8 +34,25 @@ void setup(SDL_Window *window, SDL_GLContext &gl_context) {
 	ImGui_ImplSDL2_InitForOpenGL(window, gl_context);
 	ImGui_ImplOpenGL3_Init("#version 330");
 	ImGuiIO& io = ImGui::GetIO();
+	io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
 	io.Fonts->AddFontDefault();
 	io.FontGlobalScale = 1.5f;
+}
+
+void showDockSpace() {
+	ImGuiViewport *viewport = ImGui::GetMainViewport();
+	ImGui::SetNextWindowPos(viewport->WorkPos);
+	ImGui::SetNextWindowSize(viewport->WorkSize);
+	ImGui::SetNextWindowViewport(viewport->ID);
+
+	ImGuiWindowFlags host_window_flags = ImGuiWindowFlags_NoDecoration | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoDocking | ImGuiWindowFlags_NoBringToFrontOnFocus | ImGuiWindowFlags_NoNavFocus;
+	ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0.0f, 0.0f));
+	ImGui::Begin("##HostWindow", NULL, host_window_flags);
+	ImGui::PopStyleVar();
+
+	ImGuiID dockspace_id = ImGui::GetID("Dockspace");
+	ImGui::DockSpace(dockspace_id, ImVec2(0, 0), ImGuiDockNodeFlags_None);
+	ImGui::End();
 }
 
 void cleanup(Mix_Music *music, SDL_GLContext gl_context, SDL_Window *window) {

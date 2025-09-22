@@ -19,6 +19,12 @@ target_link_libraries(imgui PUBLIC SDL2 OpenGL::GL)
 add_library(gl3w extern/gl3w/src/gl3w.c)
 target_include_directories(gl3w PUBLIC extern/gl3w/include)
 
+file(MAKE_DIRECTORY build/assets)
+file(MAKE_DIRECTORY build/assets/audio)
+file(MAKE_DIRECTORY build/assets/images)
+file(MAKE_DIRECTORY build/assets/playlists)
+file(MAKE_DIRECTORY temp)
+
 file(GLOB SOURCES "src/*.cpp")
 add_executable(KindlePlayer ${SOURCES})
 target_include_directories(KindlePlayer

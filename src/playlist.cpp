@@ -10,6 +10,8 @@
 
 using json = nlohmann::json;
 
+// When a new playlist is created, it needs to be saved to a json file
+// This json file contains all of the songs' data structures
 void savePlaylist(const std::vector<Song> &playlist, const std::string &filename) {
 	json jsonObject = json::array();
 	for (const auto &song : playlist) {
@@ -25,6 +27,7 @@ void savePlaylist(const std::vector<Song> &playlist, const std::string &filename
 	file << jsonObject.dump(5);
 }
 
+// load a playlist json file and return the array of songs
 std::vector<Song> loadPlaylist(const std::string &filename) {
 	std::vector<Song> playlist;
 
@@ -50,6 +53,7 @@ std::vector<Song> loadPlaylist(const std::string &filename) {
 	return playlist;
 }
 
+// get every file with a specific extension from a specific file
 std::vector<std::filesystem::path> getEveryExt(const std::string &path, const std::string &extension) {
 	std::filesystem::path fPath = path;
 	std::vector<std::filesystem::path> files;
@@ -66,6 +70,8 @@ std::vector<std::filesystem::path> getEveryExt(const std::string &path, const st
 }
 
 // Exports a whole youtube playlist/song from a link and saves it as a playlist
+// I am going to need to multithread this at some point but I have no idea how
+// to do anything with threads
 void exportPlaylist(const std::string &link, const std::string &name) {
 	// uses yt-dlp to download each song in the playlist as audio and also saves their thumbnail. Command varies from system to system
 #ifdef _WIN32
@@ -105,6 +111,7 @@ void exportPlaylist(const std::string &link, const std::string &name) {
 	}
 }
 
+// shuffles a playlist and returns a copy of the original version
 std::vector<Song> shufflePlaylist(std::vector<Song> &playlist, uint32_t index) {
 	std::vector<Song> copiedPlaylist = playlist;
 
@@ -116,4 +123,3 @@ std::vector<Song> shufflePlaylist(std::vector<Song> &playlist, uint32_t index) {
 
 	return copiedPlaylist;
 }
-

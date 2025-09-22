@@ -2409,25 +2409,87 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.o: /home/kindle/KindlePl
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audiodev.c \
   extern/sdl/include-config-release/SDL2/SDL_config.h \
+  extern/sdl/include/SDL2/SDL.h \
   extern/sdl/include/SDL2/SDL_assert.h \
+  extern/sdl/include/SDL2/SDL_atomic.h \
+  extern/sdl/include/SDL2/SDL_audio.h \
+  extern/sdl/include/SDL2/SDL_blendmode.h \
+  extern/sdl/include/SDL2/SDL_clipboard.h \
+  extern/sdl/include/SDL2/SDL_cpuinfo.h \
+  extern/sdl/include/SDL2/SDL_endian.h \
+  extern/sdl/include/SDL2/SDL_error.h \
+  extern/sdl/include/SDL2/SDL_events.h \
+  extern/sdl/include/SDL2/SDL_filesystem.h \
+  extern/sdl/include/SDL2/SDL_gamecontroller.h \
+  extern/sdl/include/SDL2/SDL_gesture.h \
+  extern/sdl/include/SDL2/SDL_guid.h \
+  extern/sdl/include/SDL2/SDL_haptic.h \
+  extern/sdl/include/SDL2/SDL_hidapi.h \
+  extern/sdl/include/SDL2/SDL_hints.h \
+  extern/sdl/include/SDL2/SDL_joystick.h \
+  extern/sdl/include/SDL2/SDL_keyboard.h \
+  extern/sdl/include/SDL2/SDL_keycode.h \
+  extern/sdl/include/SDL2/SDL_loadso.h \
+  extern/sdl/include/SDL2/SDL_locale.h \
   extern/sdl/include/SDL2/SDL_log.h \
+  extern/sdl/include/SDL2/SDL_main.h \
+  extern/sdl/include/SDL2/SDL_messagebox.h \
+  extern/sdl/include/SDL2/SDL_metal.h \
+  extern/sdl/include/SDL2/SDL_misc.h \
+  extern/sdl/include/SDL2/SDL_mouse.h \
+  extern/sdl/include/SDL2/SDL_mutex.h \
+  extern/sdl/include/SDL2/SDL_pixels.h \
   extern/sdl/include/SDL2/SDL_platform.h \
+  extern/sdl/include/SDL2/SDL_power.h \
+  extern/sdl/include/SDL2/SDL_quit.h \
+  extern/sdl/include/SDL2/SDL_rect.h \
+  extern/sdl/include/SDL2/SDL_render.h \
+  extern/sdl/include/SDL2/SDL_rwops.h \
+  extern/sdl/include/SDL2/SDL_scancode.h \
+  extern/sdl/include/SDL2/SDL_sensor.h \
+  extern/sdl/include/SDL2/SDL_shape.h \
   extern/sdl/include/SDL2/SDL_stdinc.h \
+  extern/sdl/include/SDL2/SDL_surface.h \
+  extern/sdl/include/SDL2/SDL_system.h \
+  extern/sdl/include/SDL2/SDL_thread.h \
+  extern/sdl/include/SDL2/SDL_timer.h \
+  extern/sdl/include/SDL2/SDL_touch.h \
+  extern/sdl/include/SDL2/SDL_version.h \
+  extern/sdl/include/SDL2/SDL_video.h \
   extern/sdl/include/SDL2/begin_code.h \
   extern/sdl/include/SDL2/close_code.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/SDL_dataqueue.h \
   /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
   /home/kindle/KindlePlayer/extern/sdl/src/dynapi/SDL_dynapi.h \
   /home/kindle/KindlePlayer/extern/sdl/src/dynapi/SDL_dynapi_overrides.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audio_c.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audiodev_c.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_sysaudio.h \
   /usr/include/alloca.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm/types.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/fcntl-linux.h \
+  /usr/include/bits/fcntl.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -2437,9 +2499,13 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o: /home/kindle/KindlePl
   /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/statx.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
@@ -2449,6 +2515,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o: /home/kindle/KindlePl
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
@@ -2467,6 +2534,9 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o: /home/kindle/KindlePl
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/types/struct_statx.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
   /usr/include/bits/types/time_t.h \
@@ -2474,18 +2544,27 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o: /home/kindle/KindlePl
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/fcntl.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/inttypes.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/linux/types.h \
   /usr/include/math.h \
+  /usr/include/samplerate.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -2494,11 +2573,126 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o: /home/kindle/KindlePl
   /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audiotypecvt.c \
   extern/sdl/include-config-release/SDL2/SDL_config.h \
@@ -3336,6 +3530,339 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o: /home/kindle/Ki
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
+
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c \
+  extern/sdl/include-config-release/SDL2/SDL_config.h \
+  extern/sdl/include/SDL2/SDL.h \
+  extern/sdl/include/SDL2/SDL_assert.h \
+  extern/sdl/include/SDL2/SDL_atomic.h \
+  extern/sdl/include/SDL2/SDL_audio.h \
+  extern/sdl/include/SDL2/SDL_blendmode.h \
+  extern/sdl/include/SDL2/SDL_clipboard.h \
+  extern/sdl/include/SDL2/SDL_cpuinfo.h \
+  extern/sdl/include/SDL2/SDL_endian.h \
+  extern/sdl/include/SDL2/SDL_error.h \
+  extern/sdl/include/SDL2/SDL_events.h \
+  extern/sdl/include/SDL2/SDL_filesystem.h \
+  extern/sdl/include/SDL2/SDL_gamecontroller.h \
+  extern/sdl/include/SDL2/SDL_gesture.h \
+  extern/sdl/include/SDL2/SDL_guid.h \
+  extern/sdl/include/SDL2/SDL_haptic.h \
+  extern/sdl/include/SDL2/SDL_hidapi.h \
+  extern/sdl/include/SDL2/SDL_hints.h \
+  extern/sdl/include/SDL2/SDL_joystick.h \
+  extern/sdl/include/SDL2/SDL_keyboard.h \
+  extern/sdl/include/SDL2/SDL_keycode.h \
+  extern/sdl/include/SDL2/SDL_loadso.h \
+  extern/sdl/include/SDL2/SDL_locale.h \
+  extern/sdl/include/SDL2/SDL_log.h \
+  extern/sdl/include/SDL2/SDL_main.h \
+  extern/sdl/include/SDL2/SDL_messagebox.h \
+  extern/sdl/include/SDL2/SDL_metal.h \
+  extern/sdl/include/SDL2/SDL_misc.h \
+  extern/sdl/include/SDL2/SDL_mouse.h \
+  extern/sdl/include/SDL2/SDL_mutex.h \
+  extern/sdl/include/SDL2/SDL_pixels.h \
+  extern/sdl/include/SDL2/SDL_platform.h \
+  extern/sdl/include/SDL2/SDL_power.h \
+  extern/sdl/include/SDL2/SDL_quit.h \
+  extern/sdl/include/SDL2/SDL_rect.h \
+  extern/sdl/include/SDL2/SDL_render.h \
+  extern/sdl/include/SDL2/SDL_rwops.h \
+  extern/sdl/include/SDL2/SDL_scancode.h \
+  extern/sdl/include/SDL2/SDL_sensor.h \
+  extern/sdl/include/SDL2/SDL_shape.h \
+  extern/sdl/include/SDL2/SDL_stdinc.h \
+  extern/sdl/include/SDL2/SDL_surface.h \
+  extern/sdl/include/SDL2/SDL_system.h \
+  extern/sdl/include/SDL2/SDL_thread.h \
+  extern/sdl/include/SDL2/SDL_timer.h \
+  extern/sdl/include/SDL2/SDL_touch.h \
+  extern/sdl/include/SDL2/SDL_version.h \
+  extern/sdl/include/SDL2/SDL_video.h \
+  extern/sdl/include/SDL2/begin_code.h \
+  extern/sdl/include/SDL2/close_code.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/SDL_dataqueue.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/dynapi/SDL_dynapi.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/dynapi/SDL_dynapi_overrides.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audio_c.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audio_c.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audiodev_c.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_sysaudio.h \
+  /home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/asm-generic/ioctl.h \
+  /usr/include/asm-generic/ioctls.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm/ioctl.h \
+  /usr/include/asm/ioctls.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm/types.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/fcntl-linux.h \
+  /usr/include/bits/fcntl.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/ioctl-types.h \
+  /usr/include/bits/ioctls.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h \
+  /usr/include/bits/sigevent-consts.h \
+  /usr/include/bits/siginfo-arch.h \
+  /usr/include/bits/siginfo-consts-arch.h \
+  /usr/include/bits/siginfo-consts.h \
+  /usr/include/bits/signal_ext.h \
+  /usr/include/bits/signum-arch.h \
+  /usr/include/bits/signum-generic.h \
+  /usr/include/bits/sigstack.h \
+  /usr/include/bits/sigstksz.h \
+  /usr/include/bits/sigthread.h \
+  /usr/include/bits/ss_flags.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/statx.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-bsearch.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/__sigval_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sig_atomic_t.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/siginfo_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/sigval_t.h \
+  /usr/include/bits/types/stack_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/types/struct_sigstack.h \
+  /usr/include/bits/types/struct_statx.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/unistd_ext.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/fcntl.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/inttypes.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/linux/ioctl.h \
+  /usr/include/linux/patchkey.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/sockios.h \
+  /usr/include/linux/soundcard.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/linux/types.h \
+  /usr/include/math.h \
+  /usr/include/samplerate.h \
+  /usr/include/signal.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/ioctl.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/soundcard.h \
+  /usr/include/sys/stat.h \
+  /usr/include/sys/time.h \
+  /usr/include/sys/ttydefaults.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/ucontext.h \
+  /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxavx512intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtransposeintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512convertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512mediaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512minmaxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2-512satcvtintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2convertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2copyintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2mediaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2minmaxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx10_2satcvtintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/cmpccxaddintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movrsintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sha512intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm3intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/sm4intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/usermsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o: /home/kindle/KindlePlayer/extern/sdl/src/audio/dummy/SDL_dummyaudio.c \
   extern/sdl/include-config-release/SDL2/SDL_config.h \
@@ -9576,16 +10103,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /home/kindle/KindlePlayer/extern/sdl/src/dynapi/SDL_dynapi_overrides.h \
   /home/kindle/KindlePlayer/extern/sdl/src/hidapi/SDL_hidapi_c.h \
   /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/SDL_error_c.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/thread/SDL_systhread.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/thread/SDL_thread_c.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_systhread_c.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/hidapi/hidapi/hidapi.h \
-  /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/hid.c \
-  /home/kindle/KindlePlayer/extern/sdl/src/SDL_internal.h \
   /home/kindle/KindlePlayer/extern/sdl/src/hidapi/hidapi/hidapi.h \
   /home/kindle/KindlePlayer/extern/sdl/src/hidapi/linux/hid.c \
   /usr/include/alloca.h \
@@ -9609,7 +10126,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
   /usr/include/bits/environments.h \
@@ -9644,9 +10160,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
   /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
   /usr/include/bits/stat.h \
   /usr/include/bits/statx-generic.h \
   /usr/include/bits/statx.h \
@@ -9662,10 +10176,8 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/bits/struct_stat.h \
   /usr/include/bits/sysmacros.h \
   /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
   /usr/include/bits/types.h \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/__FILE.h \
@@ -9682,15 +10194,11 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/types/struct_iovec.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
   /usr/include/bits/types/struct_statx.h \
   /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/types/wint_t.h \
@@ -9714,7 +10222,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/gnu/stubs.h \
   /usr/include/inttypes.h \
   /usr/include/libudev.h \
-  /usr/include/libusb-1.0/libusb.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
@@ -9726,7 +10233,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/linux/ioctl.h \
   /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
-  /usr/include/linux/sched/types.h \
   /usr/include/linux/sockios.h \
   /usr/include/linux/stat.h \
   /usr/include/linux/stddef.h \
@@ -9735,8 +10241,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/poll.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -9754,7 +10258,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: /home/kindle/KindlePla
   /usr/include/sys/ttydefaults.h \
   /usr/include/sys/types.h \
   /usr/include/sys/utsname.h \
-  /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
@@ -40782,6 +41285,7 @@ extern/sdl/libSDL2-2.0.so: /usr/lib/crti.o \
   extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o \
   extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o \
   extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o \
+  extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o \
   extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o \
   extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o \
   extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o \
@@ -41266,6 +41770,8 @@ extern/sdl/CMakeFiles/SDL2.dir/src/audio/jack/SDL_jackaudio.c.o:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.o:
 
+extern/sdl/CMakeFiles/SDL2.dir/src/audio/dsp/SDL_dspaudio.c.o:
+
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/alsa/SDL_alsa_audio.c.o:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o:
@@ -41300,21 +41806,13 @@ extern/sdl/CMakeFiles/SDL2.dir/src/SDL_assert.c.o:
 
 /usr/lib/libc.so.6:
 
-/usr/include/spa-0.2/spa/param/audio/ra.h:
+extern/sdl/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.o:
 
-/usr/include/spa-0.2/spa/param/audio/ra-utils.h:
+/usr/lib/libpthread.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h:
+/usr/lib/libm.so:
 
-/usr/include/spa-0.2/spa/param/audio/dsp.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvulkan.h:
-
-/usr/include/spa-0.2/spa/param/audio/ape.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_mixer.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_capabilities.h:
+/usr/lib/libgcc_s.so.1:
 
 /usr/include/pipewire-0.3/pipewire/version.h:
 
@@ -41324,17 +41822,9 @@ extern/sdl/CMakeFiles/SDL2.dir/src/SDL_assert.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/adxintrin.h:
 
-/usr/include/bits/byteswap.h:
-
 /usr/include/pipewire-0.3/pipewire/permission.h:
 
 /usr/include/X11/extensions/Xdbe.h:
-
-/usr/include/spa-0.2/spa/param/audio/iec958.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_rumble.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandshmbuffer.c:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.o:
 
@@ -41370,19 +41860,9 @@ extern/sdl/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.o:
 
 /usr/include/pipewire-0.3/pipewire/buffers.h:
 
-/usr/include/spa-0.2/spa/param/audio/ape-utils.h:
-
-extern/sdl/include/SDL2/begin_code.h:
-
 /usr/include/dirent.h:
 
 /usr/include/bits/dirent.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/audio/pipewire/SDL_pipewire.c:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.o:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h:
 
 /usr/include/jack/types.h:
 
@@ -41396,6 +41876,42 @@ extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.o:
 
 /usr/include/libdrm/drm_mode.h:
 
+/usr/include/sys/ttydefaults.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_drawpoint.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o:
+
+/home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_kbd_default_accents.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vulkan/vk_platform.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o:
+
+/usr/include/bits/ioctl-types.h:
+
+/usr/include/linux/soundcard.h:
+
+/usr/include/bits/dlfcn.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/offscreen/SDL_offscreenvideo.h:
+
+/usr/include/asm/sockios.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandopengles.h:
+
+/usr/include/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_rumble.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandshmbuffer.c:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/sys/uio.h:
+
 /usr/include/sys/poll.h:
 
 /usr/include/pipewire-0.3/pipewire/properties.h:
@@ -41403,8 +41919,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.o:
 /home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vk_video/vulkan_video_codec_h264std.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11video.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/audio/jack/SDL_jackaudio.c:
 
 /usr/include/bits/types/struct_sigstack.h:
 
@@ -41435,10 +41949,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.o:
 extern/sdl/include/SDL2/SDL_guid.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmvulkan.c:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/bits/stat.h:
 
 /usr/include/xcb/xcb.h:
 
@@ -41471,10 +41981,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.o:
 /home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vulkan/vulkan_core.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_triangle.h:
-
-/usr/include/pipewire-0.3/pipewire/node.h:
-
-extern/sdl/wayland-generated-protocols/xdg-activation-v1-protocol.c:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -41528,12 +42034,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_blendfillrect.c:
 
-/usr/include/pipewire-0.3/pipewire/port.h:
-
-extern/sdl/include/SDL2/SDL_pixels.h:
-
-/usr/include/X11/extensions/XKBstr.h:
-
 /usr/include/alsa/control.h:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.o:
@@ -41545,6 +42045,12 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.o:
 extern/sdl/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_kbd.h:
+
+/usr/include/bits/byteswap.h:
+
+extern/sdl/include/SDL2/begin_code.h:
+
+/usr/include/spa-0.2/spa/param/audio/ape-utils.h:
 
 /usr/include/alsa/asoundef.h:
 
@@ -41564,9 +42070,39 @@ extern/sdl/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/render/direct3d/SDL_render_d3d.c:
 
+extern/sdl/include/SDL2/SDL_pixels.h:
+
+/usr/include/pipewire-0.3/pipewire/port.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvulkan.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/audio/jack/SDL_jackaudio.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/audio/pipewire/SDL_pipewire.c:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/render/SDL_render.c.o:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h:
+
+/usr/include/bits/statx.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/pipewire-0.3/pipewire/node.h:
+
+extern/sdl/wayland-generated-protocols/xdg-activation-v1-protocol.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audiodev_c.h:
+
 /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audiodev.c:
 
 /usr/include/spa-0.2/spa/param/audio/flac.h:
+
+/usr/include/bits/types/struct_statx.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.o:
+
+/home/kindle/KindlePlayer/extern/sdl/src/events/SDL_gesture.c:
 
 /home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_audio_resampler_filter.h:
 
@@ -41662,12 +42198,6 @@ extern/sdl/include/SDL2/SDL_sensor.h:
 
 /usr/include/spa-0.2/spa/param/audio/vorbis.h:
 
-/usr/include/wayland-client-core.h:
-
-/usr/include/spa-0.2/spa/param/audio/alac-utils.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/raointintrin.h:
@@ -41677,8 +42207,6 @@ extern/sdl/include/SDL2/SDL_sensor.h:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/popcntintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pconfigintrin.h:
-
-/usr/include/spa-0.2/spa/param/audio/amr-utils.h:
 
 extern/sdl/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h:
 
@@ -41734,7 +42262,17 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint8intrin.h:
 
+/usr/include/fcntl.h:
+
+/usr/include/bits/statx-generic.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/SDL_vulkan_utils.c:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h:
+
+/usr/include/bits/ioctls.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11shape.h:
 
@@ -41750,11 +42288,11 @@ extern/sdl/CMakeFiles/SDL2.dir/src/libm/k_sin.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vpopcntdqintrin.h:
 
-/usr/include/spa-0.2/spa/param/audio/mp3.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vp2intersectintrin.h:
 
-/usr/include/pulse/mainloop.h:
+/usr/include/wayland-client-core.h:
 
-/home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_switch.c:
+/usr/include/spa-0.2/spa/param/audio/alac-utils.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vlintrin.h:
 
@@ -41791,6 +42329,16 @@ extern/sdl/include/SDL2/SDL_assert.h:
 /home/kindle/KindlePlayer/extern/sdl/src/video/SDL_blit.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/yuv2rgb/yuv_rgb_std.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/sigthread.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_draw.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512cdintrin.h:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o:
 
@@ -41834,15 +42382,13 @@ extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/locale/SDL_locale.c:
 
+/usr/include/linux/sockios.h:
+
+/usr/include/bits/waitflags.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx2intrin.h:
 
 /usr/include/bits/types/__mbstate_t.h:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o:
-
-/home/kindle/KindlePlayer/extern/sdl/src/render/SDL_d3dmath.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/dummy/SDL_nullevents.c:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
 
@@ -41854,11 +42400,13 @@ extern/sdl/CMakeFiles/SDL2.dir/src/core/linux/SDL_fcitx.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h:
+
 /usr/include/dbus-1.0/dbus/dbus-pending-call.h:
 
 /usr/include/spa-0.2/spa/pod/parser.h:
-
-/usr/include/spa-0.2/spa/param/audio/opus.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -41884,21 +42432,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11opengles.c:
 
-/usr/include/spa-0.2/spa/param/audio/amr.h:
-
-/usr/include/X11/extensions/XInput2.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/render/vitagxm/SDL_render_vita_gxm_memory.c:
-
 /home/kindle/KindlePlayer/extern/sdl/src/libm/k_tan.c:
-
-/usr/include/spa-0.2/spa/param/audio/format.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11modes.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11sym.h:
-
-/usr/include/spa-0.2/spa/param/audio/alac.h:
 
 extern/sdl/include/SDL2/SDL_hidapi.h:
 
@@ -42012,7 +42546,9 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
 
-/usr/lib/libm.so:
+/usr/include/sys/ioctl.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/libm/e_log.c:
 
 /home/kindle/KindlePlayer/extern/sdl/src/joystick/SDL_gamecontroller.c:
 
@@ -42094,6 +42630,8 @@ extern/sdl/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h:
 
+/usr/include/asm/bitsperlong.h:
+
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/pipewire/SDL_pipewire.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxmovrsintrin.h:
@@ -42156,6 +42694,10 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h:
 
+/home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11modes.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/SDL.c:
+
 extern/sdl/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.o:
 
 /usr/include/endian.h:
@@ -42175,6 +42717,12 @@ extern/sdl/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.o:
 /usr/include/alsa/conf.h:
 
 /usr/include/bits/types/__sigset_t.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.o:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandshmbuffer.h:
+
+/usr/include/bits/dirent_ext.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/SDL_error.c:
 
@@ -42213,6 +42761,10 @@ extern/sdl/include/SDL2/SDL_messagebox.h:
 /usr/include/bits/endianness.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lwpintrin.h:
+
+/usr/include/X11/extensions/XKBstr.h:
+
+/usr/include/linux/patchkey.h:
 
 /usr/include/bits/sigcontext.h:
 
@@ -42280,10 +42832,6 @@ extern/sdl/include/SDL2/SDL_loadso.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/atomic/SDL_spinlock.c:
 
-/usr/include/sched.h:
-
-extern/sdl/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c:
-
 extern/sdl/include/SDL2/SDL_metal.h:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.o:
@@ -42316,6 +42864,10 @@ extern/sdl/include/SDL2/SDL_clipboard.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/thread/pthread/SDL_systhread.c:
 
+/home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmopengles.c:
+
+extern/sdl/include/SDL2/SDL_power.h:
+
 /usr/include/errno.h:
 
 /usr/include/bits/getopt_posix.h:
@@ -42335,12 +42887,6 @@ extern/sdl/include/SDL2/SDL_scancode.h:
 extern/sdl/include/SDL2/close_code.h:
 
 extern/sdl/include/SDL2/SDL_stdinc.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vulkan/vk_platform.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxneconvertintrin.h:
-
-/usr/include/bits/ioctls.h:
 
 /usr/include/pipewire-0.3/pipewire/thread-loop.h:
 
@@ -42377,6 +42923,12 @@ extern/sdl/include/SDL2/SDL_vulkan.h:
 /home/kindle/KindlePlayer/extern/sdl/src/audio/dummy/SDL_dummyaudio.c:
 
 extern/sdl/include/SDL2/SDL_version.h:
+
+/usr/include/pulse/subscribe.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vk_video/vulkan_video_codec_h265std.h:
+
+extern/sdl/wayland-generated-protocols/text-input-unstable-v3-protocol.c:
 
 extern/sdl/include/SDL2/SDL_locale.h:
 
@@ -42426,14 +42978,6 @@ extern/sdl/include/SDL2/SDL_hints.h:
 
 /usr/include/spa-0.2/spa/utils/dict.h:
 
-extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/spa-0.2/spa/param/audio/dsd-utils.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/SDL_fillrect.c:
-
 /usr/include/bits/setjmp.h:
 
 /usr/include/linux/ioctl.h:
@@ -42447,6 +42991,10 @@ extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o:
 /usr/include/bits/stdint-uintn.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/events/SDL_mouse_c.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/audio/pulseaudio/SDL_pulseaudio.c:
+
+/usr/include/pipewire-0.3/pipewire/pipewire.h:
 
 /usr/include/bits/stdio.h:
 
@@ -42462,6 +43010,8 @@ extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o:
 
 extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o:
 
+/usr/include/sys/soundcard.h:
+
 /usr/include/bits/time.h:
 
 /usr/include/dbus-1.0/dbus/dbus-connection.h:
@@ -42475,6 +43025,14 @@ extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/text-input-unstable-v
 /home/kindle/KindlePlayer/extern/sdl/src/stdlib/SDL_stdlib.c:
 
 /usr/include/bits/struct_mutex.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/GL/glx.h:
+
+/usr/include/xkbcommon/xkbcommon-compose.h:
+
+/usr/include/bits/mman-map-flags-generic.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/render/direct3d11/SDL_shaders_d3d11.c:
 
@@ -42491,14 +43049,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.o:
 /usr/include/bits/sched.h:
 
 /usr/include/X11/Xfuncs.h:
-
-/usr/include/spa-0.2/spa/node/node.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/hidapi/linux/hid.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmevents.h:
 
 /usr/include/pipewire-0.3/pipewire/log.h:
 
@@ -42540,10 +43090,6 @@ extern/sdl/include/SDL2/SDL_events.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/immintrin.h:
 
-/usr/include/spa-0.2/spa/param/audio/dsp-utils.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
 /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandmouse.c:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o:
@@ -42575,10 +43121,6 @@ extern/sdl/include/SDL2/SDL_joystick.h:
 /usr/include/linux/param.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11window.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/linux/sockios.h:
 
 /usr/include/ctype.h:
 
@@ -42618,10 +43160,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.o:
 
 /usr/include/features-time64.h:
 
-/usr/include/sys/select.h:
-
-/usr/include/bits/types/__sigval_t.h:
-
 /usr/include/gnu/stubs-64.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11dyn.h:
@@ -42631,6 +43169,20 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.o:
 /usr/include/inttypes.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/libm/s_floor.c:
+
+/usr/include/asm/ioctl.h:
+
+/usr/include/wayland-version.h:
+
+extern/sdl/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c:
+
+/usr/include/sched.h:
+
+/usr/include/spa-0.2/spa/param/audio/mp3.h:
+
+/usr/include/pulse/mainloop.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/joystick/hidapi/SDL_hidapi_switch.c:
 
 /usr/include/stdlib.h:
 
@@ -42642,19 +43194,23 @@ extern/sdl/CMakeFiles/SDL2.dir/src/filesystem/unix/SDL_sysfilesystem.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/joystick/controller_list.h:
 
+/home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.c:
+
 /usr/include/sys/cdefs.h:
+
+/usr/include/bits/types/__sigval_t.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/spa-0.2/spa/param/audio/amr.h:
+
+/usr/include/X11/extensions/XInput2.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/render/vitagxm/SDL_render_vita_gxm_memory.c:
 
 extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o:
 
 /usr/include/bits/posix_opt.h:
-
-/usr/include/sys/uio.h:
-
-/usr/include/asm-generic/ioctl.h:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o:
-
-/usr/include/spa-0.2/spa/param/audio/aac.h:
 
 /usr/include/time.h:
 
@@ -42677,6 +43233,8 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandmouse.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveintrin.h:
 
 /usr/include/samplerate.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/audio/dsp/SDL_dspaudio.h:
 
 /usr/include/bits/timesize.h:
 
@@ -42714,7 +43272,63 @@ extern/sdl/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vulkan/vulkan_xcb.h:
 
+/home/kindle/KindlePlayer/extern/sdl/src/audio/SDL_mixer.c:
+
+/usr/include/spa-0.2/spa/param/audio/ape.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_capabilities.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxfp8intrin.h:
+
+/usr/include/spa-0.2/spa/node/node.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/hidapi/linux/hid.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmevents.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o:
+
+/usr/include/spa-0.2/spa/param/audio/aac.h:
+
+/usr/include/spa-0.2/spa/param/audio/alac.h:
+
+/usr/include/spa-0.2/spa/param/audio/amr-utils.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o:
+
+/usr/include/bits/long-double.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/SDL_fillrect.c:
+
+/usr/include/spa-0.2/spa/param/audio/dsd-utils.h:
+
+extern/sdl/CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o:
+
+/home/kindle/KindlePlayer/extern/sdl/src/render/SDL_d3dmath.c:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/dummy/SDL_nullevents.c:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/spa-0.2/spa/param/audio/dsp-utils.h:
+
+/usr/include/spa-0.2/spa/param/audio/dsp.h:
+
+/usr/include/spa-0.2/spa/param/audio/format.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11modes.h:
+
+/home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11sym.h:
+
+/usr/include/spa-0.2/spa/param/audio/iec958.h:
+
+/usr/include/spa-0.2/spa/param/audio/opus.h:
+
+/usr/include/spa-0.2/spa/param/audio/ra-utils.h:
+
+/usr/include/spa-0.2/spa/param/audio/ra.h:
 
 /usr/include/spa-0.2/spa/param/audio/wma-utils.h:
 
@@ -42812,16 +43426,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/wayland/SDL_waylandclipboard.c.o:
 
 /usr/include/spa-0.2/spa/utils/string.h:
 
-/usr/include/pipewire-0.3/pipewire/pipewire.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/audio/pulseaudio/SDL_pulseaudio.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/khronos/vk_video/vulkan_video_codec_h265std.h:
-
-extern/sdl/wayland-generated-protocols/text-input-unstable-v3-protocol.c:
-
-/usr/include/pulse/subscribe.h:
-
 /usr/lib/ld-linux-x86-64.so.2:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wbnoinvdintrin.h:
@@ -42886,14 +43490,6 @@ extern/sdl/wayland-generated-protocols/fractional-scale-v1-protocol.c:
 
 /home/kindle/KindlePlayer/extern/sdl/src/events/scancodes_xfree86.h:
 
-/usr/include/sys/time.h:
-
-/usr/include/GL/glx.h:
-
-/usr/include/xkbcommon/xkbcommon-compose.h:
-
-/usr/include/bits/mman-map-flags-generic.h:
-
 /home/kindle/KindlePlayer/extern/sdl/src/audio/sndio/SDL_sndioaudio.h:
 
 extern/sdl/include/SDL2/SDL_mouse.h:
@@ -42912,54 +43508,6 @@ extern/sdl/include/SDL2/SDL_mouse.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev.h:
 
-/usr/include/asm-generic/ioctls.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/bits/sigthread.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_draw.h:
-
-/usr/include/wayland-version.h:
-
-/usr/include/asm/ioctl.h:
-
-/usr/include/asm/ioctls.h:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.o:
-
-/usr/include/bits/dirent_ext.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandshmbuffer.h:
-
-/usr/include/asm/sockios.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandopengles.h:
-
-extern/sdl/CMakeFiles/SDL2.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o:
-
-/usr/include/bits/ioctl-types.h:
-
-/usr/include/fcntl.h:
-
-/usr/include/bits/statx-generic.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/SDL_vulkan_utils.c:
-
-/usr/include/bits/statx.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/SDL.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/x11/SDL_x11modes.c:
-
-/usr/include/bits/types/struct_statx.h:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.o:
-
-/home/kindle/KindlePlayer/extern/sdl/src/events/SDL_gesture.c:
-
 /usr/include/bits/param.h:
 
 /usr/include/linux/input-event-codes.h:
@@ -42970,21 +43518,7 @@ extern/sdl/include/SDL2/SDL_quit.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/video/wayland/SDL_waylandvideo.c:
 
-extern/sdl/include/SDL2/SDL_power.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/kmsdrm/SDL_kmsdrmopengles.c:
-
-/home/kindle/KindlePlayer/extern/sdl/src/libm/e_log.c:
-
-/usr/include/sys/ioctl.h:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o:
-
-/home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_kbd_default_accents.h:
-
 /usr/include/sys/sysmacros.h:
-
-/usr/include/sys/ttydefaults.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/core/linux/SDL_evdev_capabilities.c:
 
@@ -43106,10 +43640,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/dynapi/SDL_dynapi_procs.h:
 
-/usr/include/bits/dlfcn.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/video/offscreen/SDL_offscreenvideo.h:
-
 /usr/include/bits/fcntl-linux.h:
 
 /usr/include/dlfcn.h:
@@ -43208,15 +43738,7 @@ extern/sdl/CMakeFiles/SDL2.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o:
 
 /home/kindle/KindlePlayer/extern/sdl/src/hidapi/hidapi/hidapi.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/lzcntintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxtf32intrin.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/hid.c:
-
 /usr/include/bits/inotify.h:
-
-/usr/include/libusb-1.0/libusb.h:
 
 /usr/include/linux/hidraw.h:
 
@@ -43387,8 +43909,6 @@ extern/sdl/CMakeFiles/SDL2.dir/src/thread/pthread/SDL_systhread.c.o:
 /home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_blendpoint.h:
 
 /home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_drawline.h:
-
-/home/kindle/KindlePlayer/extern/sdl/src/render/software/SDL_drawpoint.h:
 
 /usr/include/linux/hid.h:
 
@@ -43703,9 +44223,3 @@ extern/sdl/wayland-generated-protocols/wayland-protocol.c:
 extern/sdl/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c:
 
 extern/sdl/wayland-generated-protocols/xdg-shell-protocol.c:
-
-/usr/lib/libgcc_s.so.1:
-
-extern/sdl/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.o:
-
-/usr/lib/libpthread.a:

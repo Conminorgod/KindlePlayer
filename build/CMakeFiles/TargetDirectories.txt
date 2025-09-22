@@ -6,6 +6,7 @@
 /home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/sdl_headers_copy.dir
 /home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/SDL2main.dir
 /home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/SDL2.dir
+/home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/SDL2-static.dir
 /home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/SDL2_test.dir
 /home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/uninstall.dir
 /home/kindle/KindlePlayer/build/extern/sdl/CMakeFiles/edit_cache.dir

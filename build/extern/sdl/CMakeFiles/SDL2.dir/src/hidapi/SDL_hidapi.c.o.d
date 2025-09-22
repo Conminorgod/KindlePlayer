@@ -131,24 +131,4 @@ extern/sdl/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o: \
  /usr/include/bits/utsname.h /usr/include/linux/hidraw.h \
  /usr/include/linux/hid.h /usr/include/linux/version.h \
  /usr/include/linux/input.h /usr/include/linux/input-event-codes.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/linux/../hidapi/hidapi.h \
- /usr/include/libusb-1.0/libusb.h /usr/include/time.h \
- /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/hid.c \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../SDL_internal.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/SDL_systhread.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/../SDL_internal.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/SDL_thread_c.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/pthread/SDL_systhread_c.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/pthread/../../SDL_internal.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/linux/sched/types.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/bits/setjmp.h \
- /usr/include/bits/types/struct___jmp_buf_tag.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/../SDL_error_c.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../../thread/.././SDL_internal.h \
- /home/kindle/KindlePlayer/build/extern/sdl/include/SDL2/SDL_mutex.h \
- /home/kindle/KindlePlayer/extern/sdl/src/hidapi/libusb/../hidapi/hidapi.h
+ /home/kindle/KindlePlayer/extern/sdl/src/hidapi/linux/../hidapi/hidapi.h

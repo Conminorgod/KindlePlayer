@@ -9,10 +9,10 @@ exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib
 
-usage="\
-Usage: $0 [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs]"
 #usage="\
-#Usage: $0 [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs] [--static-libs]"
+#Usage: $0 [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs]"
+usage="\
+Usage: $0 [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs] [--static-libs]"
 
 if test $# -eq 0; then
       echo "${usage}" 1>&2
@@ -51,11 +51,11 @@ while test $# -gt 0; do
     --libs)
       echo -L${exec_prefix}/lib -Wl,-rpath,${libdir} -Wl,--enable-new-dtags  -lSDL2
       ;;
-#    --static-libs)
-##    --libs|--static-libs)
-#      sdl_static_libs=$(echo " -lSDL2  -pthread  -lm" | sed -E "s#-lSDL2[ $]#$libdir/libSDL2.a #g")
-#      echo -L${exec_prefix}/lib $sdl_static_libs
-#      ;;
+    --static-libs)
+#    --libs|--static-libs)
+      sdl_static_libs=$(echo " -lSDL2  -pthread  -lm" | sed -E "s#-lSDL2[ $]#$libdir/libSDL2.a #g")
+      echo -L${exec_prefix}/lib $sdl_static_libs
+      ;;
     *)
       echo "${usage}" 1>&2
       exit 1

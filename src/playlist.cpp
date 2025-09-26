@@ -19,12 +19,13 @@ void savePlaylist(const std::vector<Song> &playlist, const std::string &filename
 			{"title", song.title},
 			{"artist", song.artist},
 			{"filepath", song.filepath},
+			{"thumbnail", song.thumbnail},
 			{"index", song.index},
 			{"looping", false}
 		});
 	}
 	std::ofstream file(filename);
-	file << jsonObject.dump(5);
+	file << jsonObject.dump(6);
 }
 
 // load a playlist json file and return the array of songs
@@ -41,6 +42,7 @@ std::vector<Song> loadPlaylist(const std::string &filename) {
 			song.title = item.value("title", "");
 			song.artist = item.value("artist", "");
 			song.filepath = item.value("filepath", "");
+			song.thumbnail = item.value("thumbnail", "");
 			song.index = item.value("index", 0);
 			song.looping = item.value("looping", false);
 
@@ -96,13 +98,12 @@ void exportPlaylist(const std::string &link, const std::string &name) {
 	std::vector<Song> newPlaylist;
 	uint32_t i = 0;
 	for (const auto &path : everyPath) {
-		Song song = { path.stem().string(), "auto", "assets/audio/" + path.filename().string(), i, 0 }; 
+		Song song = { path.stem().string(), "auto", "assets/audio/" + path.filename().string(), "assets/images/" + path.stem().string() + ".jpg", i, 0 }; 
 		newPlaylist.push_back(song);
 		std::filesystem::rename(path, "assets/audio/" + path.filename().string());
 		i++;
 	}
 	savePlaylist(newPlaylist, "assets/playlists/" + name + ".json");
-
 
 	// gets every jpg file and moves it to the images folder in assets
 	std::vector<std::filesystem::path> thumbnails = getEveryExt("temp/", ".jpg");

@@ -13,3 +13,7 @@
 	path = extern/sdl_mixer
 	url = https://github.com/libsdl-org/SDL_mixer.git
 	branch = SDL2
+[submodule "extern/sdl_image"]
+	path = extern/sdl_image
+	url = https://github.com/libsdl-org/SDL_image
+	branch = SDL2

@@ -3,6 +3,7 @@
 #include "imgui.h"
 #include "backends/imgui_impl_sdl2.h"
 #include "backends/imgui_impl_opengl3.h"
+#include "misc/freetype/imgui_freetype.h"
 #include <GL/gl3w.h>
 #include <iostream>
 
@@ -33,10 +34,13 @@ void setup(SDL_Window *window, SDL_GLContext &gl_context) {
 	ImGui::StyleColorsDark();
 	ImGui_ImplSDL2_InitForOpenGL(window, gl_context);
 	ImGui_ImplOpenGL3_Init("#version 330");
-	ImGuiIO& io = ImGui::GetIO();
+	ImGuiIO &io = ImGui::GetIO();
 	io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
-	io.Fonts->AddFontDefault();
-	io.FontGlobalScale = 1.5f;
+	
+	io.Fonts->SetFontLoader(ImGuiFreeType::GetFontLoader());
+	io.Fonts->FontLoaderFlags = ImGuiFreeTypeLoaderFlags_ForceAutoHint;
+	io.Fonts->AddFontFromFileTTF("assets/fonts/AgaveNerdFont-Regular.ttf", 16.0f);
+	ImGui_ImplOpenGL3_CreateDeviceObjects();
 }
 
 void showDockSpace() {

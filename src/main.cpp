@@ -17,9 +17,11 @@
 std::vector<Song> playlist;
 uint32_t curSong = 0;
 Mix_Music *music;
+GLuint textureID;
 
 // flags
 bool manualStop = false;
+bool newThumbnail = false;
 
 // hook for when a song ends
 void songEnded() {
@@ -30,6 +32,7 @@ void songEnded() {
 	} else if (curSong + 1 < playlist.size()) {
 		curSong++;
 		music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
+		newThumbnail = true;
 	} else {
 		return;
 	}
@@ -40,9 +43,10 @@ void songEnded() {
 int main(int, char**) {
 	// create the SDL context
 	SDL_Window *window = SDL_CreateWindow("ImGui + SDL2",
-			SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1920, 1080,
-			SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
+			SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1280, 720,
+			SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI);
 	SDL_GLContext gl_context;
+	SDL_Surface *surface;
 	setup(window, gl_context);
 	Mix_HookMusicFinished(songEnded); // connect the hook for when a song ends
 	
@@ -57,9 +61,10 @@ int main(int, char**) {
 	bool running = true;
 	char inputBuffer[256] = "";
 	char playlistName[256] = "";
+	bool showExportWindow = false;
+	bool paused = false;
 	SDL_Event e;
-	int fb_w, fb_h;
-	SDL_GL_GetDrawableSize(window, &fb_w, &fb_h);
+	int display_w, display_h;
 
 	// main loop
 	while (running) {
@@ -68,13 +73,21 @@ int main(int, char**) {
 			if (e.type == SDL_QUIT) running = false;
 		}
 
+		SDL_GL_GetDrawableSize(window, &display_w, &display_h);
+
 		ImGui_ImplOpenGL3_NewFrame();
 		ImGui_ImplSDL2_NewFrame();
 		ImGui::NewFrame();
 		showDockSpace();
 
+		if (newThumbnail) {
+			textureID = changeThumbnail(playlist[curSong].thumbnail);
+			newThumbnail = false;
+		}
+
 		// Song controls
 		ImGui::Begin("Kindle Player");
+
 
 		if (ImGui::Button("Start Music")) {
 			Mix_PlayMusic(music, 1);
@@ -86,27 +99,45 @@ int main(int, char**) {
 			Mix_HaltMusic();
 		}
 
-		if (ImGui::Button("Previous Song") && curSong != 0) {
+		ImGui::SetCursorPosX((ImGui::GetContentRegionAvail().x - 750.0f) * 0.5f);
+		if (ImGui::Button(u8"\uf04ae", ImVec2(50.0f, 20.f)) && curSong != 0) {
 			curSong -= 1;
 			music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
+			textureID = changeThumbnail(playlist[curSong].thumbnail);
 			
 			Mix_PlayMusic(music, 1);
 		}
+
 		ImGui::SameLine();
-		if (ImGui::Button("Next Song") && curSong + 1 < playlist.size()) {
+		if (!paused) {
+			if (ImGui::Button(u8"\uf04c", ImVec2(50.0f, 20.0f))) {
+				Mix_PauseMusic();
+				paused = true;
+			}
+		} else {
+			if (ImGui::Button(u8"\uf04b", ImVec2(50.0f, 20.0f))) {
+				Mix_ResumeMusic();
+				paused = false;
+			}
+		}
+
+		ImGui::SameLine();
+		ImGui::ProgressBar(Mix_GetMusicPosition(music)/Mix_MusicDuration(music), ImVec2(500, 0), nullptr);
+		ImGui::SameLine();
+
+		if (ImGui::Button(u8"\uf04e", ImVec2(50.0f, 20.0f)) && curSong + 1 < playlist.size()) {
 			curSong++;
 			music = Mix_LoadMUS(playlist[curSong].filepath.c_str());
+			textureID = changeThumbnail(playlist[curSong].thumbnail);
 			Mix_PlayMusic(music, 1);
 		}
 
-		if (ImGui::Button("Pause")) Mix_PauseMusic();
 		ImGui::SameLine();
-		if (ImGui::Button("Unpause")) Mix_ResumeMusic();
-
-		if (ImGui::Button("Loop")) {
+		if (ImGui::Button(u8"\uf021", ImVec2(50.0f, 20.0f))) {
 			playlist[curSong].looping = !playlist[curSong].looping;
 		}
-		if (ImGui::Button("Shuffle")) {
+		ImGui::SameLine();
+		if (ImGui::Button(u8"\uf074", ImVec2(50.0f, 20.0f))) {
 			if (!shuffle) {
 				copiedPlaylist = shufflePlaylist(playlist, curSong);
 				curSong = 0;
@@ -117,46 +148,70 @@ int main(int, char**) {
 			shuffle = !shuffle;
 		}
 		
-		/*
 		if (ImGui::Button("I'm a dev and I don't want to listen to the song")) {
 			Mix_HaltMusic();
 		}
-		*/
-
 
 		ImGui::End();
 
 		// Playlist controls
-		ImGui::Begin("playlists");
-		ImGui::InputText("Enter Playlist Link", inputBuffer, IM_ARRAYSIZE(inputBuffer));
-		ImGui::InputText("Enter Playlist Name", playlistName, IM_ARRAYSIZE(playlistName));
-		
-		if (ImGui::Button("Export Playlist")) {
-			std::string playlistLink(inputBuffer);
-			std::string s_pName(playlistName);
-			exportPlaylist(playlistLink, s_pName);
+		ImGui::Begin("Playlists"); 
+		if (ImGui::Button("Export")) {
+			showExportWindow = true;	
 		}
-		ImGui::SameLine();
-		ImGui::Text("*Can take a VERY long time");
-		
+		if (showExportWindow) {
+			ImGui::Begin("Exporting", &showExportWindow, ImGuiWindowFlags_NoDocking);
+			ImGui::InputText("Enter Playlist Link", inputBuffer, IM_ARRAYSIZE(inputBuffer));
+			ImGui::InputText("Enter Playlist Name", playlistName, IM_ARRAYSIZE(playlistName));
+			
+			if (ImGui::Button("Export Playlist")) {
+				std::string playlistLink(inputBuffer);
+				std::string s_pName(playlistName);
+				exportPlaylist(playlistLink, s_pName);
+				everyPlaylist = getEveryExt("assets/playlists/", ".json");
+			}
+			ImGui::SameLine();
+			ImGui::Text("*Can take a long time");
+			ImGui::End();
+		}
 		ImGui::NewLine();
 		ImGui::Text("Playlists");
 		for (const auto &path : everyPlaylist) {
-			if (ImGui::Button(path.stem().string().c_str())) {
+			if (ImGui::Button(path.stem().string().c_str(), ImVec2(150.0f, 20.0f))) {
 				playlist = loadPlaylist(path);
-				music = Mix_LoadMUS(playlist[0].filepath.c_str());
-				if (!music) {
-					std::cerr << "Failed to load music: " << Mix_GetError() << "\n";
-				}
 			}
 		}
 		ImGui::End();
 
+		// Songs
+		ImGui::Begin("Song List"); 
+		if (!playlist.empty()) {
+			for (uint32_t i = 0; i < playlist.size(); i++) {
+				Song song = playlist[i];
+				if (song.title == playlist[curSong].title && music) {
+					ImGui::Text(song.title.c_str());
+				} else if (ImGui::Button(song.title.c_str(), ImVec2(150.0f, 30.0f))) {
+					curSong = i;
+					music = Mix_LoadMUS(song.filepath.c_str());
+					textureID = changeThumbnail(playlist[curSong].thumbnail);
+					Mix_PlayMusic(music, 1);
+				}
+			}
+		}
+
+		ImGui::End();
+
+		// thumbnail, eventual visualizer, etc.
+		ImGui::Begin("Song Viewer");
+		if (textureID) {
+			ImGui::Image((ImTextureID)textureID, ImGui::GetContentRegionAvail());
+		}
+		ImGui::End();
 
 		ImGui::Render();
 
 		// I've already forgotten what these do but I think it has to do with the window
-		glViewport(0, 0, fb_w, fb_h);
+		glViewport(0, 0, display_w, display_h);
 		glClearColor(0.1f, 0.1f, 0.1f, 0.1f);
 		glClear(GL_COLOR_BUFFER_BIT);
 		ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());

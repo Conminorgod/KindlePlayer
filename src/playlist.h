@@ -1,3 +1,4 @@
+#pragma once
 #include <vector>
 #include "song.h"
 #include <filesystem>

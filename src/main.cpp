@@ -8,10 +8,12 @@
 #include "framework.h"
 #include "playlist.h"
 #include "song.h"
+#include "ui.h"
 
 #include <iostream>
 #include <vector>
 #include <filesystem>
+#include <cmath>
 
 // required in global space for the songEnded() hook
 std::vector<Song> playlist;
@@ -20,14 +22,11 @@ Mix_Music *music;
 GLuint textureID;
 
 // flags
-bool manualStop = false;
 bool newThumbnail = false;
 
 // hook for when a song ends
 void songEnded() {
-	if (manualStop) {
-		return;
-	} else if (playlist[curSong].looping) {
+	if (playlist[curSong].looping) {
 		Mix_SetMusicPosition(0.0);
 	} else if (curSong + 1 < playlist.size()) {
 		curSong++;
@@ -88,17 +87,6 @@ int main(int, char**) {
 		// Song controls
 		ImGui::Begin("Kindle Player");
 
-
-		if (ImGui::Button("Start Music")) {
-			Mix_PlayMusic(music, 1);
-			manualStop = false;
-		}
-		ImGui::SameLine();
-		if (ImGui::Button("Stop Music")) {
-			manualStop = true;
-			Mix_HaltMusic();
-		}
-
 		ImGui::SetCursorPosX((ImGui::GetContentRegionAvail().x - 750.0f) * 0.5f);
 		if (ImGui::Button(u8"\uf04ae", ImVec2(50.0f, 20.f)) && curSong != 0) {
 			curSong -= 1;
@@ -120,9 +108,16 @@ int main(int, char**) {
 				paused = false;
 			}
 		}
+		
+		std::string currentTime = convertTimeToString(Mix_GetMusicPosition(music));
+		std::string maxTime = convertTimeToString(Mix_MusicDuration(music));
+		std::string currentTimeOverMax = currentTime + "/" + maxTime;
 
 		ImGui::SameLine();
-		ImGui::ProgressBar(Mix_GetMusicPosition(music)/Mix_MusicDuration(music), ImVec2(500, 0), nullptr);
+		ImGui::ProgressBar(Mix_GetMusicPosition(music)/Mix_MusicDuration(music), ImVec2(500, 0), "");
+		ImGui::SameLine();
+		ImGui::SetCursorPosX(ImGui::GetCursorPosX() - ImGui::CalcTextSize(currentTimeOverMax.c_str()).x - 8);
+		ImGui::Text(currentTimeOverMax.c_str());
 		ImGui::SameLine();
 
 		if (ImGui::Button(u8"\uf04e", ImVec2(50.0f, 20.0f)) && curSong + 1 < playlist.size()) {
@@ -188,9 +183,10 @@ int main(int, char**) {
 		if (!playlist.empty()) {
 			for (uint32_t i = 0; i < playlist.size(); i++) {
 				Song song = playlist[i];
+				std::string shortText = truncateText(song.title, 150.0f);
 				if (song.title == playlist[curSong].title && music) {
-					ImGui::Text(song.title.c_str());
-				} else if (ImGui::Button(song.title.c_str(), ImVec2(150.0f, 30.0f))) {
+					ImGui::Text(shortText.c_str());
+				} else if (ImGui::Button(shortText.c_str(), ImVec2(150.0f, 30.0f))) {
 					curSong = i;
 					music = Mix_LoadMUS(song.filepath.c_str());
 					textureID = changeThumbnail(playlist[curSong].thumbnail);

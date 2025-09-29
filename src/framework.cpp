@@ -39,10 +39,11 @@ void setup(SDL_Window *window, SDL_GLContext &gl_context) {
 	
 	io.Fonts->SetFontLoader(ImGuiFreeType::GetFontLoader());
 	io.Fonts->FontLoaderFlags = ImGuiFreeTypeLoaderFlags_ForceAutoHint;
-	io.Fonts->AddFontFromFileTTF("assets/fonts/AgaveNerdFont-Regular.ttf", 16.0f);
+	io.Fonts->AddFontFromFileTTF("assets/fonts/AgaveNerdFont-Regular.ttf", 24.0f);
 	ImGui_ImplOpenGL3_CreateDeviceObjects();
 }
 
+// ImGui dockspace things
 void showDockSpace() {
 	ImGuiViewport *viewport = ImGui::GetMainViewport();
 	ImGui::SetNextWindowPos(viewport->WorkPos);

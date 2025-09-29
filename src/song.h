@@ -12,7 +12,6 @@ struct Song {
 	std::string filepath;
 	std::string thumbnail;
 	uint32_t index;
-	bool looping;
 };
 
 extern GLuint changeThumbnail(const std::string &path);

@@ -5,6 +5,7 @@
 
 SDL_Surface *surface;
 
+// changes the currently loaded image to the current song's thumbnail
 GLuint changeThumbnail(const std::string &path) {
 	surface = IMG_Load(path.c_str());
 	if (!surface) { SDL_Log("IMG_Load: %s", SDL_GetError()); return 0; }

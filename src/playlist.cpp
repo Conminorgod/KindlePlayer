@@ -21,7 +21,6 @@ void savePlaylist(const std::vector<Song> &playlist, const std::string &filename
 			{"filepath", song.filepath},
 			{"thumbnail", song.thumbnail},
 			{"index", song.index},
-			{"looping", false}
 		});
 	}
 	std::ofstream file(filename);
@@ -44,7 +43,6 @@ std::vector<Song> loadPlaylist(const std::string &filename) {
 			song.filepath = item.value("filepath", "");
 			song.thumbnail = item.value("thumbnail", "");
 			song.index = item.value("index", 0);
-			song.looping = item.value("looping", false);
 
 			playlist.push_back(std::move(song));
 		}
@@ -98,7 +96,7 @@ void exportPlaylist(const std::string &link, const std::string &name) {
 	std::vector<Song> newPlaylist;
 	uint32_t i = 0;
 	for (const auto &path : everyPath) {
-		Song song = { path.stem().string(), "auto", "assets/audio/" + path.filename().string(), "assets/images/" + path.stem().string() + ".jpg", i, 0 }; 
+		Song song = { path.stem().string(), "auto", "assets/audio/" + path.filename().string(), "assets/images/" + path.stem().string() + ".jpg", i}; 
 		newPlaylist.push_back(song);
 		std::filesystem::rename(path, "assets/audio/" + path.filename().string());
 		i++;

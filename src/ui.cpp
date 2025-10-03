@@ -23,12 +23,17 @@ std::string truncateText(const std::string &text, float maxWidth) {
 	
 		uint32_t i = truncatedText.length();
 		while (ImGui::CalcTextSize((truncatedText + "...").c_str()).x < maxWidth && i < text.length()) {
-			truncatedText = truncatedText + text[i];
+			truncatedText = truncatedText + text[i - 1];
 			i++;
 		}
+		truncatedText = truncatedText + text[i - 1];
 	}
 
-	return truncatedText + "...";
+	if (ImGui::CalcTextSize((truncatedText + "...").c_str()).x < maxWidth) {
+		return truncatedText;
+	} else {
+		return truncatedText + "...";
+	}
 }
 	
 // converts a double representing the amount of seconds passed to a string in the format "n:nn"

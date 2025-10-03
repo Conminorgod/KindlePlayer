@@ -7,12 +7,7 @@ This is a (currently) small and simple music player I've made. I created this be
 I can't ensure anything during the build process because I have not tested it outside of my machine. I know I'm doing the thing every overconfident programmer does, I will make it better later I swear.
 
 ## Dependencies
-- Opusfile
-- libxmp
-- fluidsynth
-- wavpack
-- nlohmann-json
-**Most of these are for the submodules, I will work on getting these in the repo**
+The only dependency is cmake
 
 ## Compatibility
 - Linux
